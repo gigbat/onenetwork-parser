@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>onenetwork-parser</artifactId>
+        <groupId>org.example</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <name>Onenetwork Model</name>
+    <packaging>jar</packaging>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>model</artifactId>
+
+    <properties>
+        <jaxb2-maven-plugin.version>2.5.0</jaxb2-maven-plugin.version>
+    </properties>
+
+    <profiles>
+        <profile>
+            <id>generator</id>
+            <build>
+                <defaultGoal>test</defaultGoal>
+                <plugins>
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>jaxb2-maven-plugin</artifactId>
+                        <version>${jaxb2-maven-plugin.version}</version>
+                        <executions>
+                            <execution>
+                                <phase>generate-sources</phase>
+                                <id>xjc</id>
+                                <goals>
+                                    <goal>xjc</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                        <configuration>
+                            <outputDirectory>src/main/java/</outputDirectory>
+                            <clearOutputDir>true</clearOutputDir>
+                            <sources>
+                                <source>src/main/resources/xsds/positions.xsd</source>
+                                <source>src/main/resources/xsds/ae-ax_cw.xsd</source>
+                                <source>src/main/resources/xsds/entry-validate.xsd</source>
+                                <source>src/main/resources/xsds/isf-model.xsd</source>
+                            </sources>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+</project>

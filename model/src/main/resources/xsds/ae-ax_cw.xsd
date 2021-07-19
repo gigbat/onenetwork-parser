@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:positions="http://www.model.onenetwork.com/positions"
+            targetNamespace="http://www.model.onenetwork.com/ae_ax/cw"
+            elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+            jaxb:version="2.1">
+
+    <xsd:import namespace="http://www.model.onenetwork.com/positions" schemaLocation="position.xsd"/>
+
+    <xsd:complexType name="CW02RecordDataElement">
+        <xsd:choice minOccurs="1" maxOccurs="1">
+            <xsd:element name="controlIdentifier" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="censusWarningConditionCodeFirst" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="censusWarningConditionOverrideCodeFirst" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="censusWarningConditionCodeSecond" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="censusWarningConditionOverrideCodeSecond" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="censusWarningConditionOverrideCodeThird" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="censusWarningConditionOverrideCodeFourth" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="censusWarningConditionCodeFifth" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="censusWarningConditionOverrideCodeFifth" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="censusWarningConditionCodeSixth" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="censusWarningConditionCodeSeventh" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="censusWarningConditionOverrideCodeSeventh" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
+        </xsd:choice>
+    </xsd:complexType>
+</xsd:schema>
