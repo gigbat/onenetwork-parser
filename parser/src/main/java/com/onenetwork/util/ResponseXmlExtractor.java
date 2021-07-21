@@ -2,8 +2,8 @@ package com.onenetwork.util;
 
 import com.onenetwork.parser.XmlParser;
 import com.onenetwork.response.ResponseMessage;
-import com.onenetwork.storage.RootContentStorage;
-import com.onenetwork.storage.Storage;
+import com.onenetwork.storage.FileInfoStorage;
+import com.onenetwork.storage.ContentStorage;
 import com.onenetwork.webservice.TMicInterface;
 import com.onenetwork.webservice.TMicInterfaceMessage;
 import lombok.experimental.UtilityClass;
@@ -15,9 +15,9 @@ import java.util.List;
 @UtilityClass
 public class ResponseXmlExtractor {
 
-    public List<Storage<ResponseMessage>> getContents(final List<RootContentStorage> rootContents) {
+    public List<ContentStorage<ResponseMessage>> getContents(final List<FileInfoStorage> rootContents) {
         XmlParser parser = new XmlParser();
-        List<Storage<ResponseMessage>> responseMessageList = new ArrayList<>();
+        List<ContentStorage<ResponseMessage>> responseMessageList = new ArrayList<>();
 
         rootContents.forEach(e -> {
             if (e != null) {
@@ -31,18 +31,18 @@ public class ResponseXmlExtractor {
         return responseMessageList;
     }
 
-    private List<Storage<ResponseMessage>> getResponseMessage(final XmlParser parser,
-                                                              final RootContentStorage rootContent,
-                                                              final List<TMicInterfaceMessage> messageContent) {
-        List<Storage<ResponseMessage>> storageList = new ArrayList<>();
+    private List<ContentStorage<ResponseMessage>> getResponseMessage(final XmlParser parser,
+                                                                     final FileInfoStorage rootContent,
+                                                                     final List<TMicInterfaceMessage> messageContent) {
+        List<ContentStorage<ResponseMessage>> contentStorageList = new ArrayList<>();
         for (TMicInterfaceMessage micInterfaceMessage : messageContent) {
             String value = micInterfaceMessage.getBody().getValue();
 
             XmlParser.MappingResult<ResponseMessage> responseMessageMappingResult =
                     parser.apply(ResponseMessage.class, value);
-            storageList.add(new Storage<>(rootContent.getPath(), responseMessageMappingResult.content));
+            contentStorageList.add(new ContentStorage<>(rootContent.getPath(), responseMessageMappingResult.content));
         }
-        return storageList;
+        return contentStorageList;
     }
 
     private static List<TMicInterfaceMessage> getMessages(final TMicInterface micInterface) {

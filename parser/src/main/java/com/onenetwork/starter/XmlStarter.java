@@ -4,8 +4,8 @@ import com.onenetwork.model.DefaultFieldStorage;
 import com.onenetwork.parser.LineParser;
 import com.onenetwork.parser.XmlParser;
 import com.onenetwork.response.ResponseMessage;
-import com.onenetwork.storage.RootContentStorage;
-import com.onenetwork.storage.Storage;
+import com.onenetwork.storage.FileInfoStorage;
+import com.onenetwork.storage.ContentStorage;
 import com.onenetwork.util.FileExtractor;
 import com.onenetwork.util.ModelGenerator;
 import com.onenetwork.util.ResponseXmlExtractor;
@@ -30,12 +30,12 @@ public class XmlStarter {
          * 3. Get <Message> to define <messageType> + <message>
          * 4. Extract from Map classes by first identifier and parsing data to class
          * */
-        List<RootContentStorage> xmlnsRootContentStorage = FileExtractor.getRootContents(PATH_TO_XMLNS_FOLDER);
+        List<FileInfoStorage> xmlnsFileInfoStorage = FileExtractor.getRootContents(PATH_TO_XMLNS_FOLDER);
         XmlParser xmlParser = new XmlParser();
         List<Object> globalObjects = new ArrayList<>();
-        for (RootContentStorage rootContentStorage : xmlnsRootContentStorage) {
-            String xml = rootContentStorage.getXml();
-            String path = rootContentStorage.getPath();
+        for (FileInfoStorage fileInfoStorage : xmlnsFileInfoStorage) {
+            String xml = fileInfoStorage.getXml();
+            String path = fileInfoStorage.getPath();
             Class<?> clazz = GLOBAL_XSD_MODEL.get(path.substring(path.lastIndexOf(File.separator) + 1));
             globalObjects.add(xmlParser.apply(clazz, xml).content);
         }
@@ -43,11 +43,11 @@ public class XmlStarter {
         for (Object globalObject : globalObjects) {
             globalObjectsMap.putAll(ModelGenerator.generateModels(globalObject));
         }
-        List<RootContentStorage> responseRootContentStorage = FileExtractor.getRootContents(PATH_TO_TEST_FOLDER);
-        List<Storage<ResponseMessage>> storages = ResponseXmlExtractor.getContents(responseRootContentStorage);
+        List<FileInfoStorage> responseFileInfoStorage = FileExtractor.getRootContents(PATH_TO_TEST_FOLDER);
+        List<ContentStorage<ResponseMessage>> contentStorages = ResponseXmlExtractor.getContents(responseFileInfoStorage);
         LineParser lineParser = new LineParser();
-        for (Storage<ResponseMessage> storage : storages) {
-            ResponseMessage responseMessage = storage.getValue();
+        for (ContentStorage<ResponseMessage> contentStorage : contentStorages) {
+            ResponseMessage responseMessage = contentStorage.getValue();
             if (responseMessage != null) {
                 List<Object> models = lineParser.getModels(responseMessage, globalObjectsMap);
             }

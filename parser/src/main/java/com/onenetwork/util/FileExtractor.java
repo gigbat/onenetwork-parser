@@ -1,6 +1,6 @@
 package com.onenetwork.util;
 
-import com.onenetwork.storage.RootContentStorage;
+import com.onenetwork.storage.FileInfoStorage;
 import lombok.SneakyThrows;
 import lombok.experimental.UtilityClass;
 
@@ -20,11 +20,11 @@ public class FileExtractor {
     private final String SUFFIX_XML = ".xml";
 
     @SneakyThrows
-    public List<RootContentStorage> getRootContents(final String folder) {
+    public List<FileInfoStorage> getRootContents(final String folder) {
         URL resource = Thread.currentThread().getContextClassLoader().getResource(folder);
         if (resource != null) {
             File rootFile = new File(resource.toURI());
-            List<RootContentStorage> rootContents = new ArrayList<>();
+            List<FileInfoStorage> rootContents = new ArrayList<>();
 
             File[] listFiles = rootFile.listFiles();
             if (listFiles != null) {
@@ -36,14 +36,14 @@ public class FileExtractor {
     }
 
     @SneakyThrows
-    private void walk(final File[] listFiles, final List<RootContentStorage> rootContents) {
+    private void walk(final File[] listFiles, final List<FileInfoStorage> rootContents) {
 
         for (File file : listFiles) {
             if (file.isFile() && matchingXmlFile(file)) {
                 String path = file.getAbsolutePath();
                 String xml = String.join(DELIMITER_EMPTY,
                         Files.readAllLines(Paths.get(path), StandardCharsets.US_ASCII));
-                rootContents.add(new RootContentStorage(path, xml));
+                rootContents.add(new FileInfoStorage(path, xml));
             } else if (file.isDirectory()) {
                 File[] directoryListFiles = file.listFiles();
                 if (directoryListFiles != null) {

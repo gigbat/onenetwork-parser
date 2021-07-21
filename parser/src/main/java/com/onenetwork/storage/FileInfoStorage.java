@@ -5,7 +5,7 @@ import lombok.Getter;
 
 @AllArgsConstructor
 @Getter
-public class RootContentStorage {
+public class FileInfoStorage {
     private final String path;
     private final String xml;
 }

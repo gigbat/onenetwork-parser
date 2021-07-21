@@ -5,7 +5,7 @@ import lombok.Getter;
 
 @AllArgsConstructor
 @Getter
-public class Storage<E> {
+public class ContentStorage<E> {
     private final String path;
     private final E value;
 }
