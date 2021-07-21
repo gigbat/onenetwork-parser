@@ -6,18 +6,13 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.onenetwork.collector.ModelsCollector;
 import com.onenetwork.collector.ParsedModelsCollector;
 import com.onenetwork.model.DefaultFieldStorage;
-import com.onenetwork.storage.ContentStorage;
-import com.onenetwork.storage.FileInfoStorage;
-import com.onenetwork.util.FileExtractor;
 import lombok.SneakyThrows;
 import onenetwork.comparator.TreeComparator;
 import org.apache.commons.io.FileUtils;
-import org.junit.Assert;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
-import java.io.IOException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
