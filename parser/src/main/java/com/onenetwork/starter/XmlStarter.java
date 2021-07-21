@@ -12,6 +12,7 @@ import com.onenetwork.util.ResponseXmlExtractor;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -31,21 +32,24 @@ public class XmlStarter {
         * */
         List<RootContentStorage> xmlnsRootContentStorage = FileExtractor.getRootContents(PATH_TO_XMLNS_FOLDER);
         XmlParser xmlParser = new XmlParser();
-        List<Object> list = new ArrayList<>();
+        List<Object> globalObjects = new ArrayList<>();
         for (RootContentStorage rootContentStorage : xmlnsRootContentStorage) {
             String xml = rootContentStorage.getXml();
             String path = rootContentStorage.getPath();
             Class<?> clazz = GLOBAL_DATA.get(path.substring(path.lastIndexOf(File.separator) + 1));
-            list.add(xmlParser.apply(clazz, xml).content);
+            globalObjects.add(xmlParser.apply(clazz, xml).content);
         }
-        Map<ControlIdentifierSelector, Object> collect = ControlIdentifierCollector.collect(list.get(0));
+        Map<ControlIdentifierSelector, Object> globalObjectsMap = new HashMap<>();
+        for (Object globalObject : globalObjects) {
+            globalObjectsMap.putAll(ControlIdentifierCollector.collect(globalObject));
+        }
         List<RootContentStorage> responseRootContentStorage = FileExtractor.getRootContents(PATH_TO_TEST_FOLDER);
         List<Storage<ResponseMessage>> storages = ResponseXmlExtractor.getContents(responseRootContentStorage);
         LineParser lineParser = new LineParser();
         for (Storage<ResponseMessage> storage : storages) {
             ResponseMessage responseMessage = storage.getValue();
             if (responseMessage != null) {
-                List<Object> models = lineParser.getModels(responseMessage, collect);
+                List<Object> models = lineParser.getModels(responseMessage, globalObjectsMap);
             }
         }
     }

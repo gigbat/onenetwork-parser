@@ -47,7 +47,7 @@
             <xsd:element name="countryOfIssuance" type="position:Position"/>
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF10" minOccurs="0" maxOccurs="1"/>
-            <xsd:element name="messageType" type="xsd:string" default="SF|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -62,7 +62,7 @@
             <xsd:element name="weightQualifiers" type="position:Position"/>
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF13" minOccurs="0" maxOccurs="1"/>
-            <xsd:element name="messageType" type="xsd:string" default="SF|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -73,7 +73,7 @@
             <xsd:element name="shipmentReferenceIdentifier" type="position:Position"/>
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF15" minOccurs="0" maxOccurs="1"/>
-            <xsd:element name="messageType" type="xsd:string" default="SF|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -84,7 +84,7 @@
             <xsd:element name="referenceIdentifier" type="position:Position"/>
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF20" minOccurs="0" maxOccurs="1"/>
-            <xsd:element name="messageType" type="xsd:string" default="SF|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -98,7 +98,7 @@
             <xsd:element name="equipmentSizeTypeCode" type="position:Position"/>
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF25" minOccurs="0" maxOccurs="1"/>
-            <xsd:element name="messageType" type="xsd:string" default="SF|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -113,7 +113,7 @@
             <xsd:element name="dateOfBirth" type="position:Position"/>
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF30" minOccurs="0" maxOccurs="1"/>
-            <xsd:element name="messageType" type="xsd:string" default="SF|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -124,7 +124,7 @@
             <xsd:element name="entityName" type="position:Position"/>
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF31" minOccurs="0" maxOccurs="1"/>
-            <xsd:element name="messageType" type="xsd:string" default="SF|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -137,7 +137,7 @@
             <xsd:element name="addressInformationSecond" type="position:Position"/>
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF35" minOccurs="0" maxOccurs="1"/>
-            <xsd:element name="messageType" type="xsd:string" default="SF|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -150,7 +150,7 @@
             <xsd:element name="addressInformationSecond" type="position:Position"/>
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF36" minOccurs="0" maxOccurs="1"/>
-            <xsd:element name="messageType" type="xsd:string" default="SF|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -161,7 +161,7 @@
             <xsd:element name="countryOfOrigin" type="position:Position"/>
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF40" minOccurs="0" maxOccurs="1"/>
-            <xsd:element name="messageType" type="xsd:string" default="SF|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -174,7 +174,7 @@
             <xsd:element name="placeOfDelivery" type="position:Position"/>
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF50" minOccurs="0" maxOccurs="1"/>
-            <xsd:element name="messageType" type="xsd:string" default="SF|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -186,7 +186,7 @@
             <xsd:element name="narrativeMessageText" type="position:Position"/>
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF90" minOccurs="0" maxOccurs="1"/>
-            <xsd:element name="messageType" type="xsd:string" default="SF|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 </xsd:schema>
