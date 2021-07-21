@@ -9,7 +9,6 @@
     <xsd:complexType name="CustomObject">
         <xsd:sequence minOccurs="1" maxOccurs="1">
             <xsd:element name="refPosition" type="position:Position"/>
-            <xsd:element name="pathToPackage" type="xsd:string"/>
             <xsd:element name="object" type="xsd:anyType" minOccurs="0"/>
         </xsd:sequence>
     </xsd:complexType>

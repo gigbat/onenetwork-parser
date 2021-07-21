@@ -45,52 +45,52 @@
 
             <numbers:accountingClassCodeFirst>
                 <ci:startPosition>3</ci:startPosition>
-                <ci:endPosition>13</ci:endPosition>
+                <ci:endPosition>5</ci:endPosition>
             </numbers:accountingClassCodeFirst>
 
             <numbers:totalFeeAmountFirst>
-                <ci:startPosition>15</ci:startPosition>
-                <ci:endPosition>25</ci:endPosition>
+                <ci:startPosition>6</ci:startPosition>
+                <ci:endPosition>16</ci:endPosition>
             </numbers:totalFeeAmountFirst>
 
             <numbers:accountingClassCodeSecond>
-                <ci:startPosition>27</ci:startPosition>
-                <ci:endPosition>37</ci:endPosition>
+                <ci:startPosition>17</ci:startPosition>
+                <ci:endPosition>19</ci:endPosition>
             </numbers:accountingClassCodeSecond>
 
             <numbers:totalFeeAmountSecond>
-                <ci:startPosition>39</ci:startPosition>
-                <ci:endPosition>49</ci:endPosition>
+                <ci:startPosition>20</ci:startPosition>
+                <ci:endPosition>30</ci:endPosition>
             </numbers:totalFeeAmountSecond>
 
             <numbers:accountingClassCodeThird>
-                <ci:startPosition>1</ci:startPosition>
-                <ci:endPosition>2</ci:endPosition>
+                <ci:startPosition>31</ci:startPosition>
+                <ci:endPosition>33</ci:endPosition>
             </numbers:accountingClassCodeThird>
 
             <numbers:totalFeeAmountThird>
-                <ci:startPosition>3</ci:startPosition>
-                <ci:endPosition>13</ci:endPosition>
+                <ci:startPosition>34</ci:startPosition>
+                <ci:endPosition>44</ci:endPosition>
             </numbers:totalFeeAmountThird>
 
             <numbers:accountingClassCodeFourth>
-                <ci:startPosition>15</ci:startPosition>
-                <ci:endPosition>25</ci:endPosition>
+                <ci:startPosition>45</ci:startPosition>
+                <ci:endPosition>47</ci:endPosition>
             </numbers:accountingClassCodeFourth>
 
             <numbers:totalFeeAmountFourth>
-                <ci:startPosition>27</ci:startPosition>
-                <ci:endPosition>37</ci:endPosition>
+                <ci:startPosition>48</ci:startPosition>
+                <ci:endPosition>58</ci:endPosition>
             </numbers:totalFeeAmountFourth>
 
             <numbers:accountingClassCodeFifth>
-                <ci:startPosition>39</ci:startPosition>
-                <ci:endPosition>49</ci:endPosition>
+                <ci:startPosition>59</ci:startPosition>
+                <ci:endPosition>61</ci:endPosition>
             </numbers:accountingClassCodeFifth>
 
             <numbers:totalFeeAmountFifth>
-                <ci:startPosition>39</ci:startPosition>
-                <ci:endPosition>49</ci:endPosition>
+                <ci:startPosition>62</ci:startPosition>
+                <ci:endPosition>72</ci:endPosition>
             </numbers:totalFeeAmountFifth>
         </numbers:EightyNineRecordDataElement>
 
@@ -822,7 +822,7 @@
 
             <numbers:bondTypeCode>
                 <ci:startPosition>3</ci:startPosition>
-                <ci:endPosition>5</ci:endPosition>
+                <ci:endPosition>3</ci:endPosition>
             </numbers:bondTypeCode>
 
             <numbers:bondDesignationTypeCode>
@@ -1137,7 +1137,6 @@
                 <ci:startPosition>4</ci:startPosition>
                 <ci:endPosition>9</ci:endPosition>
             </co:refPosition>
-            <co:pathToPackage>com.onenetwork.model.ae_ax.e0.reference</co:pathToPackage>
         </e0:referenceDataText>
     </this:E0RecordDataElement>
 

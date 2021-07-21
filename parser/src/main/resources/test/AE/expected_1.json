@@ -11,8 +11,8 @@
       "value" : "A"
     },
     "entryFilerCode": {
-      "startPosition" : "3",
-      "endPosition" : "3",
+      "startPosition" : "4",
+      "endPosition" : "6",
       "value" : "S3A"
     },
     "entryNumber": {
@@ -139,7 +139,9 @@
       "startPosition" : "69",
       "endPosition" : "69",
       "value" : " "
-    }
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
     "controlIdentifier": {
@@ -181,7 +183,9 @@
       "startPosition" : "61",
       "endPosition" : "62",
       "value" : "MI"
-    }
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
     "controlIdentifier": {
@@ -228,7 +232,9 @@
       "startPosition" : "52",
       "endPosition" : "57",
       "value" : "      "
-    }
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
     "controlIdentifier": {
@@ -265,7 +271,9 @@
       "startPosition" : "19",
       "endPosition" : "28",
       "value" : "          "
-    }
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
     "controlIdentifier": {
@@ -352,7 +360,9 @@
       "startPosition" : "60",
       "endPosition" : "60",
       "value" : " "
-    }
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
     "controlIdentifier": {
@@ -374,7 +384,9 @@
       "startPosition" : "10",
       "endPosition" : "19",
       "value" : "0000000015"
-    }
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
     "controlIdentifier": {
@@ -391,7 +403,9 @@
       "startPosition" : "4",
       "endPosition" : "18",
       "value" : "AFABCTEC123FAL "
-    }
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
     "controlIdentifier": {
@@ -408,7 +422,9 @@
       "startPosition" : "4",
       "endPosition" : "18",
       "value" : "57-123456789   "
-    }
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
     "controlIdentifier": {
@@ -460,7 +476,9 @@
       "startPosition" : "78",
       "endPosition" : "80",
       "value" : "   "
-    }
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
     "controlIdentifier": {
@@ -477,7 +495,9 @@
       "startPosition" : "6",
       "endPosition" : "13",
       "value" : "    2078"
-    }
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
     "controlIdentifier": {
@@ -534,7 +554,9 @@
       "startPosition" : "62",
       "endPosition" : "72",
       "value" : "           "
-    }
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
     "controlIdentifier": {
@@ -571,6 +593,8 @@
       "startPosition" : "63",
       "endPosition" : "73",
       "value" : "           "
-    }
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   }
 ]

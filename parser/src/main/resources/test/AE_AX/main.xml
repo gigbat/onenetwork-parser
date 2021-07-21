@@ -20,7 +20,6 @@
         <ns2:messageType>AX</ns2:messageType>
         <ns2:transactionId>SHIPMENT123</ns2:transactionId>
         <ns2:message>E0 SUMMRY 000001 REF ID: S3A 60145704 5000001      342                          E0 LINITM 000001 REF ID: 001                                                    E1 W27J   *CENSUS* OR-AGR CHARGES/VALUE           S3A  60145704     5000001     E1AW995   SUMMARY HAS BEEN ADDED                  S3A  60145704001005000001     </ns2:message>
-E0 SUMMRY 000001 REF ID: S3A 60145704 5000001      342
     </ns2:TResponse>
 </ResponseMessage>
 ]]>

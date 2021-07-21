@@ -1,136 +1,600 @@
 [
   {
-    "controlIdentifier": "10",
-    "summaryFilingActionRequestCode": "A",
-    "entryFilerCode": "S3A",
-    "entryNumber": "60145704",
-    "districtOrPortOfEntry": "3801",
-    "brokerReferenceNumber": "5000001  ",
-    "entryTypeCode": "06",
-    "modeOfTransportationCode": "30",
-    "bondWaiverIndicator": " ",
-    "electronicSignature": "X",
-    "cargoReleaseCertificationRequestIndicator": " ",
-    "electronicInvoiceIndicator": " ",
-    "consolidatedSummaryIndicator": " ",
-    "shipmentUsageTypeCode": " ",
-    "liveEntryIndicator": " ",
-    "deferredTaxPaymentCode": " ",
-    "tradeAgreementReconciliationIndicator": " ",
-    "reconciliationIssueCode": "001",
-    "paymentTypeCode": "6",
-    "preliminaryStatementPrintDate": "122820",
-    "periodicStatementMonth": "01",
-    "statementClientBranchIdentifier": "01",
-    "bondWaiverReasonCode": "   ",
-    "postSummaryCorrectionIndicator": " ",
-    "acceleratedLiquidationRequestIndicator": " ",
-    "knownImporterIndicator": " ",
-    "pgaDataIncludedIndicator": " ",
-    "tibDeclarationIndicator": " "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "2",
+      "value" : "10"
+    },
+    "summaryFilingActionRequestCode": {
+      "startPosition" : "3",
+      "endPosition" : "3",
+      "value" : "A"
+    },
+    "entryFilerCode": {
+      "startPosition" : "4",
+      "endPosition" : "6",
+      "value" : "S3A"
+    },
+    "entryNumber": {
+      "startPosition" : "9",
+      "endPosition" : "16",
+      "value" : "60145704"
+    },
+    "districtOrPortOfEntry": {
+      "startPosition" : "18",
+      "endPosition" : "21",
+      "value" : "3801"
+    },
+    "brokerReferenceNumber": {
+      "startPosition" : "22",
+      "endPosition" : "30",
+      "value" : "5000001  "
+    },
+    "entryTypeCode": {
+      "startPosition" : "34",
+      "endPosition" : "35",
+      "value" : "06"
+    },
+    "modeOfTransportationCode": {
+      "startPosition" : "36",
+      "endPosition" : "37",
+      "value" : "30"
+    },
+    "bondWaiverIndicator": {
+      "startPosition" : "38",
+      "endPosition" : "38",
+      "value" : " "
+    },
+    "electronicSignature": {
+      "startPosition" : "39",
+      "endPosition" : "39",
+      "value" : "X"
+    },
+    "cargoReleaseCertificationRequestIndicator": {
+      "startPosition" : "40",
+      "endPosition" : "40",
+      "value" : " "
+    },
+    "electronicInvoiceIndicator": {
+      "startPosition" : "41",
+      "endPosition" : "41",
+      "value" : " "
+    },
+    "consolidatedSummaryIndicator": {
+      "startPosition" : "42",
+      "endPosition" : "42",
+      "value" : " "
+    },
+    "shipmentUsageTypeCode": {
+      "startPosition" : "43",
+      "endPosition" : "43",
+      "value" : " "
+    },
+    "liveEntryIndicator": {
+      "startPosition" : "44",
+      "endPosition" : "44",
+      "value" : " "
+    },
+    "deferredTaxPaymentCode": {
+      "startPosition" : "45",
+      "endPosition" : "45",
+      "value" : " "
+    },
+    "tradeAgreementReconciliationIndicator": {
+      "startPosition" : "46",
+      "endPosition" : "46",
+      "value" : " "
+    },
+    "reconciliationIssueCode": {
+      "startPosition" : "47",
+      "endPosition" : "49",
+      "value" : "001"
+    },
+    "paymentTypeCode": {
+      "startPosition" : "51",
+      "endPosition" : "51",
+      "value" : "6"
+    },
+    "preliminaryStatementPrintDate": {
+      "startPosition" : "52",
+      "endPosition" : "57",
+      "value" : "122820"
+    },
+    "periodicStatementMonth": {
+      "startPosition" : "58",
+      "endPosition" : "59",
+      "value" : "01"
+    },
+    "statementClientBranchIdentifier": {
+      "startPosition" : "60",
+      "endPosition" : "61",
+      "value" : "01"
+    },
+    "bondWaiverReasonCode": {
+      "startPosition" : "62",
+      "endPosition" : "64",
+      "value" : "   "
+    },
+    "postSummaryCorrectionIndicator": {
+      "startPosition" : "65",
+      "endPosition" : "65",
+      "value" : " "
+    },
+    "acceleratedLiquidationRequestIndicator": {
+      "startPosition" : "66",
+      "endPosition" : "66",
+      "value" : " "
+    },
+    "knownImporterIndicator": {
+      "startPosition" : "67",
+      "endPosition" : "67",
+      "value" : " "
+    },
+    "pgaDataIncludedIndicator": {
+      "startPosition" : "68",
+      "endPosition" : "68",
+      "value" : " "
+    },
+    "tibDeclarationIndicator": {
+      "startPosition" : "69",
+      "endPosition" : "69",
+      "value" : " "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "11",
-    "importerOfRecordNumber": "57-123456789",
-    "consigneeNumber": "57-123456789",
-    "designatedNotifyPartyNumber": "            ",
-    "estimatedEntryDate": "121620",
-    "dateOfImportation": "121620",
-    "foreignTradeZoneIdentifier": "12162  ",
-    "stateOfDestinationCode": "MI"
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "2",
+      "value" : "11"
+    },
+    "importerOfRecordNumber": {
+      "startPosition" : "3",
+      "endPosition" : "14",
+      "value" : "57-123456789"
+    },
+    "consigneeNumber": {
+      "startPosition" : "15",
+      "endPosition" : "26",
+      "value" : "57-123456789"
+    },
+    "designatedNotifyPartyNumber": {
+      "startPosition" : "27",
+      "endPosition" : "38",
+      "value" : "            "
+    },
+    "estimatedEntryDate": {
+      "startPosition" : "42",
+      "endPosition" : "47",
+      "value" : "121620"
+    },
+    "dateOfImportation": {
+      "startPosition" : "48",
+      "endPosition" : "53",
+      "value" : "121620"
+    },
+    "foreignTradeZoneIdentifier": {
+      "startPosition" : "54",
+      "endPosition" : "60",
+      "value" : "12162  "
+    },
+    "stateOfDestinationCode": {
+      "startPosition" : "61",
+      "endPosition" : "62",
+      "value" : "MI"
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "20",
-    "carrierCode": "    ",
-    "districtOrPortOfUnlading": "3801",
-    "estimatedDateOfArrival": "121620",
-    "locationOfGoodsCode": "H726",
-    "conveyanceName": "                    ",
-    "vesselCode": "       ",
-    "designatedExamPortCode": "    ",
-    "inBondOrInTransitDate": "      "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "2",
+      "value" : "20"
+    },
+    "carrierCode": {
+      "startPosition" : "3",
+      "endPosition" : "6",
+      "value" : "    "
+    },
+    "districtOrPortOfUnlading": {
+      "startPosition" : "7",
+      "endPosition" : "10",
+      "value" : "3801"
+    },
+    "estimatedDateOfArrival": {
+      "startPosition" : "11",
+      "endPosition" : "16",
+      "value" : "121620"
+    },
+    "locationOfGoodsCode": {
+      "startPosition" : "17",
+      "endPosition" : "20",
+      "value" : "H726"
+    },
+    "conveyanceName": {
+      "startPosition" : "21",
+      "endPosition" : "40",
+      "value" : "                    "
+    },
+    "vesselCode": {
+      "startPosition" : "41",
+      "endPosition" : "47",
+      "value" : "       "
+    },
+    "designatedExamPortCode": {
+      "startPosition" : "48",
+      "endPosition" : "51",
+      "value" : "    "
+    },
+    "inBondOrInTransitDate": {
+      "startPosition" : "52",
+      "endPosition" : "57",
+      "value" : "      "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "31",
-    "bondTypeCode": "8",
-    "bondDesignationTypeCode": "B",
-    "continuousBondIndicator": " ",
-    "suretyCompanyCode": "891",
-    "singleTransactionBondAmount": "          ",
-    "singleTransactionBondProducerAccountNumber": "          "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "2",
+      "value" : "31"
+    },
+    "bondTypeCode": {
+      "startPosition" : "3",
+      "endPosition" : "3",
+      "value" : "8"
+    },
+    "bondDesignationTypeCode": {
+      "startPosition" : "4",
+      "endPosition" : "4",
+      "value" : "B"
+    },
+    "continuousBondIndicator": {
+      "startPosition" : "5",
+      "endPosition" : "5",
+      "value" : " "
+    },
+    "suretyCompanyCode": {
+      "startPosition" : "6",
+      "endPosition" : "8",
+      "value" : "891"
+    },
+    "singleTransactionBondAmount": {
+      "startPosition" : "9",
+      "endPosition" : "18",
+      "value" : "          "
+    },
+    "singleTransactionBondProducerAccountNumber": {
+      "startPosition" : "19",
+      "endPosition" : "28",
+      "value" : "          "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "40",
-    "lineItemIdentifier": "001",
-    "articleSetIndicator": " ",
-    "countryOfOriginCode": "AT",
-    "countryOfExportCode": "AT",
-    "dateOfExportation": "121620",
-    "dateOfExportationTextiles": "      ",
-    "tradeAgreementOrSpecialProgramClaimCode": "  ",
-    "chargesAmount": "0000000000",
-    "foreignPortOfLadingCode": "     ",
-    "grossShippingWeight": "0000000600",
-    "categoryCodeTextiles": "   ",
-    "productClaimCode": " ",
-    "relatedPartyIndicator": "N",
-    "naftaNetCostIndicator": " ",
-    "feeExemptionCode": " ",
-    "adCaseNonReimbursementStatement": " "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "2",
+      "value" : "40"
+    },
+    "lineItemIdentifier": {
+      "startPosition" : "5",
+      "endPosition" : "7",
+      "value" : "001"
+    },
+    "articleSetIndicator": {
+      "startPosition" : "8",
+      "endPosition" : "8",
+      "value" : " "
+    },
+    "countryOfOriginCode": {
+      "startPosition" : "9",
+      "endPosition" : "10",
+      "value" : "AT"
+    },
+    "countryOfExportCode": {
+      "startPosition" : "11",
+      "endPosition" : "12",
+      "value" : "AT"
+    },
+    "dateOfExportation": {
+      "startPosition" : "13",
+      "endPosition" : "18",
+      "value" : "121620"
+    },
+    "dateOfExportationTextiles": {
+      "startPosition" : "19",
+      "endPosition" : "24",
+      "value" : "      "
+    },
+    "tradeAgreementOrSpecialProgramClaimCode": {
+      "startPosition" : "25",
+      "endPosition" : "26",
+      "value" : "  "
+    },
+    "chargesAmount": {
+      "startPosition" : "27",
+      "endPosition" : "36",
+      "value" : "0000000000"
+    },
+    "foreignPortOfLadingCode": {
+      "startPosition" : "37",
+      "endPosition" : "41",
+      "value" : "     "
+    },
+    "grossShippingWeight": {
+      "startPosition" : "42",
+      "endPosition" : "51",
+      "value" : "0000000600"
+    },
+    "categoryCodeTextiles": {
+      "startPosition" : "52",
+      "endPosition" : "54",
+      "value" : "   "
+    },
+    "productClaimCode": {
+      "startPosition" : "55",
+      "endPosition" : "55",
+      "value" : " "
+    },
+    "relatedPartyIndicator": {
+      "startPosition" : "56",
+      "endPosition" : "56",
+      "value" : "N"
+    },
+    "naftaNetCostIndicator": {
+      "startPosition" : "57",
+      "endPosition" : "57",
+      "value" : " "
+    },
+    "feeExemptionCode": {
+      "startPosition" : "58",
+      "endPosition" : "58",
+      "value" : " "
+    },
+    "adCaseNonReimbursementStatement": {
+      "startPosition" : "60",
+      "endPosition" : "60",
+      "value" : " "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "41",
-    "ftzMerchandiseStatusCode": "N",
-    "privilegedFtzMerchandiseFilingDate": "      ",
-    "ftzLineItemQuantity": "0000000015"
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "2",
+      "value" : "41"
+    },
+    "ftzMerchandiseStatusCode": {
+      "startPosition" : "3",
+      "endPosition" : "3",
+      "value" : "N"
+    },
+    "privilegedFtzMerchandiseFilingDate": {
+      "startPosition" : "4",
+      "endPosition" : "9",
+      "value" : "      "
+    },
+    "ftzLineItemQuantity": {
+      "startPosition" : "10",
+      "endPosition" : "19",
+      "value" : "0000000015"
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "47",
-    "articlePartyTypeCode": "M",
-    "articlePartyIdentifier": "AFABCTEC123FAL "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "2",
+      "value" : "47"
+    },
+    "articlePartyTypeCode": {
+      "startPosition" : "3",
+      "endPosition" : "3",
+      "value" : "M"
+    },
+    "articlePartyIdentifier": {
+      "startPosition" : "4",
+      "endPosition" : "18",
+      "value" : "AFABCTEC123FAL "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "47",
-    "articlePartyTypeCode": "S",
-    "articlePartyIdentifier": "57-123456789   "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "2",
+      "value" : "47"
+    },
+    "articlePartyTypeCode": {
+      "startPosition" : "3",
+      "endPosition" : "3",
+      "value" : "S"
+    },
+    "articlePartyIdentifier": {
+      "startPosition" : "4",
+      "endPosition" : "18",
+      "value" : "57-123456789   "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "50",
-    "htsNumber": "9401200000",
-    "dutyAmount": "0000000000",
-    "valueOfGoodsAmount": "0000006000",
-    "quantityFirst": "000000001500",
-    "unitOfMeasureCodeFirst": "NO ",
-    "quantitySecond": "            ",
-    "unitOfMeasureCodeSecond": "   ",
-    "quantityThird": "  ",
-    "unitOfMeasureCodeThird": "   "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "2",
+      "value" : "50"
+    },
+    "htsNumber": {
+      "startPosition" : "3",
+      "endPosition" : "12",
+      "value" : "9401200000"
+    },
+    "dutyAmount": {
+      "startPosition" : "14",
+      "endPosition" : "23",
+      "value" : "0000000000"
+    },
+    "valueOfGoodsAmount": {
+      "startPosition" : "25",
+      "endPosition" : "34",
+      "value" : "0000006000"
+    },
+    "quantityFirst": {
+      "startPosition" : "36",
+      "endPosition" : "47",
+      "value" : "000000001500"
+    },
+    "unitOfMeasureCodeFirst": {
+      "startPosition" : "48",
+      "endPosition" : "50",
+      "value" : "NO "
+    },
+    "quantitySecond": {
+      "startPosition" : "51",
+      "endPosition" : "62",
+      "value" : "            "
+    },
+    "unitOfMeasureCodeSecond": {
+      "startPosition" : "63",
+      "endPosition" : "65",
+      "value" : "   "
+    },
+    "quantityThird": {
+      "startPosition" : "66",
+      "endPosition" : "67",
+      "value" : "  "
+    },
+    "unitOfMeasureCodeThird": {
+      "startPosition" : "78",
+      "endPosition" : "80",
+      "value" : "   "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "62",
-    "accountingClassCode": "499",
-    "userFeeAmount": "    2078"
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "2",
+      "value" : "62"
+    },
+    "accountingClassCode": {
+      "startPosition" : "3",
+      "endPosition" : "5",
+      "value" : "499"
+    },
+    "userFeeAmount": {
+      "startPosition" : "6",
+      "endPosition" : "13",
+      "value" : "    2078"
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "89",
-    "accountingClassCodeFirst": "499",
-    "totalFeeAmountFirst": "00000002723",
-    "accountingClassCodeSecond": "   ",
-    "totalFeeAmountSecond": "           ",
-    "accountingClassCodeThird": "   ",
-    "totalFeeAmountThird": "           ",
-    "accountingClassCodeFourth": "   ",
-    "totalFeeAmountFourth": "           ",
-    "accountingClassCodeFifth": "   ",
-    "totalFeeAmountFifth": "           "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "2",
+      "value" : "89"
+    },
+    "accountingClassCodeFirst": {
+      "startPosition" : "3",
+      "endPosition" : "5",
+      "value" : "499"
+    },
+    "totalFeeAmountFirst": {
+      "startPosition" : "6",
+      "endPosition" : "16",
+      "value" : "00000002723"
+    },
+    "accountingClassCodeSecond": {
+      "startPosition" : "17",
+      "endPosition" : "19",
+      "value" : "   "
+    },
+    "totalFeeAmountSecond": {
+      "startPosition" : "20",
+      "endPosition" : "30",
+      "value" : "           "
+    },
+    "accountingClassCodeThird": {
+      "startPosition" : "31",
+      "endPosition" : "33",
+      "value" : "   "
+    },
+    "totalFeeAmountThird": {
+      "startPosition" : "34",
+      "endPosition" : "44",
+      "value" : "           "
+    },
+    "accountingClassCodeFourth": {
+      "startPosition" : "45",
+      "endPosition" : "47",
+      "value" : "   "
+    },
+    "totalFeeAmountFourth": {
+      "startPosition" : "48",
+      "endPosition" : "58",
+      "value" : "           "
+    },
+    "accountingClassCodeFifth": {
+      "startPosition" : "59",
+      "endPosition" : "61",
+      "value" : "   "
+    },
+    "totalFeeAmountFifth": {
+      "startPosition" : "62",
+      "endPosition" : "72",
+      "value" : "           "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "90",
-    "grandTotalDutyAmount": "00000000000",
-    "grandTotalUserFeeAmount": "00000002723",
-    "grandTotalIrTaxAmount": "00000000000",
-    "grandTotalAdDutyAmount": "00000000000",
-    "grandTotalCvDutyAmount": "00000000000",
-    "grandTotalOtherRevenueAmount": "           "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "2",
+      "value" : "90"
+    },
+    "grandTotalDutyAmount": {
+      "startPosition" : "3",
+      "endPosition" : "13",
+      "value" : "00000000000"
+    },
+    "grandTotalUserFeeAmount": {
+      "startPosition" : "15",
+      "endPosition" : "25",
+      "value" : "00000002723"
+    },
+    "grandTotalIrTaxAmount": {
+      "startPosition" : "27",
+      "endPosition" : "37",
+      "value" : "00000000000"
+    },
+    "grandTotalAdDutyAmount": {
+      "startPosition" : "39",
+      "endPosition" : "49",
+      "value" : "00000000000"
+    },
+    "grandTotalCvDutyAmount": {
+      "startPosition" : "51",
+      "endPosition" : "61",
+      "value" : "00000000000"
+    },
+    "grandTotalOtherRevenueAmount": {
+      "startPosition" : "63",
+      "endPosition" : "73",
+      "value" : "           "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   }
 ]

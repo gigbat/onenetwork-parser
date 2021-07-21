@@ -1,47 +1,205 @@
 [
   {
-    "controlIdentifier": "E0",
-    "referenceDataTypeCode": "SUMMRY",
-    "occurrencePosition": "000001",
-    "referenceIdConstant": "REF ID:",
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "2",
+      "value" : "E0"
+    },
+    "referenceDataTypeCode": {
+      "startPosition" : "4",
+      "endPosition" : "9",
+      "value" : "SUMMRY"
+    },
+    "occurrencePosition": {
+      "startPosition" : "11",
+      "endPosition" : "16",
+      "value" : "000001"
+    },
+    "referenceIdConstant": {
+      "startPosition" : "18",
+      "endPosition" : "24",
+      "value" : "REF ID:"
+    },
     "referenceDataText": {
-      "entryFilerCode": "S3A",
-      "entryNumber": "60145704",
-      "brokerReferenceNumber": "5000001     ",
-      "cbpTeamNumber": "342"
-    }
+      "refPosition": {
+        "startPosition" : "4",
+        "endPosition" : "9",
+        "value" : "SUMMRY"
+      },
+      "object": {
+        "entryFilerCode": {
+          "startPosition" : "26",
+          "endPosition" : "28",
+          "value" : "S3A"
+        },
+        "entryNumber": {
+          "startPosition" : "30",
+          "endPosition" : "37",
+          "value" : "60145704"
+        },
+        "brokerReferenceNumber": {
+          "startPosition" : "39",
+          "endPosition" : "50",
+          "value" : "5000001     "
+        },
+        "cbpTeamNumber": {
+          "startPosition" : "52",
+          "endPosition" : "54",
+          "value" : "342"
+        },
+        "defaultControlIdentifier": null,
+        "messageType": null
+      }
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "E0",
-    "referenceDataTypeCode": "LINITM",
-    "occurrencePosition": "000001",
-    "referenceIdConstant": "REF ID:",
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "2",
+      "value" : "E0"
+    },
+    "referenceDataTypeCode": {
+      "startPosition" : "4",
+      "endPosition" : "9",
+      "value" : "LINITM"
+    },
+    "occurrencePosition": {
+      "startPosition" : "11",
+      "endPosition" : "16",
+      "value" : "000001"
+    },
+    "referenceIdConstant": {
+      "startPosition" : "18",
+      "endPosition" : "24",
+      "value" : "REF ID:"
+    },
     "referenceDataText": {
-      "lineItemIdentifier": "001"
-    }
+      "refPosition": {
+        "startPosition" : "4",
+        "endPosition" : "9",
+        "value" : "LINITM"
+      },
+      "object": {
+        "lineItemIdentifier": {
+          "startPosition" : "26",
+          "endPosition" : "28",
+          "value" : "001"
+        },
+        "defaultControlIdentifier": null,
+        "messageType": null
+      }
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "E1",
-    "dispositionTypeCode": " ",
-    "severityCode": "W",
-    "conditionCode": "27J",
-    "reasonCode": "   ",
-    "narrativeText": "*CENSUS* OR-AGR CHARGES/VALUE           ",
-    "entryFilerCode": "S3A",
-    "entryFilerNumber": "60145704",
-    "versionNumber": "     ",
-    "brokerReferenceNumber": "5000001  "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "2",
+      "value" : "E1"
+    },
+    "dispositionTypeCode": {
+      "startPosition" : "3",
+      "endPosition" : "3",
+      "value" : " "
+    },
+    "severityCode": {
+      "startPosition" : "4",
+      "endPosition" : "4",
+      "value" : "W"
+    },
+    "conditionCode": {
+      "startPosition" : "5",
+      "endPosition" : "7",
+      "value" : "27J"
+    },
+    "reasonCode": {
+      "startPosition" : "8",
+      "endPosition" : "10",
+      "value" : "   "
+    },
+    "narrativeText": {
+      "startPosition" : "11",
+      "endPosition" : "50",
+      "value" : "*CENSUS* OR-AGR CHARGES/VALUE           "
+    },
+    "entryFilerCode": {
+      "startPosition" : "51",
+      "endPosition" : "53",
+      "value" : "S3A"
+    },
+    "entryFilerNumber": {
+      "startPosition" : "56",
+      "endPosition" : "63",
+      "value" : "60145704"
+    },
+    "versionNumber": {
+      "startPosition" : "64",
+      "endPosition" : "68",
+      "value" : "     "
+    },
+    "brokerReferenceNumber": {
+      "startPosition" : "69",
+      "endPosition" : "77",
+      "value" : "5000001  "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "E1",
-    "dispositionTypeCode": "A",
-    "severityCode": "W",
-    "conditionCode": "995",
-    "reasonCode": "   ",
-    "narrativeText": "SUMMARY HAS BEEN ADDED                  ",
-    "entryFilerCode": "S3A",
-    "entryFilerNumber": "60145704",
-    "versionNumber": "00100",
-    "brokerReferenceNumber": "5000001  "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "2",
+      "value" : "E1"
+    },
+    "dispositionTypeCode": {
+      "startPosition" : "3",
+      "endPosition" : "3",
+      "value" : "A"
+    },
+    "severityCode": {
+      "startPosition" : "4",
+      "endPosition" : "4",
+      "value" : "W"
+    },
+    "conditionCode": {
+      "startPosition" : "5",
+      "endPosition" : "7",
+      "value" : "995"
+    },
+    "reasonCode": {
+      "startPosition" : "8",
+      "endPosition" : "10",
+      "value" : "   "
+    },
+    "narrativeText": {
+      "startPosition" : "11",
+      "endPosition" : "50",
+      "value" : "SUMMARY HAS BEEN ADDED                  "
+    },
+    "entryFilerCode": {
+      "startPosition" : "51",
+      "endPosition" : "53",
+      "value" : "S3A"
+    },
+    "entryFilerNumber": {
+      "startPosition" : "56",
+      "endPosition" : "63",
+      "value" : "60145704"
+    },
+    "versionNumber": {
+      "startPosition" : "64",
+      "endPosition" : "68",
+      "value" : "00100"
+    },
+    "brokerReferenceNumber": {
+      "startPosition" : "69",
+      "endPosition" : "77",
+      "value" : "5000001  "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   }
 ]

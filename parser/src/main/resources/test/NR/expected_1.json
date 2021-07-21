@@ -1,45 +1,199 @@
 [
   {
-    "controlIdentifier": "N",
-    "recordType": "1",
-    "districtOrPortOfEntryOrSummary": "3701",
-    "brokerNumberOrEntryFilerCode": "S3A",
-    "entryNumber": " 12345678",
-    "entryType": "06",
-    "importerOfRecordNumber": "99-999999999",
-    "totalPaidDuty": "00000759753",
-    "totalPaidTax": "00000000000",
-    "liquidatedDuty": "00000759753",
-    "liquidatedTax": "00000000000",
-    "negativeInterestAmountIndicator": "0"
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "1",
+      "value" : "N"
+    },
+    "recordType": {
+      "startPosition" : "2",
+      "endPosition" : "2",
+      "value" : "1"
+    },
+    "districtOrPortOfEntryOrSummary": {
+      "startPosition" : "3",
+      "endPosition" : "6",
+      "value" : "3701"
+    },
+    "brokerNumberOrEntryFilerCode": {
+      "startPosition" : "7",
+      "endPosition" : "9",
+      "value" : "S3A"
+    },
+    "entryNumber": {
+      "startPosition" : "10",
+      "endPosition" : "18",
+      "value" : " 12345678"
+    },
+    "entryType": {
+      "startPosition" : "19",
+      "endPosition" : "20",
+      "value" : "06"
+    },
+    "importerOfRecordNumber": {
+      "startPosition" : "21",
+      "endPosition" : "32",
+      "value" : "99-999999999"
+    },
+    "totalPaidDuty": {
+      "startPosition" : "33",
+      "endPosition" : "43",
+      "value" : "00000759753"
+    },
+    "totalPaidTax": {
+      "startPosition" : "44",
+      "endPosition" : "54",
+      "value" : "00000000000"
+    },
+    "liquidatedDuty": {
+      "startPosition" : "55",
+      "endPosition" : "65",
+      "value" : "00000759753"
+    },
+    "liquidatedTax": {
+      "startPosition" : "66",
+      "endPosition" : "76",
+      "value" : "00000000000"
+    },
+    "negativeInterestAmountIndicator": {
+      "startPosition" : "77",
+      "endPosition" : "77",
+      "value" : "0"
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "N",
-    "recordType": "2",
-    "districtOrPortOfEntryOrSummary": "3701",
-    "brokerNumberOrEntryFilerCode": "S3A",
-    "entryNumber": " 12345678",
-    "liquidationDate": "070921",
-    "liquidationReasonCode": "99",
-    "brokerReferenceNumber": "FISKARS  ",
-    "liquidationType": "L",
-    "entryDate": "081220",
-    "totalPaidAntidumpingDuty": "00000000000",
-    "interestAmount": "000000000"
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "1",
+      "value" : "N"
+    },
+    "recordType": {
+      "startPosition" : "2",
+      "endPosition" : "2",
+      "value" : "2"
+    },
+    "districtOrPortOfEntryOrSummary": {
+      "startPosition" : "3",
+      "endPosition" : "6",
+      "value" : "3701"
+    },
+    "brokerNumberOrEntryFilerCode": {
+      "startPosition" : "7",
+      "endPosition" : "9",
+      "value" : "S3A"
+    },
+    "entryNumber": {
+      "startPosition" : "10",
+      "endPosition" : "18",
+      "value" : " 12345678"
+    },
+    "liquidationDate": {
+      "startPosition" : "19",
+      "endPosition" : "24",
+      "value" : "070921"
+    },
+    "liquidationReasonCode": {
+      "startPosition" : "25",
+      "endPosition" : "26",
+      "value" : "99"
+    },
+    "brokerReferenceNumber": {
+      "startPosition" : "27",
+      "endPosition" : "35",
+      "value" : "FISKARS  "
+    },
+    "liquidationType": {
+      "startPosition" : "54",
+      "endPosition" : "54",
+      "value" : "L"
+    },
+    "entryDate": {
+      "startPosition" : "55",
+      "endPosition" : "60",
+      "value" : "081220"
+    },
+    "totalPaidAntidumpingDuty": {
+      "startPosition" : "61",
+      "endPosition" : "71",
+      "value" : "00000000000"
+    },
+    "interestAmount": {
+      "startPosition" : "72",
+      "endPosition" : "80",
+      "value" : "000000000"
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "N",
-    "recordType": "4",
-    "districtOrPortOfEntryOrSummary": "3701",
-    "brokerNumberOrEntryFilerCode": "S3A",
-    "entryNumber": " 12345678",
-    "totalPaidCountervailingDuty": "00000000000",
-    "totalPaidFees": "00000051976",
-    "liquidatedAntidumpingDuty": "00000000000",
-    "liquidatedCountervailingDuty": "00000000000",
-    "liquidatedFees": "00000051976",
-    "changeLiquidationReasonCodeFirst": "  ",
-    "changeLiquidationReasonCodeSecond": "  ",
-    "changeLiquidationReasonCodeThird": "  "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "1",
+      "value" : "N"
+    },
+    "recordType": {
+      "startPosition" : "2",
+      "endPosition" : "2",
+      "value" : "4"
+    },
+    "districtOrPortOfEntryOrSummary": {
+      "startPosition" : "3",
+      "endPosition" : "6",
+      "value" : "3701"
+    },
+    "brokerNumberOrEntryFilerCode": {
+      "startPosition" : "7",
+      "endPosition" : "9",
+      "value" : "S3A"
+    },
+    "entryNumber": {
+      "startPosition" : "10",
+      "endPosition" : "18",
+      "value" : " 12345678"
+    },
+    "totalPaidCountervailingDuty": {
+      "startPosition" : "19",
+      "endPosition" : "29",
+      "value" : "00000000000"
+    },
+    "totalPaidFees": {
+      "startPosition" : "30",
+      "endPosition" : "40",
+      "value" : "00000051976"
+    },
+    "liquidatedAntidumpingDuty": {
+      "startPosition" : "41",
+      "endPosition" : "51",
+      "value" : "00000000000"
+    },
+    "liquidatedCountervailingDuty": {
+      "startPosition" : "52",
+      "endPosition" : "62",
+      "value" : "00000000000"
+    },
+    "liquidatedFees": {
+      "startPosition" : "63",
+      "endPosition" : "73",
+      "value" : "00000051976"
+    },
+    "changeLiquidationReasonCodeFirst": {
+      "startPosition" : "74",
+      "endPosition" : "75",
+      "value" : "  "
+    },
+    "changeLiquidationReasonCodeSecond": {
+      "startPosition" : "76",
+      "endPosition" : "77",
+      "value" : "  "
+    },
+    "changeLiquidationReasonCodeThird": {
+      "startPosition" : "78",
+      "endPosition" : "79",
+      "value" : "  "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   }
 ]
