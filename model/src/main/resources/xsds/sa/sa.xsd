@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:position="http://www.model.onenetwork.com/position"
+            xmlns:this="http://www.model.onenetwork.com/sa"
+            elementFormDefault="qualified"
+            targetNamespace="http://www.model.onenetwork.com/sa"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+            jaxb:version="2.1">
+
+    <xsd:import namespace="http://www.model.onenetwork.com/position" schemaLocation="../position/position.xsd"/>
+
+    <xsd:element name="SAGlobal">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="SA10RecordDataElement" type="this:SA10RecordDataElement"/>
+                <xsd:element name="SA20RecordDataElement" type="this:SA20RecordDataElement"/>
+                <xsd:element name="SA30RecordDataElement" type="this:SA30RecordDataElement"/>
+                <xsd:element name="SA50RecordDataElement" type="this:SA50RecordDataElement"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:complexType name="SA10RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="recordType" type="position:Position"/>
+            <xsd:element name="isfTransactionNumber" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SA10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SA" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SA20RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="recordType" type="position:Position"/>
+            <xsd:element name="referenceData" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SA20" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SA" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SA30RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="recordType" type="position:Position"/>
+            <xsd:element name="billNumber" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SA30" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SA" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SA50RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="recordType" type="position:Position"/>
+            <xsd:element name="dispositionCode" type="position:Position"/>
+            <xsd:element name="remarks" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SA50" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SA" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

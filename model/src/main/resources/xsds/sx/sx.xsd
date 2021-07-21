@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:sxse="http://www.model.onenetwork.com/sx/se"
+            xmlns:sxsf="http://www.model.onenetwork.com/sx/sf"
+            xmlns:this="http://www.model.onenetwork.com/sx"
+            elementFormDefault="qualified"
+            targetNamespace="http://www.model.onenetwork.com/sx"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+            jaxb:version="2.1">
+
+    <xsd:import namespace="http://www.model.onenetwork.com/sx/se" schemaLocation="./sx-se.xsd"/>
+    <xsd:import namespace="http://www.model.onenetwork.com/sx/sf" schemaLocation="./sx-sf.xsd"/>
+
+    <xsd:element name="SXGlobal">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="SXSEGlobal" type="sxse:SXSEGlobal"/>
+                <xsd:element name="SXSFGlobal" type="sxsf:SXSFGlobal"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

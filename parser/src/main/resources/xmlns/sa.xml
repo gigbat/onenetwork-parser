@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<this:SAGlobal xmlns:this="http://www.model.onenetwork.com/sa"
+               xmlns:position="http://www.model.onenetwork.com/position">
+    <this:SA10RecordDataElement>
+        <this:controlIdentifier>
+            <position:startPosition>1</position:startPosition>
+            <position:endPosition>2</position:endPosition>
+        </this:controlIdentifier>
+        <this:recordType>
+            <position:startPosition>3</position:startPosition>
+            <position:endPosition>4</position:endPosition>
+        </this:recordType>
+        <this:isfTransactionNumber>
+            <position:startPosition>5</position:startPosition>
+            <position:endPosition>19</position:endPosition>
+        </this:isfTransactionNumber>
+    </this:SA10RecordDataElement>
+    
+    <this:SA20RecordDataElement>
+        <this:controlIdentifier>
+            <position:startPosition>1</position:startPosition>
+            <position:endPosition>2</position:endPosition>
+        </this:controlIdentifier>
+        <this:recordType>
+            <position:startPosition>3</position:startPosition>
+            <position:endPosition>4</position:endPosition>
+        </this:recordType>
+        <this:referenceData>
+            <position:startPosition>8</position:startPosition>
+            <position:endPosition>57</position:endPosition>
+        </this:referenceData>
+    </this:SA20RecordDataElement>
+    
+    <this:SA30RecordDataElement>
+        <this:controlIdentifier>
+            <position:startPosition>1</position:startPosition>
+            <position:endPosition>2</position:endPosition>
+        </this:controlIdentifier>
+        <this:recordType>
+            <position:startPosition>3</position:startPosition>
+            <position:endPosition>4</position:endPosition>
+        </this:recordType>
+        <this:billNumber>
+            <position:startPosition>5</position:startPosition>
+            <position:endPosition>20</position:endPosition>
+        </this:billNumber>
+    </this:SA30RecordDataElement>
+
+    <this:SA50RecordDataElement>
+        <this:controlIdentifier>
+            <position:startPosition>1</position:startPosition>
+            <position:endPosition>2</position:endPosition>
+        </this:controlIdentifier>
+        <this:recordType>
+            <position:startPosition>3</position:startPosition>
+            <position:endPosition>4</position:endPosition>
+        </this:recordType>
+        <this:dispositionCode>
+            <position:startPosition>5</position:startPosition>
+            <position:endPosition>6</position:endPosition>
+        </this:dispositionCode>
+        <this:remarks>
+            <position:startPosition>7</position:startPosition>
+            <position:endPosition>46</position:endPosition>
+        </this:remarks>
+    </this:SA50RecordDataElement>
+</this:SAGlobal>

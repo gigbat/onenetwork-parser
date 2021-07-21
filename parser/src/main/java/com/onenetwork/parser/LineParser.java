@@ -4,17 +4,15 @@ import com.onenetwork.model.ControlIdentifier;
 import com.onenetwork.model.ControlIdentifierSelector;
 import com.onenetwork.model.SimpleControlIdentifier;
 import com.onenetwork.response.ResponseMessage;
-import com.onenetwork.storage.Storage;
-import com.onenetwork.util.PositionExtractor;
+import com.onenetwork.util.FieldExtractor;
+import com.onenetwork.util.SerialUtils;
 import lombok.SneakyThrows;
 
-import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.function.BiFunction;
-import java.util.function.Function;
 
 import static com.onenetwork.constant.DelimiterConstant.DELIMITER_EMPTY;
 import static com.onenetwork.constant.DelimiterConstant.DELIMITER_SEMICOLON;
@@ -46,7 +44,7 @@ public class LineParser {
         if (isCatairFormat(messageType)) {
             return generateCatairInstances(responseMessage, selectorClassMap);
         } else if (isSimpleFormat(messageType)) {
-            generateSimpleInstances(responseMessage, Collections.emptyList());
+            return generateSimpleInstances(responseMessage);
         }
         return Collections.emptyList();
     }
@@ -73,8 +71,8 @@ public class LineParser {
             String controlIdentifier = line.substring(0, endPosition);
             String messageType = concatDoubleType(responseMessage.getResponse().getMessageType());
             ControlIdentifierSelector selector = new ControlIdentifierSelector(messageType, controlIdentifier);
-            Object object = selectorClassMap.get(selector);
-            Object recordDataElement = PositionExtractor.getParsedValue(object, line, DELIMITER_EMPTY, selectorClassMap);
+            Object object = SerialUtils.cloneObject(selectorClassMap.get(selector));
+            Object recordDataElement = FieldExtractor.getParsedValue(object, line, DELIMITER_EMPTY, selectorClassMap);
             list.add(recordDataElement);
         }
         return list;
@@ -97,7 +95,8 @@ public class LineParser {
         return 0;
     }
 
-    private void generateSimpleInstances(final ResponseMessage responseMessage, final List<Object> list) {
+    private List<Object> generateSimpleInstances(final ResponseMessage responseMessage) {
+        List<Object> list = new ArrayList<>();
         String message = responseMessage.getResponse().getMessage();
         String[] lines = message.split(REGEX_SPACE_FROM_5);
         String messageType = responseMessage.getResponse().getMessageType();
@@ -105,6 +104,7 @@ public class LineParser {
             Object simpleDataRecordElement = createSimpleDataRecordElement(line, messageType);
             list.add(simpleDataRecordElement);
         }
+        return list;
     }
 
     private String[] getLines(final String message) {

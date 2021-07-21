@@ -40,18 +40,25 @@
                             <outputDirectory>src/main/java/</outputDirectory>
                             <clearOutputDir>true</clearOutputDir>
                             <sources>
-                                <source>src/main/resources/xsds/ae-ax.xsd</source>
-                                <source>src/main/resources/xsds/ae-ax_cw.xsd</source>
-                                <source>src/main/resources/xsds/ae-ax_e0.xsd</source>
-                                <source>src/main/resources/xsds/ae-ax_e0_reference.xsd</source>
-                                <source>src/main/resources/xsds/ae-ax_e1.xsd</source>
-                                <source>src/main/resources/xsds/ae-ax_numbers.xsd</source>
-                                <source>src/main/resources/xsds/ae-ax_oi.xsd</source>
-                                <source>src/main/resources/xsds/ae-ax_se.xsd</source>
-                                <source>src/main/resources/xsds/customObject.xsd</source>
-                                <source>src/main/resources/xsds/entry-validate.xsd</source>
-                                <source>src/main/resources/xsds/isf-model.xsd</source>
-                                <source>src/main/resources/xsds/position.xsd</source>
+                                <source>src/main/resources/xsds/ae-ax/ae-ax.xsd</source>
+                                <source>src/main/resources/xsds/ae-ax/ae-ax_cw.xsd</source>
+                                <source>src/main/resources/xsds/ae-ax/ae-ax_e0.xsd</source>
+                                <source>src/main/resources/xsds/ae-ax/ae-ax_e0_reference.xsd</source>
+                                <source>src/main/resources/xsds/ae-ax/ae-ax_e1.xsd</source>
+                                <source>src/main/resources/xsds/ae-ax/ae-ax_numbers.xsd</source>
+                                <source>src/main/resources/xsds/ae-ax/ae-ax_oi.xsd</source>
+                                <source>src/main/resources/xsds/ae-ax/ae-ax_se.xsd</source>
+                                <source>src/main/resources/xsds/sa/sa.xsd</source>
+                                <source>src/main/resources/xsds/sx/sx.xsd</source>
+                                <source>src/main/resources/xsds/sx/sx-se.xsd</source>
+                                <source>src/main/resources/xsds/sx/sx-sx.xsd</source>
+                                <source>src/main/resources/xsds/nr/nr.xsd</source>
+                                <source>src/main/resources/xsds/sn_us_isf10/sn_us_isf10.xsd</source>
+                                <source>src/main/resources/xsds/so/so.xsd</source>
+                                <source>src/main/resources/xsds/customObject/customObject.xsd</source>
+                                <source>src/main/resources/xsds/entry-validate/entry-validate.xsd</source>
+                                <source>src/main/resources/xsds/isf-model/isf-model.xsd</source>
+                                <source>src/main/resources/xsds/position/position.xsd</source>
                             </sources>
                         </configuration>
                     </plugin>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:position="http://www.model.onenetwork.com/position"
+            xmlns:this="http://www.model.onenetwork.com/so"
+            elementFormDefault="qualified"
+            targetNamespace="http://www.model.onenetwork.com/so"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+            jaxb:version="2.1">
+
+    <xsd:import namespace="http://www.model.onenetwork.com/position" schemaLocation="../position/position.xsd"/>
+
+    <xsd:element name="SOGlobal">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="SO10RecordDataElement" type="this:SO10RecordDataElement"/>
+                <xsd:element name="SO20RecordDataElement" type="this:SO20RecordDataElement"/>
+                <xsd:element name="SO30RecordDataElement" type="this:SO30RecordDataElement"/>
+                <xsd:element name="SO40RecordDataElement" type="this:SO40RecordDataElement"/>
+                <xsd:element name="SO42RecordDataElement" type="this:SO42RecordDataElement"/>
+                <xsd:element name="SO50RecordDataElement" type="this:SO50RecordDataElement"/>
+                <xsd:element name="SO60RecordDataElement" type="this:SO60RecordDataElement"/>
+                <xsd:element name="SO70RecordDataElement" type="this:SO70RecordDataElement"/>
+                <xsd:element name="SO71RecordDataElement" type="this:SO71RecordDataElement"/>
+                <xsd:element name="SO72RecordDataElement" type="this:SO72RecordDataElement"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:complexType name="SO10RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="districtOrPortOfEntry" type="position:Position"/>
+            <xsd:element name="entryFilerCode" type="position:Position"/>
+            <xsd:element name="entryNumber" type="position:Position"/>
+            <xsd:element name="entryTypeCode" type="position:Position"/>
+            <xsd:element name="importerOfRecordNumber" type="position:Position"/>
+            <xsd:element name="carrierCode" type="position:Position"/>
+            <xsd:element name="vesselName" type="position:Position"/>
+            <xsd:element name="voyageOrFlightOrTripManifestNumber" type="position:Position"/>
+            <xsd:element name="estimatedDateOfArrival" type="position:Position"/>
+            <xsd:element name="splitShipmentReleaseCode" type="position:Position"/>
+            <xsd:element name="correctionResponseIndicator" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SO10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SO" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SO20RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="referenceIdentifierQualifier" type="position:Position"/>
+            <xsd:element name="referenceIdentifier" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SO20" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SO" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SO30RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="lineItemIdentifier" type="position:Position"/>
+            <xsd:element name="countryOfOrigin" type="position:Position"/>
+            <xsd:element name="htsNumber" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SO30" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SO" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SO40RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="billTypeIndicator" type="position:Position"/>
+            <xsd:element name="issuerCodeOfBillOfLadingNumber" type="position:Position"/>
+            <xsd:element name="billOfLadingNumber" type="position:Position"/>
+            <xsd:element name="quantity" type="position:Position"/>
+            <xsd:element name="unitOfMeasure" type="position:Position"/>
+            <xsd:element name="manifestedQuantity" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SO40" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SO" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SO42RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="inBondNumber" type="position:Position"/>
+            <xsd:element name="inBondEntryType" type="position:Position"/>
+            <xsd:element name="portOfInBondDeparture" type="position:Position"/>
+            <xsd:element name="portOfInBondArrival" type="position:Position"/>
+            <xsd:element name="inBondCreateDate" type="position:Position"/>
+            <xsd:element name="dateOfInBondArrival" type="position:Position"/>
+            <xsd:element name="inBondQuantity" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SO42" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SO" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SO50RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="dispositionDate" type="position:Position"/>
+            <xsd:element name="dispositionTime" type="position:Position"/>
+            <xsd:element name="dispositionCode" type="position:Position"/>
+            <xsd:element name="narrativeMessage" type="position:Position"/>
+            <xsd:element name="splitIndicator" type="position:Position"/>
+            <xsd:element name="carrierCode" type="position:Position"/>
+            <xsd:element name="voyageOrFlightOrTripManifestNumber" type="position:Position"/>
+            <xsd:element name="dateOfArrival" type="position:Position"/>
+            <xsd:element name="districtOrPortOfArrival" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SO50" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SO" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SO60RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="dispositionActionDate" type="position:Position"/>
+            <xsd:element name="dispositionActionTime" type="position:Position"/>
+            <xsd:element name="dispositionActionCode" type="position:Position"/>
+            <xsd:element name="narrativeMessage" type="position:Position"/>
+            <xsd:element name="releaseDate" type="position:Position"/>
+            <xsd:element name="releaseOriginCode" type="position:Position"/>
+            <xsd:element name="documentType" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SO60" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SO" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SO70RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="governmentAgencyCode" type="position:Position"/>
+            <xsd:element name="governmentAgencyProgramCode" type="position:Position"/>
+            <xsd:element name="statusActionDate" type="position:Position"/>
+            <xsd:element name="statusActionTime" type="position:Position"/>
+            <xsd:element name="pgaEntryLevelStatusCode" type="position:Position"/>
+            <xsd:element name="pgaEntryLevelStatusMessage" type="position:Position"/>
+            <xsd:element name="entryLineLevelStatusCode" type="position:Position"/>
+            <xsd:element name="pgaLineLevelStatusCode" type="position:Position"/>
+            <xsd:element name="statusReasonCode" type="position:Position"/>
+            <xsd:element name="beginningCbpLine" type="position:Position"/>
+            <xsd:element name="beginningTariffPosition" type="position:Position"/>
+            <xsd:element name="beginningPgaLine" type="position:Position"/>
+            <xsd:element name="endingCbpLine" type="position:Position"/>
+            <xsd:element name="endingTariffPosition" type="position:Position"/>
+            <xsd:element name="endingPgaLine" type="position:Position"/>
+            <xsd:element name="documentTypeCode" type="position:Position"/>
+            <xsd:element name="pgaEntryHoldType" type="position:Position"/>
+            <xsd:element name="pgaProcessingGroupVersion" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SO70" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SO" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SO71RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="pgaReferenceIdentificationNumberQualifier" type="position:Position"/>
+            <xsd:element name="pgaReferenceIdentificationNumberFirst" type="position:Position"/>
+            <xsd:element name="pgaReferenceIdentificationNumberReceiptDate" type="position:Position"/>
+            <xsd:element name="pgaReferenceIdentificationNumberReceiptTime" type="position:Position"/>
+            <xsd:element name="pgaLineSubReasonCodeFirst" type="position:Position"/>
+            <xsd:element name="pgaLineSubReasonCodeSecond" type="position:Position"/>
+            <xsd:element name="pgaLineSubReasonCodeThird" type="position:Position"/>
+            <xsd:element name="pgaLineSubReasonCodeFourth" type="position:Position"/>
+            <xsd:element name="pgaLineSubReasonCodeFifth" type="position:Position"/>
+            <xsd:element name="pgaLineSubReasonCodeSixth" type="position:Position"/>
+            <xsd:element name="pgaLineSubReasonCodeSeventh" type="position:Position"/>
+            <xsd:element name="pgaLineSubReasonCodeEighth" type="position:Position"/>
+            <xsd:element name="pgaLineSubReasonCodeNinth" type="position:Position"/>
+            <xsd:element name="pgaLineSubReasonCodeTenth" type="position:Position"/>
+            <xsd:element name="pgaLineSubReasonCodeEleventh" type="position:Position"/>
+            <xsd:element name="pgaReferenceIdentificationNumberSecond" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SO71" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SO" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SO72RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="commentsToTradeFromPga" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SO72" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="SO" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

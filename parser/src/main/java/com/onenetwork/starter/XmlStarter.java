@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import static com.onenetwork.constant.PreparedAliasData.ALIAS_DATA;
+import static com.onenetwork.constant.PreparedAliasData.GLOBAL_DATA;
 
 public class XmlStarter {
 
@@ -35,7 +35,7 @@ public class XmlStarter {
         for (RootContentStorage rootContentStorage : xmlnsRootContentStorage) {
             String xml = rootContentStorage.getXml();
             String path = rootContentStorage.getPath();
-            Class<?> clazz = ALIAS_DATA.get(path.substring(path.lastIndexOf(File.separator) + 1));
+            Class<?> clazz = GLOBAL_DATA.get(path.substring(path.lastIndexOf(File.separator) + 1));
             list.add(xmlParser.apply(clazz, xml).content);
         }
         Map<ControlIdentifierSelector, Object> collect = ControlIdentifierCollector.collect(list.get(0));

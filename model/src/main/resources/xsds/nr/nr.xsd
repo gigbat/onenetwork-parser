@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:position="http://www.model.onenetwork.com/position"
+            xmlns:this="http://www.model.onenetwork.com/nr"
+            elementFormDefault="qualified"
+            targetNamespace="http://www.model.onenetwork.com/nr"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+            jaxb:version="2.1">
+
+    <xsd:import namespace="http://www.model.onenetwork.com/position" schemaLocation="../position/position.xsd"/>
+
+    <xsd:element name="NRGlobal">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="N1RecordDataElement" type="this:N1RecordDataElement"/>
+                <xsd:element name="N2RecordDataElement" type="this:N2RecordDataElement"/>
+                <xsd:element name="N3RecordDataElement" type="this:N3RecordDataElement"/>
+                <xsd:element name="N4RecordDataElement" type="this:N4RecordDataElement"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:complexType name="N1RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="recordType" type="position:Position"/>
+            <xsd:element name="districtOrPortOfEntryOrSummary" type="position:Position"/>
+            <xsd:element name="brokerNumberOrEntryFilerCode" type="position:Position"/>
+            <xsd:element name="entryNumber" type="position:Position"/>
+            <xsd:element name="entryType" type="position:Position"/>
+            <xsd:element name="importerOfRecordNumber" type="position:Position"/>
+            <xsd:element name="totalPaidDuty" type="position:Position"/>
+            <xsd:element name="totalPaidTax" type="position:Position"/>
+            <xsd:element name="liquidatedDuty" type="position:Position"/>
+            <xsd:element name="liquidatedTax" type="position:Position"/>
+            <xsd:element name="negativeInterestAmountIndicator" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="N1" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="NR" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="N2RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="recordType" type="position:Position"/>
+            <xsd:element name="districtOrPortOfEntryOrSummary" type="position:Position"/>
+            <xsd:element name="brokerNumberOrEntryFilerCode" type="position:Position"/>
+            <xsd:element name="entryNumber" type="position:Position"/>
+            <xsd:element name="liquidationDate" type="position:Position"/>
+            <xsd:element name="liquidationReasonCode" type="position:Position"/>
+            <xsd:element name="brokerReferenceNumber" type="position:Position"/>
+            <xsd:element name="liquidationType" type="position:Position"/>
+            <xsd:element name="entryDate" type="position:Position"/>
+            <xsd:element name="totalPaidAntidumpingDuty" type="position:Position"/>
+            <xsd:element name="interestAmount" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="N2" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="NR" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="N3RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="recordType" type="position:Position"/>
+            <xsd:element name="districtOrPortOfEntryOrSummary" type="position:Position"/>
+            <xsd:element name="brokerNumberOrEntryFilerCode" type="position:Position"/>
+            <xsd:element name="entryNumber" type="position:Position"/>
+            <xsd:element name="entryTypeCode" type="position:Position"/>
+            <xsd:element name="importerOfRecordNumber" type="position:Position"/>
+            <xsd:element name="entryDate" type="position:Position"/>
+            <xsd:element name="extensionOrSuspensionCodeFirst" type="position:Position"/>
+            <xsd:element name="numberOfTimesExtended" type="position:Position"/>
+            <xsd:element name="extensionOrSuspensionNoticeDate" type="position:Position"/>
+            <xsd:element name="brokerReferenceNumber" type="position:Position"/>
+            <xsd:element name="extensionOrSuspensionCodeSecond" type="position:Position"/>
+            <xsd:element name="extensionOrSuspensionCodeThird" type="position:Position"/>
+            <xsd:element name="extensionOrSuspensionCodeFourth" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="N3" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="NR" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="N4RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="recordType" type="position:Position"/>
+            <xsd:element name="districtOrPortOfEntryOrSummary" type="position:Position"/>
+            <xsd:element name="brokerNumberOrEntryFilerCode" type="position:Position"/>
+            <xsd:element name="entryNumber" type="position:Position"/>
+            <xsd:element name="totalPaidCountervailingDuty" type="position:Position"/>
+            <xsd:element name="totalPaidFees" type="position:Position"/>
+            <xsd:element name="liquidatedAntidumpingDuty" type="position:Position"/>
+            <xsd:element name="liquidatedCountervailingDuty" type="position:Position"/>
+            <xsd:element name="liquidatedFees" type="position:Position"/>
+            <xsd:element name="changeLiquidationReasonCodeFirst" type="position:Position"/>
+            <xsd:element name="changeLiquidationReasonCodeSecond" type="position:Position"/>
+            <xsd:element name="changeLiquidationReasonCodeThird" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="N4" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="NR" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

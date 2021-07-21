@@ -9,14 +9,20 @@ import lombok.experimental.UtilityClass;
 import java.lang.reflect.Field;
 import java.util.Map;
 
+import static com.onenetwork.constant.DelimiterConstant.DELIMITER_EMPTY;
+
 @UtilityClass
-public class PositionExtractor {
+public class FieldExtractor {
 
     private final String CLASS_NAME_POSITION = "Position";
     private final String CLASS_NAME_CUSTOM_OBJECT = "CustomObject";
+    private final String DEFAULT_FIELD_CONTROL_IDENTIFIER = "defaultControlIdentifier";
+    private final String DEFAULT_FIELD_MESSAGE_TYPE = "messageType";
 
     @SneakyThrows
-    public Object getParsedValue(final Object object, final String line, final String type,
+    public Object getParsedValue(final Object object,
+                                 final String line,
+                                 final String type,
                                  final Map<ControlIdentifierSelector, Object> selectorObjectMap) {
         Class<?> clazz = object.getClass();
         Field[] declaredFields = clazz.getDeclaredFields();
@@ -31,7 +37,7 @@ public class PositionExtractor {
     private void generateFieldValue(final String line, final Field field, final Object object,
                                     final String type,
                                     final Map<ControlIdentifierSelector, Object> selectorObjectMap) {
-        if (!field.getName().equals("defaultControlIdentifier") && !field.getName().equals("messageType")) {
+        if (isNotDefaultField(field)) {
             Object fieldObject = field.get(object);
             if (fieldObject instanceof Position) {
                 fieldObject = getParsedValue(fieldObject, line, CLASS_NAME_POSITION, selectorObjectMap);
@@ -47,6 +53,11 @@ public class PositionExtractor {
                 }
             }
         }
+    }
+
+    private boolean isNotDefaultField(final Field field) {
+        return !field.getName().equals(DEFAULT_FIELD_CONTROL_IDENTIFIER)
+                && !field.getName().equals(DEFAULT_FIELD_MESSAGE_TYPE);
     }
 
     @SneakyThrows
@@ -69,10 +80,8 @@ public class PositionExtractor {
                                            final Map<ControlIdentifierSelector, Object> selectorObjectMap) {
         Field fieldRefPosition = object.getClass().getDeclaredField("refPosition");
         Field fieldObject = object.getClass().getDeclaredField("object");
-        //Field fieldPathToPackage = object.getClass().getDeclaredField("pathToPackage");
         fieldRefPosition.setAccessible(true);
         fieldObject.setAccessible(true);
-        //fieldPathToPackage.setAccessible(true);
 
         Object fieldPosition = fieldRefPosition.get(object);
         generatePositionValue(line, fieldPosition);
@@ -81,7 +90,8 @@ public class PositionExtractor {
         String value = String.valueOf(fieldValue.get(fieldPosition));
         for (Object selectorObject : selectorObjectMap.values()) {
             if (selectorObject.getClass().getSimpleName().equals(value)) {
-                fieldObject.set(object, selectorObject);
+                fieldObject.set(object,
+                        getParsedValue(selectorObject, line, DELIMITER_EMPTY, selectorObjectMap));
             }
         }
     }
