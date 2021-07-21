@@ -1,0 +1,1905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<this:AE_AX xmlns:numbers="http://www.model.onenetwork.com/ae_ax/numbers"
+            xmlns:this="http://www.model.onenetwork.com/ae_ax"
+            xmlns:ci="http://www.model.onenetwork.com/position"
+            xmlns:e0="http://www.model.onenetwork.com/ae_ax/e0"
+            xmlns:e0reference="http://www.model.onenetwork.com/ae_ax/e0/reference"
+            xmlns:e1="http://www.model.onenetwork.com/ae_ax/e1"
+            xmlns:co="http://www.model.onenetwork.com/custom_object"
+            xmlns:oi="http://www.model.onenetwork.com/ae_ax/oi"
+            xmlns:se="http://www.model.onenetwork.com/ae_ax/se"
+            xmlns:cw="http://www.model.onenetwork.com/ae_ax/cw">
+    <this:Numbers>
+        <numbers:EightyEightRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:totalBondedAdDutyAmount>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>13</ci:endPosition>
+            </numbers:totalBondedAdDutyAmount>
+
+            <numbers:totalCashDepositAdDutyAmount>
+                <ci:startPosition>15</ci:startPosition>
+                <ci:endPosition>25</ci:endPosition>
+            </numbers:totalCashDepositAdDutyAmount>
+
+            <numbers:totalBondedCvDutyAmount>
+                <ci:startPosition>27</ci:startPosition>
+                <ci:endPosition>37</ci:endPosition>
+            </numbers:totalBondedCvDutyAmount>
+
+            <numbers:totalCashDepositCvDutyAmount>
+                <ci:startPosition>39</ci:startPosition>
+                <ci:endPosition>49</ci:endPosition>
+            </numbers:totalCashDepositCvDutyAmount>
+        </numbers:EightyEightRecordDataElement>
+
+        <numbers:EightyNineRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:accountingClassCodeFirst>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>13</ci:endPosition>
+            </numbers:accountingClassCodeFirst>
+
+            <numbers:totalFeeAmountFirst>
+                <ci:startPosition>15</ci:startPosition>
+                <ci:endPosition>25</ci:endPosition>
+            </numbers:totalFeeAmountFirst>
+
+            <numbers:accountingClassCodeSecond>
+                <ci:startPosition>27</ci:startPosition>
+                <ci:endPosition>37</ci:endPosition>
+            </numbers:accountingClassCodeSecond>
+
+            <numbers:totalFeeAmountSecond>
+                <ci:startPosition>39</ci:startPosition>
+                <ci:endPosition>49</ci:endPosition>
+            </numbers:totalFeeAmountSecond>
+
+            <numbers:accountingClassCodeThird>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:accountingClassCodeThird>
+
+            <numbers:totalFeeAmountThird>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>13</ci:endPosition>
+            </numbers:totalFeeAmountThird>
+
+            <numbers:accountingClassCodeFourth>
+                <ci:startPosition>15</ci:startPosition>
+                <ci:endPosition>25</ci:endPosition>
+            </numbers:accountingClassCodeFourth>
+
+            <numbers:totalFeeAmountFourth>
+                <ci:startPosition>27</ci:startPosition>
+                <ci:endPosition>37</ci:endPosition>
+            </numbers:totalFeeAmountFourth>
+
+            <numbers:accountingClassCodeFifth>
+                <ci:startPosition>39</ci:startPosition>
+                <ci:endPosition>49</ci:endPosition>
+            </numbers:accountingClassCodeFifth>
+
+            <numbers:totalFeeAmountFifth>
+                <ci:startPosition>39</ci:startPosition>
+                <ci:endPosition>49</ci:endPosition>
+            </numbers:totalFeeAmountFifth>
+        </numbers:EightyNineRecordDataElement>
+
+        <numbers:ElevenRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:importerOfRecordNumber>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>14</ci:endPosition>
+            </numbers:importerOfRecordNumber>
+
+            <numbers:consigneeNumber>
+                <ci:startPosition>15</ci:startPosition>
+                <ci:endPosition>26</ci:endPosition>
+            </numbers:consigneeNumber>
+
+            <numbers:designatedNotifyPartyNumber>
+                <ci:startPosition>27</ci:startPosition>
+                <ci:endPosition>38</ci:endPosition>
+            </numbers:designatedNotifyPartyNumber>
+
+            <numbers:estimatedEntryDate>
+                <ci:startPosition>42</ci:startPosition>
+                <ci:endPosition>47</ci:endPosition>
+            </numbers:estimatedEntryDate>
+
+            <numbers:dateOfImportation>
+                <ci:startPosition>48</ci:startPosition>
+                <ci:endPosition>53</ci:endPosition>
+            </numbers:dateOfImportation>
+
+            <numbers:foreignTradeZoneIdentifier>
+                <ci:startPosition>54</ci:startPosition>
+                <ci:endPosition>60</ci:endPosition>
+            </numbers:foreignTradeZoneIdentifier>
+
+            <numbers:stateOfDestinationCode>
+                <ci:startPosition>61</ci:startPosition>
+                <ci:endPosition>62</ci:endPosition>
+            </numbers:stateOfDestinationCode>
+        </numbers:ElevenRecordDataElement>
+
+        <numbers:FiftyFourRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:importerAdditionalDeclarationTypeCode>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>4</ci:endPosition>
+            </numbers:importerAdditionalDeclarationTypeCode>
+
+            <numbers:importerAdditionalDeclarationInformation>
+                <ci:startPosition>5</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </numbers:importerAdditionalDeclarationInformation>
+        </numbers:FiftyFourRecordDataElement>
+
+        <numbers:FiftyOneRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:standardVisaNumber>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>11</ci:endPosition>
+            </numbers:standardVisaNumber>
+        </numbers:FiftyOneRecordDataElement>
+
+        <numbers:FiftyRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:htsNumber>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>12</ci:endPosition>
+            </numbers:htsNumber>
+
+            <numbers:dutyAmount>
+                <ci:startPosition>14</ci:startPosition>
+                <ci:endPosition>23</ci:endPosition>
+            </numbers:dutyAmount>
+
+            <numbers:valueOfGoodsAmount>
+                <ci:startPosition>25</ci:startPosition>
+                <ci:endPosition>34</ci:endPosition>
+            </numbers:valueOfGoodsAmount>
+
+            <numbers:quantityFirst>
+                <ci:startPosition>36</ci:startPosition>
+                <ci:endPosition>47</ci:endPosition>
+            </numbers:quantityFirst>
+
+            <numbers:unitOfMeasureCodeFirst>
+                <ci:startPosition>48</ci:startPosition>
+                <ci:endPosition>50</ci:endPosition>
+            </numbers:unitOfMeasureCodeFirst>
+
+            <numbers:quantitySecond>
+                <ci:startPosition>51</ci:startPosition>
+                <ci:endPosition>62</ci:endPosition>
+            </numbers:quantitySecond>
+
+            <numbers:unitOfMeasureCodeSecond>
+                <ci:startPosition>63</ci:startPosition>
+                <ci:endPosition>65</ci:endPosition>
+            </numbers:unitOfMeasureCodeSecond>
+
+            <numbers:quantityThird>
+                <ci:startPosition>66</ci:startPosition>
+                <ci:endPosition>67</ci:endPosition>
+            </numbers:quantityThird>
+
+            <numbers:unitOfMeasureCodeThird>
+                <ci:startPosition>78</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </numbers:unitOfMeasureCodeThird>
+        </numbers:FiftyRecordDataElement>
+
+        <numbers:FiftyThreeRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:caseNumber>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>12</ci:endPosition>
+            </numbers:caseNumber>
+
+            <numbers:bondOrCashClaimCode>
+                <ci:startPosition>13</ci:startPosition>
+                <ci:endPosition>13</ci:endPosition>
+            </numbers:bondOrCashClaimCode>
+
+            <numbers:caseDepositRate>
+                <ci:startPosition>14</ci:startPosition>
+                <ci:endPosition>21</ci:endPosition>
+            </numbers:caseDepositRate>
+
+            <numbers:caseRateTypeQualifierCode>
+                <ci:startPosition>22</ci:startPosition>
+                <ci:endPosition>22</ci:endPosition>
+            </numbers:caseRateTypeQualifierCode>
+
+            <numbers:adOrCvdValueOfGoodsAmount>
+                <ci:startPosition>25</ci:startPosition>
+                <ci:endPosition>34</ci:endPosition>
+            </numbers:adOrCvdValueOfGoodsAmount>
+
+            <numbers:adOrCvdQuantity>
+                <ci:startPosition>35</ci:startPosition>
+                <ci:endPosition>46</ci:endPosition>
+            </numbers:adOrCvdQuantity>
+
+            <numbers:adOrCvdDutyAmount>
+                <ci:startPosition>47</ci:startPosition>
+                <ci:endPosition>56</ci:endPosition>
+            </numbers:adOrCvdDutyAmount>
+
+            <numbers:adOrCvdNonReimbursementDeclarationIdentifier>
+                <ci:startPosition>57</ci:startPosition>
+                <ci:endPosition>66</ci:endPosition>
+            </numbers:adOrCvdNonReimbursementDeclarationIdentifier>
+        </numbers:FiftyThreeRecordDataElement>
+
+        <numbers:FiftyTwoRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:licenseOrCertificateOrPermitTypeCode>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>4</ci:endPosition>
+            </numbers:licenseOrCertificateOrPermitTypeCode>
+
+            <numbers:licenseNumberOrCertificateNumberOrPermitNumber>
+                <ci:startPosition>5</ci:startPosition>
+                <ci:endPosition>14</ci:endPosition>
+            </numbers:licenseNumberOrCertificateNumberOrPermitNumber>
+        </numbers:FiftyTwoRecordDataElement>
+
+        <numbers:FortyOneRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:ftzMerchandiseStatusCode>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>3</ci:endPosition>
+            </numbers:ftzMerchandiseStatusCode>
+
+            <numbers:privilegedFtzMerchandiseFilingDate>
+                <ci:startPosition>4</ci:startPosition>
+                <ci:endPosition>9</ci:endPosition>
+            </numbers:privilegedFtzMerchandiseFilingDate>
+
+            <numbers:ftzLineItemQuantity>
+                <ci:startPosition>10</ci:startPosition>
+                <ci:endPosition>19</ci:endPosition>
+            </numbers:ftzLineItemQuantity>
+        </numbers:FortyOneRecordDataElement>
+
+        <numbers:FortyFourRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:commercialDescriptionText>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>72</ci:endPosition>
+            </numbers:commercialDescriptionText>
+        </numbers:FortyFourRecordDataElement>
+
+        <numbers:FortyRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:lineItemIdentifier>
+                <ci:startPosition>5</ci:startPosition>
+                <ci:endPosition>7</ci:endPosition>
+            </numbers:lineItemIdentifier>
+
+            <numbers:articleSetIndicator>
+                <ci:startPosition>8</ci:startPosition>
+                <ci:endPosition>8</ci:endPosition>
+            </numbers:articleSetIndicator>
+
+            <numbers:countryOfOriginCode>
+                <ci:startPosition>9</ci:startPosition>
+                <ci:endPosition>10</ci:endPosition>
+            </numbers:countryOfOriginCode>
+
+            <numbers:countryOfExportCode>
+                <ci:startPosition>11</ci:startPosition>
+                <ci:endPosition>12</ci:endPosition>
+            </numbers:countryOfExportCode>
+
+            <numbers:dateOfExportation>
+                <ci:startPosition>13</ci:startPosition>
+                <ci:endPosition>18</ci:endPosition>
+            </numbers:dateOfExportation>
+
+            <numbers:dateOfExportationTextiles>
+                <ci:startPosition>19</ci:startPosition>
+                <ci:endPosition>24</ci:endPosition>
+            </numbers:dateOfExportationTextiles>
+
+            <numbers:tradeAgreementOrSpecialProgramClaimCode>
+                <ci:startPosition>25</ci:startPosition>
+                <ci:endPosition>26</ci:endPosition>
+            </numbers:tradeAgreementOrSpecialProgramClaimCode>
+
+            <numbers:chargesAmount>
+                <ci:startPosition>27</ci:startPosition>
+                <ci:endPosition>36</ci:endPosition>
+            </numbers:chargesAmount>
+
+            <numbers:foreignPortOfLadingCode>
+                <ci:startPosition>37</ci:startPosition>
+                <ci:endPosition>41</ci:endPosition>
+            </numbers:foreignPortOfLadingCode>
+
+            <numbers:grossShippingWeight>
+                <ci:startPosition>42</ci:startPosition>
+                <ci:endPosition>51</ci:endPosition>
+            </numbers:grossShippingWeight>
+
+            <numbers:categoryCodeTextiles>
+                <ci:startPosition>52</ci:startPosition>
+                <ci:endPosition>54</ci:endPosition>
+            </numbers:categoryCodeTextiles>
+
+            <numbers:productClaimCode>
+                <ci:startPosition>55</ci:startPosition>
+                <ci:endPosition>55</ci:endPosition>
+            </numbers:productClaimCode>
+
+            <numbers:relatedPartyIndicator>
+                <ci:startPosition>56</ci:startPosition>
+                <ci:endPosition>56</ci:endPosition>
+            </numbers:relatedPartyIndicator>
+
+            <numbers:naftaNetCostIndicator>
+                <ci:startPosition>57</ci:startPosition>
+                <ci:endPosition>57</ci:endPosition>
+            </numbers:naftaNetCostIndicator>
+
+            <numbers:feeExemptionCode>
+                <ci:startPosition>58</ci:startPosition>
+                <ci:endPosition>58</ci:endPosition>
+            </numbers:feeExemptionCode>
+
+            <numbers:adCaseNonReimbursementStatement>
+                <ci:startPosition>60</ci:startPosition>
+                <ci:endPosition>60</ci:endPosition>
+            </numbers:adCaseNonReimbursementStatement>
+        </numbers:FortyRecordDataElement>
+
+        <numbers:FortySevenRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:articlePartyTypeCode>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>3</ci:endPosition>
+            </numbers:articlePartyTypeCode>
+
+            <numbers:articlePartyIdentifier>
+                <ci:startPosition>4</ci:startPosition>
+                <ci:endPosition>18</ci:endPosition>
+            </numbers:articlePartyIdentifier>
+        </numbers:FortySevenRecordDataElement>
+
+        <numbers:FortyThreeRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:rulingTypeCode>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>3</ci:endPosition>
+            </numbers:rulingTypeCode>
+
+            <numbers:rulingNumber>
+                <ci:startPosition>9</ci:startPosition>
+                <ci:endPosition>14</ci:endPosition>
+            </numbers:rulingNumber>
+        </numbers:FortyThreeRecordDataElement>
+
+        <numbers:FortyTwoRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:supplierIdCode>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>17</ci:endPosition>
+            </numbers:supplierIdCode>
+
+            <numbers:invoiceNumber>
+                <ci:startPosition>18</ci:startPosition>
+                <ci:endPosition>34</ci:endPosition>
+            </numbers:invoiceNumber>
+
+            <numbers:invoiceLineRangeFirstBegin>
+                <ci:startPosition>36</ci:startPosition>
+                <ci:endPosition>39</ci:endPosition>
+            </numbers:invoiceLineRangeFirstBegin>
+
+            <numbers:invoiceLineRangeFirstEnd>
+                <ci:startPosition>41</ci:startPosition>
+                <ci:endPosition>44</ci:endPosition>
+            </numbers:invoiceLineRangeFirstEnd>
+
+            <numbers:invoiceLineRangeSecondBegin>
+                <ci:startPosition>46</ci:startPosition>
+                <ci:endPosition>49</ci:endPosition>
+            </numbers:invoiceLineRangeSecondBegin>
+
+            <numbers:invoiceLineRangeSecondEnd>
+                <ci:startPosition>51</ci:startPosition>
+                <ci:endPosition>54</ci:endPosition>
+            </numbers:invoiceLineRangeSecondEnd>
+
+            <numbers:invoiceLineRangeThirdBegin>
+                <ci:startPosition>56</ci:startPosition>
+                <ci:endPosition>59</ci:endPosition>
+            </numbers:invoiceLineRangeThirdBegin>
+
+            <numbers:invoiceLineRangeThirdEnd>
+                <ci:startPosition>61</ci:startPosition>
+                <ci:endPosition>64</ci:endPosition>
+            </numbers:invoiceLineRangeThirdEnd>
+
+            <numbers:invoiceLineRangeFourthBegin>
+                <ci:startPosition>66</ci:startPosition>
+                <ci:endPosition>69</ci:endPosition>
+            </numbers:invoiceLineRangeFourthBegin>
+
+            <numbers:invoiceLineRangeFourthEnd>
+                <ci:startPosition>71</ci:startPosition>
+                <ci:endPosition>74</ci:endPosition>
+            </numbers:invoiceLineRangeFourthEnd>
+        </numbers:FortyTwoRecordDataElement>
+
+        <numbers:NinetyRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:grandTotalDutyAmount>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>13</ci:endPosition>
+            </numbers:grandTotalDutyAmount>
+
+            <numbers:grandTotalUserFeeAmount>
+                <ci:startPosition>15</ci:startPosition>
+                <ci:endPosition>25</ci:endPosition>
+            </numbers:grandTotalUserFeeAmount>
+
+            <numbers:grandTotalIrTaxAmount>
+                <ci:startPosition>27</ci:startPosition>
+                <ci:endPosition>37</ci:endPosition>
+            </numbers:grandTotalIrTaxAmount>
+
+            <numbers:grandTotalAdDutyAmount>
+                <ci:startPosition>39</ci:startPosition>
+                <ci:endPosition>49</ci:endPosition>
+            </numbers:grandTotalAdDutyAmount>
+
+            <numbers:grandTotalCvDutyAmount>
+                <ci:startPosition>51</ci:startPosition>
+                <ci:endPosition>61</ci:endPosition>
+            </numbers:grandTotalCvDutyAmount>
+
+            <numbers:grandTotalOtherRevenueAmount>
+                <ci:startPosition>63</ci:startPosition>
+                <ci:endPosition>73</ci:endPosition>
+            </numbers:grandTotalOtherRevenueAmount>
+        </numbers:NinetyRecordDataElement>
+
+        <numbers:SixtyOneRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:accountingClassCode>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>5</ci:endPosition>
+            </numbers:accountingClassCode>
+
+            <numbers:otherRevenueAmount>
+                <ci:startPosition>6</ci:startPosition>
+                <ci:endPosition>15</ci:endPosition>
+            </numbers:otherRevenueAmount>
+        </numbers:SixtyOneRecordDataElement>
+
+        <numbers:SixtyRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:accountingClassCode>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>5</ci:endPosition>
+            </numbers:accountingClassCode>
+
+            <numbers:irTaxAmount>
+                <ci:startPosition>6</ci:startPosition>
+                <ci:endPosition>15</ci:endPosition>
+            </numbers:irTaxAmount>
+        </numbers:SixtyRecordDataElement>
+
+        <numbers:SixtyThreeRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:postSummaryCorrectionLineReasonCodeFirst>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>5</ci:endPosition>
+            </numbers:postSummaryCorrectionLineReasonCodeFirst>
+
+            <numbers:postSummaryCorrectionLineReasonCodeSecond>
+                <ci:startPosition>6</ci:startPosition>
+                <ci:endPosition>8</ci:endPosition>
+            </numbers:postSummaryCorrectionLineReasonCodeSecond>
+
+            <numbers:postSummaryCorrectionLineReasonCodeThird>
+                <ci:startPosition>9</ci:startPosition>
+                <ci:endPosition>11</ci:endPosition>
+            </numbers:postSummaryCorrectionLineReasonCodeThird>
+
+            <numbers:postSummaryCorrectionLineReasonCodeFourth>
+                <ci:startPosition>12</ci:startPosition>
+                <ci:endPosition>14</ci:endPosition>
+            </numbers:postSummaryCorrectionLineReasonCodeFourth>
+
+            <numbers:postSummaryCorrectionLineReasonCodeFifth>
+                <ci:startPosition>15</ci:startPosition>
+                <ci:endPosition>17</ci:endPosition>
+            </numbers:postSummaryCorrectionLineReasonCodeFifth>
+        </numbers:SixtyThreeRecordDataElement>
+
+        <numbers:SixtyTwoRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:accountingClassCode>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>5</ci:endPosition>
+            </numbers:accountingClassCode>
+
+            <numbers:userFeeAmount>
+                <ci:startPosition>6</ci:startPosition>
+                <ci:endPosition>13</ci:endPosition>
+            </numbers:userFeeAmount>
+        </numbers:SixtyTwoRecordDataElement>
+
+        <numbers:TenRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:summaryFilingActionRequestCode>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>3</ci:endPosition>
+            </numbers:summaryFilingActionRequestCode>
+
+            <numbers:entryFilerCode>
+                <ci:startPosition>4</ci:startPosition>
+                <ci:endPosition>6</ci:endPosition>
+            </numbers:entryFilerCode>
+
+            <numbers:entryNumber>
+                <ci:startPosition>9</ci:startPosition>
+                <ci:endPosition>16</ci:endPosition>
+            </numbers:entryNumber>
+
+            <numbers:districtOrPortOfEntry>
+                <ci:startPosition>18</ci:startPosition>
+                <ci:endPosition>21</ci:endPosition>
+            </numbers:districtOrPortOfEntry>
+
+            <numbers:brokerReferenceNumber>
+                <ci:startPosition>22</ci:startPosition>
+                <ci:endPosition>30</ci:endPosition>
+            </numbers:brokerReferenceNumber>
+
+            <numbers:entryTypeCode>
+                <ci:startPosition>34</ci:startPosition>
+                <ci:endPosition>35</ci:endPosition>
+            </numbers:entryTypeCode>
+
+            <numbers:modeOfTransportationCode>
+                <ci:startPosition>36</ci:startPosition>
+                <ci:endPosition>37</ci:endPosition>
+            </numbers:modeOfTransportationCode>
+
+            <numbers:bondWaiverIndicator>
+                <ci:startPosition>38</ci:startPosition>
+                <ci:endPosition>38</ci:endPosition>
+            </numbers:bondWaiverIndicator>
+
+            <numbers:electronicSignature>
+                <ci:startPosition>39</ci:startPosition>
+                <ci:endPosition>39</ci:endPosition>
+            </numbers:electronicSignature>
+
+            <numbers:cargoReleaseCertificationRequestIndicator>
+                <ci:startPosition>40</ci:startPosition>
+                <ci:endPosition>40</ci:endPosition>
+            </numbers:cargoReleaseCertificationRequestIndicator>
+
+            <numbers:electronicInvoiceIndicator>
+                <ci:startPosition>41</ci:startPosition>
+                <ci:endPosition>41</ci:endPosition>
+            </numbers:electronicInvoiceIndicator>
+
+            <numbers:consolidatedSummaryIndicator>
+                <ci:startPosition>42</ci:startPosition>
+                <ci:endPosition>42</ci:endPosition>
+            </numbers:consolidatedSummaryIndicator>
+
+            <numbers:shipmentUsageTypeCode>
+                <ci:startPosition>43</ci:startPosition>
+                <ci:endPosition>43</ci:endPosition>
+            </numbers:shipmentUsageTypeCode>
+
+            <numbers:liveEntryIndicator>
+                <ci:startPosition>44</ci:startPosition>
+                <ci:endPosition>44</ci:endPosition>
+            </numbers:liveEntryIndicator>
+
+            <numbers:deferredTaxPaymentCode>
+                <ci:startPosition>45</ci:startPosition>
+                <ci:endPosition>45</ci:endPosition>
+            </numbers:deferredTaxPaymentCode>
+
+            <numbers:tradeAgreementReconciliationIndicator>
+                <ci:startPosition>46</ci:startPosition>
+                <ci:endPosition>46</ci:endPosition>
+            </numbers:tradeAgreementReconciliationIndicator>
+
+            <numbers:reconciliationIssueCode>
+                <ci:startPosition>47</ci:startPosition>
+                <ci:endPosition>49</ci:endPosition>
+            </numbers:reconciliationIssueCode>
+
+            <numbers:paymentTypeCode>
+                <ci:startPosition>51</ci:startPosition>
+                <ci:endPosition>51</ci:endPosition>
+            </numbers:paymentTypeCode>
+
+            <numbers:preliminaryStatementPrintDate>
+                <ci:startPosition>52</ci:startPosition>
+                <ci:endPosition>57</ci:endPosition>
+            </numbers:preliminaryStatementPrintDate>
+
+            <numbers:periodicStatementMonth>
+                <ci:startPosition>58</ci:startPosition>
+                <ci:endPosition>59</ci:endPosition>
+            </numbers:periodicStatementMonth>
+
+            <numbers:statementClientBranchIdentifier>
+                <ci:startPosition>60</ci:startPosition>
+                <ci:endPosition>61</ci:endPosition>
+            </numbers:statementClientBranchIdentifier>
+
+            <numbers:bondWaiverReasonCode>
+                <ci:startPosition>62</ci:startPosition>
+                <ci:endPosition>64</ci:endPosition>
+            </numbers:bondWaiverReasonCode>
+
+            <numbers:postSummaryCorrectionIndicator>
+                <ci:startPosition>65</ci:startPosition>
+                <ci:endPosition>65</ci:endPosition>
+            </numbers:postSummaryCorrectionIndicator>
+
+            <numbers:acceleratedLiquidationRequestIndicator>
+                <ci:startPosition>66</ci:startPosition>
+                <ci:endPosition>66</ci:endPosition>
+            </numbers:acceleratedLiquidationRequestIndicator>
+
+            <numbers:knownImporterIndicator>
+                <ci:startPosition>67</ci:startPosition>
+                <ci:endPosition>67</ci:endPosition>
+            </numbers:knownImporterIndicator>
+
+            <numbers:pgaDataIncludedIndicator>
+                <ci:startPosition>68</ci:startPosition>
+                <ci:endPosition>68</ci:endPosition>
+            </numbers:pgaDataIncludedIndicator>
+
+            <numbers:tibDeclarationIndicator>
+                <ci:startPosition>69</ci:startPosition>
+                <ci:endPosition>69</ci:endPosition>
+            </numbers:tibDeclarationIndicator>
+        </numbers:TenRecordDataElement>
+
+        <numbers:ThirtyFiveRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:postSummaryCorrectionHeaderReasonCodeFirst>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>5</ci:endPosition>
+            </numbers:postSummaryCorrectionHeaderReasonCodeFirst>
+
+            <numbers:postSummaryCorrectionHeaderReasonCodeSecond>
+                <ci:startPosition>6</ci:startPosition>
+                <ci:endPosition>8</ci:endPosition>
+            </numbers:postSummaryCorrectionHeaderReasonCodeSecond>
+
+            <numbers:postSummaryCorrectionHeaderReasonCodeThird>
+                <ci:startPosition>9</ci:startPosition>
+                <ci:endPosition>11</ci:endPosition>
+            </numbers:postSummaryCorrectionHeaderReasonCodeThird>
+
+            <numbers:postSummaryCorrectionHeaderReasonCodeFourth>
+                <ci:startPosition>12</ci:startPosition>
+                <ci:endPosition>14</ci:endPosition>
+            </numbers:postSummaryCorrectionHeaderReasonCodeFourth>
+
+            <numbers:postSummaryCorrectionHeaderReasonCodeFifth>
+                <ci:startPosition>15</ci:startPosition>
+                <ci:endPosition>17</ci:endPosition>
+            </numbers:postSummaryCorrectionHeaderReasonCodeFifth>
+        </numbers:ThirtyFiveRecordDataElement>
+
+        <numbers:ThirtyFourRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:accountingClassCodeFirst>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>5</ci:endPosition>
+            </numbers:accountingClassCodeFirst>
+
+            <numbers:headerFeeAmountFirst>
+                <ci:startPosition>6</ci:startPosition>
+                <ci:endPosition>13</ci:endPosition>
+            </numbers:headerFeeAmountFirst>
+
+            <numbers:accountingClassCodeSecond>
+                <ci:startPosition>14</ci:startPosition>
+                <ci:endPosition>16</ci:endPosition>
+            </numbers:accountingClassCodeSecond>
+
+            <numbers:headerFeeAmountSecond>
+                <ci:startPosition>17</ci:startPosition>
+                <ci:endPosition>24</ci:endPosition>
+            </numbers:headerFeeAmountSecond>
+        </numbers:ThirtyFourRecordDataElement>
+
+        <numbers:ThirtyOneRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:bondTypeCode>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>5</ci:endPosition>
+            </numbers:bondTypeCode>
+
+            <numbers:bondDesignationTypeCode>
+                <ci:startPosition>4</ci:startPosition>
+                <ci:endPosition>4</ci:endPosition>
+            </numbers:bondDesignationTypeCode>
+
+            <numbers:continuousBondIndicator>
+                <ci:startPosition>5</ci:startPosition>
+                <ci:endPosition>5</ci:endPosition>
+            </numbers:continuousBondIndicator>
+
+            <numbers:suretyCompanyCode>
+                <ci:startPosition>6</ci:startPosition>
+                <ci:endPosition>8</ci:endPosition>
+            </numbers:suretyCompanyCode>
+
+            <numbers:singleTransactionBondAmount>
+                <ci:startPosition>9</ci:startPosition>
+                <ci:endPosition>18</ci:endPosition>
+            </numbers:singleTransactionBondAmount>
+
+            <numbers:singleTransactionBondProducerAccountNumber>
+                <ci:startPosition>19</ci:startPosition>
+                <ci:endPosition>28</ci:endPosition>
+            </numbers:singleTransactionBondProducerAccountNumber>
+        </numbers:ThirtyOneRecordDataElement>
+
+        <numbers:ThirtyRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:associatedWarehouseEntryFilerCode>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>5</ci:endPosition>
+            </numbers:associatedWarehouseEntryFilerCode>
+
+            <numbers:associatedWarehouseEntryNumber>
+                <ci:startPosition>8</ci:startPosition>
+                <ci:endPosition>15</ci:endPosition>
+            </numbers:associatedWarehouseEntryNumber>
+
+            <numbers:associatedWarehouseEntryDistrictOrPortCode>
+                <ci:startPosition>17</ci:startPosition>
+                <ci:endPosition>20</ci:endPosition>
+            </numbers:associatedWarehouseEntryDistrictOrPortCode>
+
+            <numbers:finalWarehouseWithdrawalIndicator>
+                <ci:startPosition>21</ci:startPosition>
+                <ci:endPosition>21</ci:endPosition>
+            </numbers:finalWarehouseWithdrawalIndicator>
+        </numbers:ThirtyRecordDataElement>
+
+        <numbers:ThirtySixRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:pscFilingExplanationText>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>77</ci:endPosition>
+            </numbers:pscFilingExplanationText>
+        </numbers:ThirtySixRecordDataElement>
+
+        <numbers:ThirtyThreeRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:missingDocumentCodeFirst>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>4</ci:endPosition>
+            </numbers:missingDocumentCodeFirst>
+
+            <numbers:missingDocumentCodeSecond>
+                <ci:startPosition>5</ci:startPosition>
+                <ci:endPosition>6</ci:endPosition>
+            </numbers:missingDocumentCodeSecond>
+        </numbers:ThirtyThreeRecordDataElement>
+
+        <numbers:ThirtyTwoRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:releaseEntryFilerCodeFirst>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>5</ci:endPosition>
+            </numbers:releaseEntryFilerCodeFirst>
+
+            <numbers:releaseEntryNumberFirst>
+                <ci:startPosition>8</ci:startPosition>
+                <ci:endPosition>15</ci:endPosition>
+            </numbers:releaseEntryNumberFirst>
+
+            <numbers:releaseEntryFilerCodeSecond>
+                <ci:startPosition>16</ci:startPosition>
+                <ci:endPosition>18</ci:endPosition>
+            </numbers:releaseEntryFilerCodeSecond>
+
+            <numbers:releaseEntryNumberSecond>
+                <ci:startPosition>21</ci:startPosition>
+                <ci:endPosition>28</ci:endPosition>
+            </numbers:releaseEntryNumberSecond>
+
+            <numbers:releaseEntryFilerCodeThird>
+                <ci:startPosition>29</ci:startPosition>
+                <ci:endPosition>31</ci:endPosition>
+            </numbers:releaseEntryFilerCodeThird>
+
+            <numbers:releaseEntryNumberThird>
+                <ci:startPosition>34</ci:startPosition>
+                <ci:endPosition>41</ci:endPosition>
+            </numbers:releaseEntryNumberThird>
+
+            <numbers:releaseEntryFilerCodeFourth>
+                <ci:startPosition>42</ci:startPosition>
+                <ci:endPosition>44</ci:endPosition>
+            </numbers:releaseEntryFilerCodeFourth>
+
+            <numbers:releaseEntryNumberFourth>
+                <ci:startPosition>47</ci:startPosition>
+                <ci:endPosition>54</ci:endPosition>
+            </numbers:releaseEntryNumberFourth>
+
+            <numbers:releaseEntryFilerCodeFifth>
+                <ci:startPosition>55</ci:startPosition>
+                <ci:endPosition>57</ci:endPosition>
+            </numbers:releaseEntryFilerCodeFifth>
+
+            <numbers:releaseEntryNumberFifth>
+                <ci:startPosition>60</ci:startPosition>
+                <ci:endPosition>67</ci:endPosition>
+            </numbers:releaseEntryNumberFifth>
+
+            <numbers:releaseEntryFilerCodeSixth>
+                <ci:startPosition>68</ci:startPosition>
+                <ci:endPosition>70</ci:endPosition>
+            </numbers:releaseEntryFilerCodeSixth>
+
+            <numbers:releaseEntryNumberSixth>
+                <ci:startPosition>73</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </numbers:releaseEntryNumberSixth>
+        </numbers:ThirtyTwoRecordDataElement>
+
+        <numbers:TwentyOneRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:tripIdentifier>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>7</ci:endPosition>
+            </numbers:tripIdentifier>
+        </numbers:TwentyOneRecordDataElement>
+
+        <numbers:TwentyRecordDataElement>
+            <numbers:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>2</ci:endPosition>
+            </numbers:controlIdentifier>
+
+            <numbers:carrierCode>
+                <ci:startPosition>3</ci:startPosition>
+                <ci:endPosition>6</ci:endPosition>
+            </numbers:carrierCode>
+
+            <numbers:districtOrPortOfUnlading>
+                <ci:startPosition>7</ci:startPosition>
+                <ci:endPosition>10</ci:endPosition>
+            </numbers:districtOrPortOfUnlading>
+
+            <numbers:estimatedDateOfArrival>
+                <ci:startPosition>11</ci:startPosition>
+                <ci:endPosition>16</ci:endPosition>
+            </numbers:estimatedDateOfArrival>
+
+            <numbers:locationOfGoodsCode>
+                <ci:startPosition>17</ci:startPosition>
+                <ci:endPosition>20</ci:endPosition>
+            </numbers:locationOfGoodsCode>
+
+            <numbers:conveyanceName>
+                <ci:startPosition>21</ci:startPosition>
+                <ci:endPosition>40</ci:endPosition>
+            </numbers:conveyanceName>
+
+            <numbers:vesselCode>
+                <ci:startPosition>41</ci:startPosition>
+                <ci:endPosition>47</ci:endPosition>
+            </numbers:vesselCode>
+
+            <numbers:designatedExamPortCode>
+                <ci:startPosition>48</ci:startPosition>
+                <ci:endPosition>51</ci:endPosition>
+            </numbers:designatedExamPortCode>
+
+            <numbers:inBondOrInTransitDate>
+                <ci:startPosition>52</ci:startPosition>
+                <ci:endPosition>57</ci:endPosition>
+            </numbers:inBondOrInTransitDate>
+        </numbers:TwentyRecordDataElement>
+    </this:Numbers>
+
+    <this:CW02RecordDataElement>
+        <cw:controlIdentifier>
+            <ci:startPosition>1</ci:startPosition>
+            <ci:endPosition>4</ci:endPosition>
+        </cw:controlIdentifier>
+
+        <cw:censusWarningConditionCodeFirst>
+            <ci:startPosition>10</ci:startPosition>
+            <ci:endPosition>12</ci:endPosition>
+        </cw:censusWarningConditionCodeFirst>
+
+        <cw:censusWarningConditionOverrideCodeFirst>
+            <ci:startPosition>13</ci:startPosition>
+            <ci:endPosition>14</ci:endPosition>
+        </cw:censusWarningConditionOverrideCodeFirst>
+
+        <cw:censusWarningConditionCodeSecond>
+            <ci:startPosition>15</ci:startPosition>
+            <ci:endPosition>17</ci:endPosition>
+        </cw:censusWarningConditionCodeSecond>
+
+        <cw:censusWarningConditionOverrideCodeSecond>
+            <ci:startPosition>18</ci:startPosition>
+            <ci:endPosition>19</ci:endPosition>
+        </cw:censusWarningConditionOverrideCodeSecond>
+
+        <cw:censusWarningConditionCodeThird>
+            <ci:startPosition>20</ci:startPosition>
+            <ci:endPosition>22</ci:endPosition>
+        </cw:censusWarningConditionCodeThird>
+
+        <cw:censusWarningConditionOverrideCodeThird>
+            <ci:startPosition>23</ci:startPosition>
+            <ci:endPosition>24</ci:endPosition>
+        </cw:censusWarningConditionOverrideCodeThird>
+
+        <cw:censusWarningConditionCodeFourth>
+            <ci:startPosition>25</ci:startPosition>
+            <ci:endPosition>27</ci:endPosition>
+        </cw:censusWarningConditionCodeFourth>
+
+        <cw:censusWarningConditionOverrideCodeFourth>
+            <ci:startPosition>28</ci:startPosition>
+            <ci:endPosition>29</ci:endPosition>
+        </cw:censusWarningConditionOverrideCodeFourth>
+
+        <cw:censusWarningConditionCodeFifth>
+            <ci:startPosition>30</ci:startPosition>
+            <ci:endPosition>32</ci:endPosition>
+        </cw:censusWarningConditionCodeFifth>
+
+        <cw:censusWarningConditionOverrideCodeFifth>
+            <ci:startPosition>33</ci:startPosition>
+            <ci:endPosition>34</ci:endPosition>
+        </cw:censusWarningConditionOverrideCodeFifth>
+
+        <cw:censusWarningConditionCodeSixth>
+            <ci:startPosition>35</ci:startPosition>
+            <ci:endPosition>37</ci:endPosition>
+        </cw:censusWarningConditionCodeSixth>
+
+        <cw:censusWarningConditionOverrideCodeSixth>
+            <ci:startPosition>38</ci:startPosition>
+            <ci:endPosition>39</ci:endPosition>
+        </cw:censusWarningConditionOverrideCodeSixth>
+
+        <cw:censusWarningConditionCodeSeventh>
+            <ci:startPosition>40</ci:startPosition>
+            <ci:endPosition>42</ci:endPosition>
+        </cw:censusWarningConditionCodeSeventh>
+
+        <cw:censusWarningConditionOverrideCodeSeventh>
+            <ci:startPosition>43</ci:startPosition>
+            <ci:endPosition>44</ci:endPosition>
+        </cw:censusWarningConditionOverrideCodeSeventh>
+    </this:CW02RecordDataElement>
+
+    <this:E0RecordDataElement>
+        <e0:controlIdentifier>
+            <ci:startPosition>1</ci:startPosition>
+            <ci:endPosition>2</ci:endPosition>
+        </e0:controlIdentifier>
+
+        <e0:referenceDataTypeCode>
+            <ci:startPosition>4</ci:startPosition>
+            <ci:endPosition>9</ci:endPosition>
+        </e0:referenceDataTypeCode>
+
+        <e0:occurrencePosition>
+            <ci:startPosition>11</ci:startPosition>
+            <ci:endPosition>16</ci:endPosition>
+        </e0:occurrencePosition>
+
+        <e0:referenceIdConstant>
+            <ci:startPosition>18</ci:startPosition>
+            <ci:endPosition>24</ci:endPosition>
+        </e0:referenceIdConstant>
+
+        <e0:referenceDataText>
+            <co:refPosition>
+                <ci:startPosition>4</ci:startPosition>
+                <ci:endPosition>9</ci:endPosition>
+            </co:refPosition>
+            <co:pathToPackage>com.onenetwork.model.ae_ax.e0.reference</co:pathToPackage>
+        </e0:referenceDataText>
+    </this:E0RecordDataElement>
+
+    <this:E0Reference>
+        <e0reference:ADDCVD>
+            <e0reference:caseNumber>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>35</ci:endPosition>
+            </e0reference:caseNumber>
+        </e0reference:ADDCVD>
+        
+        <e0reference:ARPART>
+            <e0reference:articlePartyIdentifierTypeCode>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>26</ci:endPosition>
+            </e0reference:articlePartyIdentifierTypeCode>
+            <e0reference:articlePartyIdentifier>
+                <ci:startPosition>28</ci:startPosition>
+                <ci:endPosition>42</ci:endPosition>
+            </e0reference:articlePartyIdentifier>
+        </e0reference:ARPART>
+        
+        <e0reference:BNDDTL>
+            <e0reference:bondTypeCode>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>26</ci:endPosition>
+            </e0reference:bondTypeCode>
+            <e0reference:bondDesignationTypeCode>
+                <ci:startPosition>28</ci:startPosition>
+                <ci:endPosition>28</ci:endPosition>
+            </e0reference:bondDesignationTypeCode>
+            <e0reference:suretyCompanyCode>
+                <ci:startPosition>30</ci:startPosition>
+                <ci:endPosition>32</ci:endPosition>
+            </e0reference:suretyCompanyCode>
+        </e0reference:BNDDTL>
+        
+        <e0reference:BOLINB>
+            <e0reference:manifestComponentTypeCode>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>26</ci:endPosition>
+            </e0reference:manifestComponentTypeCode>
+            <e0reference:manifestComponentIdentifier>
+                <ci:startPosition>28</ci:startPosition>
+                <ci:endPosition>39</ci:endPosition>
+            </e0reference:manifestComponentIdentifier>
+        </e0reference:BOLINB>
+        
+        <e0reference:CARMAN>
+            <e0reference:manifestedQuantity>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>33</ci:endPosition>
+            </e0reference:manifestedQuantity>
+            <e0reference:manifestedQuantityUnitOfMeasureCode>
+                <ci:startPosition>35</ci:startPosition>
+                <ci:endPosition>39</ci:endPosition>
+            </e0reference:manifestedQuantityUnitOfMeasureCode>
+        </e0reference:CARMAN>
+
+        <e0reference:CENWRN>
+            <e0reference:censusWarningConditionCode>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>28</ci:endPosition>
+            </e0reference:censusWarningConditionCode>
+            <e0reference:censusWarningConditionOverrideCode>
+                <ci:startPosition>30</ci:startPosition>
+                <ci:endPosition>31</ci:endPosition>
+            </e0reference:censusWarningConditionOverrideCode>
+        </e0reference:CENWRN>
+
+        <e0reference:COMDES>
+            <e0reference:commercialDescriptionText>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:commercialDescriptionText>
+        </e0reference:COMDES>
+
+        <e0reference:CONREL>
+            <e0reference:releaseEntryFilerCode>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>28</ci:endPosition>
+            </e0reference:releaseEntryFilerCode>
+            <e0reference:releaseEntryNumber>
+                <ci:startPosition>31</ci:startPosition>
+                <ci:endPosition>38</ci:endPosition>
+            </e0reference:releaseEntryNumber>
+        </e0reference:CONREL>
+
+        <e0reference:EIPINV>
+            <e0reference:supplierIdCode>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>40</ci:endPosition>
+            </e0reference:supplierIdCode>
+            <e0reference:invoiceNumber>
+                <ci:startPosition>42</ci:startPosition>
+                <ci:endPosition>58</ci:endPosition>
+            </e0reference:invoiceNumber>
+        </e0reference:EIPINV>
+
+        <e0reference:FEETOT>
+            <e0reference:accountingClassCode>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>28</ci:endPosition>
+            </e0reference:accountingClassCode>
+            <e0reference:totalFeeAmount>
+                <ci:startPosition>30</ci:startPosition>
+                <ci:endPosition>40</ci:endPosition>
+            </e0reference:totalFeeAmount>
+        </e0reference:FEETOT>
+
+        <e0reference:HDRFEE>
+            <e0reference:accountingClassCode>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>28</ci:endPosition>
+            </e0reference:accountingClassCode>
+            <e0reference:headerFeeAmount>
+                <ci:startPosition>30</ci:startPosition>
+                <ci:endPosition>37</ci:endPosition>
+            </e0reference:headerFeeAmount>
+        </e0reference:HDRFEE>
+
+        <e0reference:INVLIN>
+            <e0reference:invoiceLineRangeBegin>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>29</ci:endPosition>
+            </e0reference:invoiceLineRangeBegin>
+            <e0reference:invoiceLineRangeEnd>
+                <ci:startPosition>31</ci:startPosition>
+                <ci:endPosition>34</ci:endPosition>
+            </e0reference:invoiceLineRangeEnd>
+        </e0reference:INVLIN>
+
+        <e0reference:LICNSE>
+            <e0reference:licenseOrCertificateOrPermitTypeCode>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>27</ci:endPosition>
+            </e0reference:licenseOrCertificateOrPermitTypeCode>
+            <e0reference:licenseNumberOrCertificateNumberOrPermitNumber>
+                <ci:startPosition>29</ci:startPosition>
+                <ci:endPosition>38</ci:endPosition>
+            </e0reference:licenseNumberOrCertificateNumberOrPermitNumber>
+        </e0reference:LICNSE>
+
+        <e0reference:LINFEE>
+            <e0reference:accountingClassCode>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>28</ci:endPosition>
+            </e0reference:accountingClassCode>
+            <e0reference:userFeeAmount>
+                <ci:startPosition>30</ci:startPosition>
+                <ci:endPosition>37</ci:endPosition>
+            </e0reference:userFeeAmount>
+        </e0reference:LINFEE>
+
+        <e0reference:LINITM>
+            <e0reference:lineItemIdentifier>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>28</ci:endPosition>
+            </e0reference:lineItemIdentifier>
+        </e0reference:LINITM>
+
+        <e0reference:MISDOC>
+            <e0reference:missingDocumentCode>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>27</ci:endPosition>
+            </e0reference:missingDocumentCode>
+        </e0reference:MISDOC>
+        
+        <e0reference:PG01>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG01>
+
+        <e0reference:PG02>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG02>
+
+        <e0reference:PG04>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG04>
+
+        <e0reference:PG05>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG05>
+
+        <e0reference:PG06>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG06>
+
+        <e0reference:PG07>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG07>
+
+        <e0reference:PG08>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG08>
+
+        <e0reference:PG10>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG10>
+
+        <e0reference:PG13>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG13>
+
+        <e0reference:PG14>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG14>
+
+        <e0reference:PG17>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG17>
+
+        <e0reference:PG18>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG18>
+
+        <e0reference:PG19>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG19>
+
+        <e0reference:PG20>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG20>
+
+        <e0reference:PG21>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG21>
+
+        <e0reference:PG22>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG22>
+
+        <e0reference:PG23>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG23>
+
+        <e0reference:PG24>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG24>
+
+        <e0reference:PG25>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG25>
+
+        <e0reference:PG26>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG26>
+
+        <e0reference:PG27>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG27>
+
+        <e0reference:PG28>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG28>
+
+        <e0reference:PG29>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG29>
+
+        <e0reference:PG30>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG30>
+
+        <e0reference:PG31>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG31>
+
+        <e0reference:PG32>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG32>
+
+        <e0reference:PG33>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG33>
+
+        <e0reference:PG34>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG34>
+
+        <e0reference:PG35>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG35>
+
+        <e0reference:PG55>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PG55>
+
+        <e0reference:PGOI>
+            <e0reference:pertinentPortionOfCorrespondingPgarecord>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pertinentPortionOfCorrespondingPgarecord>
+        </e0reference:PGOI>
+
+        <e0reference:PSCEXP>
+            <e0reference:pscFilingExplanationText>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>80</ci:endPosition>
+            </e0reference:pscFilingExplanationText>
+        </e0reference:PSCEXP>
+
+        <e0reference:PSCHRE>
+            <e0reference:postSummaryCorrectionHeaderReasonCode>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>28</ci:endPosition>
+            </e0reference:postSummaryCorrectionHeaderReasonCode>
+        </e0reference:PSCHRE>
+
+        <e0reference:PSCLRE>
+            <e0reference:postSummaryCorrectionLineReasonCode>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>28</ci:endPosition>
+            </e0reference:postSummaryCorrectionLineReasonCode>
+        </e0reference:PSCLRE>
+
+        <e0reference:PSTLIN>
+            <e0reference:entryFilerCode>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>28</ci:endPosition>
+            </e0reference:entryFilerCode>
+            <e0reference:entryNumber>
+                <ci:startPosition>30</ci:startPosition>
+                <ci:endPosition>37</ci:endPosition>
+            </e0reference:entryNumber>
+            <e0reference:brokerReferenceNumber>
+                <ci:startPosition>39</ci:startPosition>
+                <ci:endPosition>50</ci:endPosition>
+            </e0reference:brokerReferenceNumber>
+        </e0reference:PSTLIN>
+
+        <e0reference:SUMMRY>
+            <e0reference:entryFilerCode>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>28</ci:endPosition>
+            </e0reference:entryFilerCode>
+            <e0reference:entryNumber>
+                <ci:startPosition>30</ci:startPosition>
+                <ci:endPosition>37</ci:endPosition>
+            </e0reference:entryNumber>
+            <e0reference:brokerReferenceNumber>
+                <ci:startPosition>39</ci:startPosition>
+                <ci:endPosition>50</ci:endPosition>
+            </e0reference:brokerReferenceNumber>
+            <e0reference:cbpTeamNumber>
+                <ci:startPosition>52</ci:startPosition>
+                <ci:endPosition>54</ci:endPosition>
+            </e0reference:cbpTeamNumber>
+        </e0reference:SUMMRY>
+        
+        <e0reference:TARIFF>
+            <e0reference:htsNumber>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>35</ci:endPosition>
+            </e0reference:htsNumber>
+        </e0reference:TARIFF>
+
+        <e0reference:TARQTY>
+            <e0reference:quantity>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>37</ci:endPosition>
+            </e0reference:quantity>
+            <e0reference:unitOfMeasureCode>
+                <ci:startPosition>39</ci:startPosition>
+                <ci:endPosition>41</ci:endPosition>
+            </e0reference:unitOfMeasureCode>
+        </e0reference:TARQTY>
+        
+        <e0reference:TOTALS>
+            <e0reference:entryFilerCode>
+                <ci:startPosition>26</ci:startPosition>
+                <ci:endPosition>28</ci:endPosition>
+            </e0reference:entryFilerCode>
+            <e0reference:entryNumber>
+                <ci:startPosition>30</ci:startPosition>
+                <ci:endPosition>37</ci:endPosition>
+            </e0reference:entryNumber>
+            <e0reference:brokerReferenceNumber>
+                <ci:startPosition>39</ci:startPosition>
+                <ci:endPosition>50</ci:endPosition>
+            </e0reference:brokerReferenceNumber>
+        </e0reference:TOTALS>
+    </this:E0Reference>
+
+    <this:E1RecordDataElement>
+        <e1:controlIdentifier>
+            <ci:startPosition>1</ci:startPosition>
+            <ci:endPosition>2</ci:endPosition>
+        </e1:controlIdentifier>
+
+        <e1:dispositionTypeCode>
+            <ci:startPosition>3</ci:startPosition>
+            <ci:endPosition>3</ci:endPosition>
+        </e1:dispositionTypeCode>
+
+        <e1:severityCode>
+            <ci:startPosition>4</ci:startPosition>
+            <ci:endPosition>4</ci:endPosition>
+        </e1:severityCode>
+
+        <e1:conditionCode>
+            <ci:startPosition>5</ci:startPosition>
+            <ci:endPosition>7</ci:endPosition>
+        </e1:conditionCode>
+
+        <e1:reasonCode>
+            <ci:startPosition>8</ci:startPosition>
+            <ci:endPosition>10</ci:endPosition>
+        </e1:reasonCode>
+
+        <e1:narrativeText>
+            <ci:startPosition>11</ci:startPosition>
+            <ci:endPosition>50</ci:endPosition>
+        </e1:narrativeText>
+
+        <e1:entryFilerCode>
+            <ci:startPosition>51</ci:startPosition>
+            <ci:endPosition>53</ci:endPosition>
+        </e1:entryFilerCode>
+
+        <e1:entryFilerNumber>
+            <ci:startPosition>56</ci:startPosition>
+            <ci:endPosition>63</ci:endPosition>
+        </e1:entryFilerNumber>
+
+        <e1:versionNumber>
+            <ci:startPosition>64</ci:startPosition>
+            <ci:endPosition>68</ci:endPosition>
+        </e1:versionNumber>
+
+        <e1:brokerReferenceNumber>
+            <ci:startPosition>69</ci:startPosition>
+            <ci:endPosition>77</ci:endPosition>
+        </e1:brokerReferenceNumber>
+    </this:E1RecordDataElement>
+
+    <this:OIRecordDataElement>
+        <oi:controlIdentifier>
+            <ci:startPosition>1</ci:startPosition>
+            <ci:endPosition>2</ci:endPosition>
+        </oi:controlIdentifier>
+
+        <oi:commercialDescriptionText>
+            <ci:startPosition>11</ci:startPosition>
+            <ci:endPosition>80</ci:endPosition>
+        </oi:commercialDescriptionText>
+    </this:OIRecordDataElement>
+
+    <this:SEGlobal>
+        <se:SE13RecordDataElement>
+            <se:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>4</ci:endPosition>
+            </se:controlIdentifier>
+            <se:contactName>
+                <ci:startPosition>5</ci:startPosition>
+                <ci:endPosition>44</ci:endPosition>
+            </se:contactName>
+            <se:contactPhone>
+                <ci:startPosition>45</ci:startPosition>
+                <ci:endPosition>59</ci:endPosition>
+            </se:contactPhone>
+            <se:disIndicator>
+                <ci:startPosition>60</ci:startPosition>
+                <ci:endPosition>60</ci:endPosition>
+            </se:disIndicator>
+        </se:SE13RecordDataElement>
+        
+        <se:SE16RecordDataElement>
+            <se:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>4</ci:endPosition>
+            </se:controlIdentifier>
+            <se:carrierCode>
+                <ci:startPosition>5</ci:startPosition>
+                <ci:endPosition>8</ci:endPosition>
+            </se:carrierCode>
+            <se:voyageOrFlightOrTripManifestNumber>
+                <ci:startPosition>9</ci:startPosition>
+                <ci:endPosition>13</ci:endPosition>
+            </se:voyageOrFlightOrTripManifestNumber>
+            <se:dateOfArrival>
+                <ci:startPosition>14</ci:startPosition>
+                <ci:endPosition>19</ci:endPosition>
+            </se:dateOfArrival>
+            <se:quantity>
+                <ci:startPosition>20</ci:startPosition>
+                <ci:endPosition>27</ci:endPosition>
+            </se:quantity>
+            <se:unitOfMeasure>
+                <ci:startPosition>28</ci:startPosition>
+                <ci:endPosition>32</ci:endPosition>
+            </se:unitOfMeasure>
+            <se:conveyanceName>
+                <ci:startPosition>33</ci:startPosition>
+                <ci:endPosition>52</ci:endPosition>
+            </se:conveyanceName>
+        </se:SE16RecordDataElement>
+        
+        <se:SE17RecordDataElement>
+            <se:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>4</ci:endPosition>
+            </se:controlIdentifier>
+            <se:equipmentNumber>
+                <ci:startPosition>5</ci:startPosition>
+                <ci:endPosition>24</ci:endPosition>
+            </se:equipmentNumber>
+        </se:SE17RecordDataElement>
+        
+        <se:SE20RecordDataElement>
+            <se:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>4</ci:endPosition>
+            </se:controlIdentifier>
+            <se:referenceIdentifierQualifier>
+                <ci:startPosition>5</ci:startPosition>
+                <ci:endPosition>7</ci:endPosition>
+            </se:referenceIdentifierQualifier>
+            <se:referenceIdentifier>
+                <ci:startPosition>8</ci:startPosition>
+                <ci:endPosition>57</ci:endPosition>
+            </se:referenceIdentifier>
+        </se:SE20RecordDataElement>
+        
+        <se:SE30RecordDataElement>
+            <se:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>4</ci:endPosition>
+            </se:controlIdentifier>
+            <se:entityCode>
+                <ci:startPosition>5</ci:startPosition>
+                <ci:endPosition>7</ci:endPosition>
+            </se:entityCode>
+            <se:entityName>
+                <ci:startPosition>8</ci:startPosition>
+                <ci:endPosition>42</ci:endPosition>
+            </se:entityName>
+            <se:entityIdentifierQualifier>
+                <ci:startPosition>43</ci:startPosition>
+                <ci:endPosition>45</ci:endPosition>
+            </se:entityIdentifierQualifier>
+            <se:entityIdentifier>
+                <ci:startPosition>46</ci:startPosition>
+                <ci:endPosition>65</ci:endPosition>
+            </se:entityIdentifier>
+        </se:SE30RecordDataElement>
+        
+        <se:SE35RecordDataElement>
+            <se:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>4</ci:endPosition>
+            </se:controlIdentifier>
+            <se:addressComponentQualifierFirst>
+                <ci:startPosition>5</ci:startPosition>
+                <ci:endPosition>6</ci:endPosition>
+            </se:addressComponentQualifierFirst>
+            <se:addressInformationFirst>
+                <ci:startPosition>7</ci:startPosition>
+                <ci:endPosition>41</ci:endPosition>
+            </se:addressInformationFirst>
+            <se:addressComponentQualifierSecond>
+                <ci:startPosition>42</ci:startPosition>
+                <ci:endPosition>43</ci:endPosition>
+            </se:addressComponentQualifierSecond>
+            <se:addressInformationSecond>
+                <ci:startPosition>44</ci:startPosition>
+                <ci:endPosition>78</ci:endPosition>
+            </se:addressInformationSecond>
+        </se:SE35RecordDataElement>
+        
+        <se:SE36RecordDataElement>
+            <se:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>4</ci:endPosition>
+            </se:controlIdentifier>
+            <se:cityName>
+                <ci:startPosition>5</ci:startPosition>
+                <ci:endPosition>39</ci:endPosition>
+            </se:cityName>
+            <se:countrySubEntityCode>
+                <ci:startPosition>40</ci:startPosition>
+                <ci:endPosition>42</ci:endPosition>
+            </se:countrySubEntityCode>
+            <se:postalCode>
+                <ci:startPosition>49</ci:startPosition>
+                <ci:endPosition>63</ci:endPosition>
+            </se:postalCode>
+            <se:countryCode>
+                <ci:startPosition>64</ci:startPosition>
+                <ci:endPosition>65</ci:endPosition>
+            </se:countryCode>
+        </se:SE36RecordDataElement>
+        
+        <se:SE50RecordDataElement>
+            <se:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>4</ci:endPosition>
+            </se:controlIdentifier>
+            <se:entityCode>
+                <ci:startPosition>5</ci:startPosition>
+                <ci:endPosition>7</ci:endPosition>
+            </se:entityCode>
+            <se:entityName>
+                <ci:startPosition>8</ci:startPosition>
+                <ci:endPosition>42</ci:endPosition>
+            </se:entityName>
+            <se:entityIdentifierQualifier>
+                <ci:startPosition>43</ci:startPosition>
+                <ci:endPosition>45</ci:endPosition>
+            </se:entityIdentifierQualifier>
+            <se:entityIdentifier>
+                <ci:startPosition>46</ci:startPosition>
+                <ci:endPosition>65</ci:endPosition>
+            </se:entityIdentifier>
+        </se:SE50RecordDataElement>
+        
+        <se:SE55RecordDataElement>
+            <se:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>4</ci:endPosition>
+            </se:controlIdentifier>
+            <se:addressComponentQualifierFirst>
+                <ci:startPosition>5</ci:startPosition>
+                <ci:endPosition>6</ci:endPosition>
+            </se:addressComponentQualifierFirst>
+            <se:addressInformationFist>
+                <ci:startPosition>7</ci:startPosition>
+                <ci:endPosition>41</ci:endPosition>
+            </se:addressInformationFist>
+            <se:addressComponentQualifierSecond>
+                <ci:startPosition>42</ci:startPosition>
+                <ci:endPosition>43</ci:endPosition>
+            </se:addressComponentQualifierSecond>
+            <se:addressInformationSecond>
+                <ci:startPosition>44</ci:startPosition>
+                <ci:endPosition>78</ci:endPosition>
+            </se:addressInformationSecond>
+        </se:SE55RecordDataElement>
+        
+        <se:SE56RecordDataElement>
+            <se:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>4</ci:endPosition>
+            </se:controlIdentifier>
+            <se:cityName>
+                <ci:startPosition>5</ci:startPosition>
+                <ci:endPosition>39</ci:endPosition>
+            </se:cityName>
+            <se:countrySubEntityCode>
+                <ci:startPosition>40</ci:startPosition>
+                <ci:endPosition>42</ci:endPosition>
+            </se:countrySubEntityCode>
+            <se:postalCode>
+                <ci:startPosition>49</ci:startPosition>
+                <ci:endPosition>63</ci:endPosition>
+            </se:postalCode>
+            <se:countryCode>
+                <ci:startPosition>64</ci:startPosition>
+                <ci:endPosition>65</ci:endPosition>
+            </se:countryCode>
+        </se:SE56RecordDataElement>
+        
+        <se:SE61RecordDataElement>
+            <se:controlIdentifier>
+                <ci:startPosition>1</ci:startPosition>
+                <ci:endPosition>4</ci:endPosition>
+            </se:controlIdentifier>
+            <se:currentHtsNumberForPfStatusMerchandise>
+                <ci:startPosition>5</ci:startPosition>
+                <ci:endPosition>14</ci:endPosition>
+            </se:currentHtsNumberForPfStatusMerchandise>
+        </se:SE61RecordDataElement>
+    </this:SEGlobal>
+</this:AE_AX>

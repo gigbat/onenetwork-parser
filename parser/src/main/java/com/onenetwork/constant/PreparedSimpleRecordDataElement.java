@@ -1,8 +1,7 @@
 package com.onenetwork.constant;
 
 import com.onenetwork.model.SimpleControlIdentifier;
-import com.onenetwork.model.entry_validate.EntryValidate;
-import com.onenetwork.model.isf_validate.ISFModel;
+import com.onenetwork.model.isf_model.EntryModel;
 
 import java.util.Collections;
 import java.util.HashMap;
@@ -19,14 +18,18 @@ public class PreparedSimpleRecordDataElement {
 
     static {
         SERVICE_SIMPLE_RECORD_DATA_ELEMENT.put(TYPE_ISF_VALIDATE, (s, m) -> {
-            String symbol = s.getSymbol();
-            String symbolDescription = s.getDescription();
-            return new ISFModel(symbol, symbolDescription, m);
+            EntryModel entryModel = new EntryModel();
+            entryModel.setSymbol(s.getSymbol());
+            entryModel.setSymbolDescription(s.getDescription());
+            entryModel.setMessageDescription(m);
+            return entryModel;
         });
         SERVICE_SIMPLE_RECORD_DATA_ELEMENT.put(TYPE_ENTRY_VALIDATE, (s, m) -> {
-            String symbol = s.getSymbol();
-            String symbolDescription = s.getDescription();
-            return new EntryValidate(symbol, symbolDescription, m);
+            EntryModel entryModel = new EntryModel();
+            entryModel.setSymbol(s.getSymbol());
+            entryModel.setSymbolDescription(s.getDescription());
+            entryModel.setMessageDescription(m);
+            return entryModel;
         });
     }
 

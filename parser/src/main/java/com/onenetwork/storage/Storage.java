@@ -1,12 +1,11 @@
 package com.onenetwork.storage;
 
-import com.onenetwork.response.ResponseMessage;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @AllArgsConstructor
 @Getter
-public class MessageStorage {
+public class Storage<E> {
     private final String path;
-    private final ResponseMessage responseMessage;
+    private final E value;
 }

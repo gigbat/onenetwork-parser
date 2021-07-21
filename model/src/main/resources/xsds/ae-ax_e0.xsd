@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:position="http://www.model.onenetwork.com/position"
+            xmlns:customObject="http://www.model.onenetwork.com/custom_object"
+            targetNamespace="http://www.model.onenetwork.com/ae_ax/e0"
+            elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+            jaxb:version="2.1">
+
+    <xsd:import namespace="http://www.model.onenetwork.com/position" schemaLocation="position.xsd"/>
+    <xsd:import namespace="http://www.model.onenetwork.com/custom_object" schemaLocation="customObject.xsd"/>
+
+    <xsd:complexType name="E0RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="referenceDataTypeCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="occurrencePosition" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="referenceIdConstant" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="referenceDataText" type="customObject:CustomObject" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="E0" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

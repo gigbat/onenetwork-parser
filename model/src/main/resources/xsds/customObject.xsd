@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            elementFormDefault="qualified"
+            targetNamespace="http://www.model.onenetwork.com/custom_object"
+            xmlns:position="http://www.model.onenetwork.com/position">
+
+    <xsd:import namespace="http://www.model.onenetwork.com/position" schemaLocation="position.xsd"/>
+
+    <xsd:complexType name="CustomObject">
+        <xsd:sequence minOccurs="1" maxOccurs="1">
+            <xsd:element name="refPosition" type="position:Position"/>
+            <xsd:element name="pathToPackage" type="xsd:string"/>
+            <xsd:element name="object" type="xsd:anyType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

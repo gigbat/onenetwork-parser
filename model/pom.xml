@@ -40,10 +40,18 @@
                             <outputDirectory>src/main/java/</outputDirectory>
                             <clearOutputDir>true</clearOutputDir>
                             <sources>
-                                <source>src/main/resources/xsds/positions.xsd</source>
+                                <source>src/main/resources/xsds/ae-ax.xsd</source>
                                 <source>src/main/resources/xsds/ae-ax_cw.xsd</source>
+                                <source>src/main/resources/xsds/ae-ax_e0.xsd</source>
+                                <source>src/main/resources/xsds/ae-ax_e0_reference.xsd</source>
+                                <source>src/main/resources/xsds/ae-ax_e1.xsd</source>
+                                <source>src/main/resources/xsds/ae-ax_numbers.xsd</source>
+                                <source>src/main/resources/xsds/ae-ax_oi.xsd</source>
+                                <source>src/main/resources/xsds/ae-ax_se.xsd</source>
+                                <source>src/main/resources/xsds/customObject.xsd</source>
                                 <source>src/main/resources/xsds/entry-validate.xsd</source>
                                 <source>src/main/resources/xsds/isf-model.xsd</source>
+                                <source>src/main/resources/xsds/position.xsd</source>
                             </sources>
                         </configuration>
                     </plugin>

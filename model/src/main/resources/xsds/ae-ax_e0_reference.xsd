@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:position="http://www.model.onenetwork.com/position"
+            xmlns:this="http://www.model.onenetwork.com/ae_ax/e0/reference"
+            targetNamespace="http://www.model.onenetwork.com/ae_ax/e0/reference"
+            elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+            jaxb:version="2.1">
+
+    <xsd:import namespace="http://www.model.onenetwork.com/position" schemaLocation="position.xsd"/>
+
+    <xsd:complexType name="E0Reference">
+        <xsd:sequence>
+            <xsd:element name="ADDCVD" type="this:ADDCVD"/>
+            <xsd:element name="ARPART" type="this:ARPART"/>
+            <xsd:element name="BNDDTL" type="this:BNDDTL"/>
+            <xsd:element name="BOLINB" type="this:BOLINB"/>
+            <xsd:element name="CARMAN" type="this:CARMAN"/>
+            <xsd:element name="CENWRN" type="this:CENWRN"/>
+            <xsd:element name="COMDES" type="this:COMDES"/>
+            <xsd:element name="CONREL" type="this:CONREL"/>
+            <xsd:element name="EIPINV" type="this:EIPINV"/>
+            <xsd:element name="FEETOT" type="this:FEETOT"/>
+            <xsd:element name="HDRFEE" type="this:HDRFEE"/>
+            <xsd:element name="INVLIN" type="this:INVLIN"/>
+            <xsd:element name="LICNSE" type="this:LICNSE"/>
+            <xsd:element name="LINFEE" type="this:LINFEE"/>
+            <xsd:element name="LINITM" type="this:LINITM"/>
+            <xsd:element name="MISDOC" type="this:MISDOC"/>
+            <xsd:element name="PG01" type="this:PG01"/>
+            <xsd:element name="PG02" type="this:PG02"/>
+            <xsd:element name="PG04" type="this:PG04"/>
+            <xsd:element name="PG05" type="this:PG05"/>
+            <xsd:element name="PG06" type="this:PG06"/>
+            <xsd:element name="PG07" type="this:PG07"/>
+            <xsd:element name="PG08" type="this:PG08"/>
+            <xsd:element name="PG10" type="this:PG10"/>
+            <xsd:element name="PG13" type="this:PG13"/>
+            <xsd:element name="PG14" type="this:PG14"/>
+            <xsd:element name="PG17" type="this:PG17"/>
+            <xsd:element name="PG18" type="this:PG18"/>
+            <xsd:element name="PG19" type="this:PG19"/>
+            <xsd:element name="PG20" type="this:PG20"/>
+            <xsd:element name="PG21" type="this:PG21"/>
+            <xsd:element name="PG22" type="this:PG22"/>
+            <xsd:element name="PG23" type="this:PG23"/>
+            <xsd:element name="PG24" type="this:PG24"/>
+            <xsd:element name="PG25" type="this:PG25"/>
+            <xsd:element name="PG26" type="this:PG26"/>
+            <xsd:element name="PG27" type="this:PG27"/>
+            <xsd:element name="PG28" type="this:PG28"/>
+            <xsd:element name="PG29" type="this:PG29"/>
+            <xsd:element name="PG30" type="this:PG30"/>
+            <xsd:element name="PG31" type="this:PG31"/>
+            <xsd:element name="PG32" type="this:PG32"/>
+            <xsd:element name="PG33" type="this:PG33"/>
+            <xsd:element name="PG34" type="this:PG34"/>
+            <xsd:element name="PG35" type="this:PG35"/>
+            <xsd:element name="PG55" type="this:PG55"/>
+            <xsd:element name="PGOI" type="this:PGOI"/>
+            <xsd:element name="PSCEXP" type="this:PSCEXP"/>
+            <xsd:element name="PSCHRE" type="this:PSCHRE"/>
+            <xsd:element name="PSCLRE" type="this:PSCLRE"/>
+            <xsd:element name="PSTLIN" type="this:PSTLIN"/>
+            <xsd:element name="SUMMRY" type="this:SUMMRY"/>
+            <xsd:element name="TARIFF" type="this:TARIFF"/>
+            <xsd:element name="TARQTY" type="this:TARQTY"/>
+            <xsd:element name="TOTALS" type="this:TOTALS"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="ADDCVD">
+        <xsd:sequence>
+            <xsd:element name="caseNumber" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="ADDCVD" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="ARPART">
+        <xsd:sequence>
+            <xsd:element name="articlePartyIdentifierTypeCode" type="position:Position"/>
+            <xsd:element name="articlePartyIdentifier" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="ARPART" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="BNDDTL">
+        <xsd:sequence>
+            <xsd:element name="bondTypeCode" type="position:Position"/>
+            <xsd:element name="bondDesignationTypeCode" type="position:Position"/>
+            <xsd:element name="suretyCompanyCode" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="BNDDTL" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="BOLINB">
+        <xsd:sequence>
+            <xsd:element name="manifestComponentTypeCode" type="position:Position"/>
+            <xsd:element name="manifestComponentIdentifier" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="BOLINB" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="CARMAN">
+        <xsd:sequence>
+            <xsd:element name="manifestedQuantity" type="position:Position"/>
+            <xsd:element name="manifestedQuantityUnitOfMeasureCode" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="CARMAN" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="CENWRN">
+        <xsd:sequence>
+            <xsd:element name="censusWarningConditionCode" type="position:Position"/>
+            <xsd:element name="censusWarningConditionOverrideCode" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="CENWRN" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="COMDES">
+        <xsd:sequence>
+            <xsd:element name="commercialDescriptionText" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="COMDES" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="CONREL">
+        <xsd:sequence>
+            <xsd:element name="releaseEntryFilerCode" type="position:Position"/>
+            <xsd:element name="releaseEntryNumber" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="CONREL" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="EIPINV">
+        <xsd:sequence>
+            <xsd:element name="supplierIdCode" type="position:Position"/>
+            <xsd:element name="invoiceNumber" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="EIPINV" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="FEETOT">
+        <xsd:sequence>
+            <xsd:element name="accountingClassCode" type="position:Position"/>
+            <xsd:element name="totalFeeAmount" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="FEETOT" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="HDRFEE">
+        <xsd:sequence>
+            <xsd:element name="accountingClassCode" type="position:Position"/>
+            <xsd:element name="headerFeeAmount" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="HDRFEE" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="INVLIN">
+        <xsd:sequence>
+            <xsd:element name="invoiceLineRangeBegin" type="position:Position"/>
+            <xsd:element name="invoiceLineRangeEnd" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="INVLIN" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="LICNSE">
+        <xsd:sequence>
+            <xsd:element name="licenseOrCertificateOrPermitTypeCode" type="position:Position"/>
+            <xsd:element name="licenseNumberOrCertificateNumberOrPermitNumber" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="LICNSE" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="LINFEE">
+        <xsd:sequence>
+            <xsd:element name="accountingClassCode" type="position:Position"/>
+            <xsd:element name="userFeeAmount" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="LINFEE" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="LINITM">
+        <xsd:sequence>
+            <xsd:element name="lineItemIdentifier" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="LINITM" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="MISDOC">
+        <xsd:sequence>
+            <xsd:element name="missingDocumentCode" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="MISDOC" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG01">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG01" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG02">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG02" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG04">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG04" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG05">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG05" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG06">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG06" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG07">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG07" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG08">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG08" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG10">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG13">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG13" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG14">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG14" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG17">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG17" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG18">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG18" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG19">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG19" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG20">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG20" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG21">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG21" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG22">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG22" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG23">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG23" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG24">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG24" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG25">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG25" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG26">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG26" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG27">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG27" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG28">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG28" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG29">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG29" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG30">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG30" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG31">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG31" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG32">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG32" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG33">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG33" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG34">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG34" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG35">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG35" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PG55">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PG55" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PGOI">
+        <xsd:sequence>
+            <xsd:element name="pertinentPortionOfCorrespondingPgarecord" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PGOI" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PSCEXP">
+        <xsd:sequence>
+            <xsd:element name="pscFilingExplanationText" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PSCEXP" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PSCHRE">
+        <xsd:sequence>
+            <xsd:element name="postSummaryCorrectionHeaderReasonCode" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PSCHRE" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PSCLRE">
+        <xsd:sequence>
+            <xsd:element name="postSummaryCorrectionLineReasonCode" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PSCLRE" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PSTLIN">
+        <xsd:sequence>
+            <xsd:element name="entryFilerCode" type="position:Position"/>
+            <xsd:element name="entryNumber" type="position:Position"/>
+            <xsd:element name="brokerReferenceNumber" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="PSTLIN" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SUMMRY">
+        <xsd:sequence>
+            <xsd:element name="entryFilerCode" type="position:Position"/>
+            <xsd:element name="entryNumber" type="position:Position"/>
+            <xsd:element name="brokerReferenceNumber" type="position:Position"/>
+            <xsd:element name="cbpTeamNumber" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SUMMRY" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="TARIFF">
+        <xsd:sequence>
+            <xsd:element name="htsNumber" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="TARIFF" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="TARQTY">
+        <xsd:sequence>
+            <xsd:element name="quantity" type="position:Position"/>
+            <xsd:element name="unitOfMeasureCode" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="TARQTY" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="TOTALS">
+        <xsd:sequence>
+            <xsd:element name="entryFilerCode" type="position:Position"/>
+            <xsd:element name="entryNumber" type="position:Position"/>
+            <xsd:element name="brokerReferenceNumber" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="TOTALS" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

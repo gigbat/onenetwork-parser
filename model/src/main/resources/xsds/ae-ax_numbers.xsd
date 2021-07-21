@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:position="http://www.model.onenetwork.com/position"
+            targetNamespace="http://www.model.onenetwork.com/ae_ax/numbers"
+            xmlns:this="http://www.model.onenetwork.com/ae_ax/numbers"
+            elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+            jaxb:version="2.1">
+
+    <xsd:import namespace="http://www.model.onenetwork.com/position" schemaLocation="position.xsd"/>
+
+    <xsd:complexType name="Numbers">
+        <xsd:sequence>
+            <xsd:element name="EightyEightRecordDataElement" type="this:EightyEightRecordDataElement"/>
+            <xsd:element name="EightyNineRecordDataElement" type="this:EightyNineRecordDataElement"/>
+            <xsd:element name="ElevenRecordDataElement" type="this:ElevenRecordDataElement"/>
+            <xsd:element name="FiftyFourRecordDataElement" type="this:FiftyFourRecordDataElement"/>
+            <xsd:element name="FiftyOneRecordDataElement" type="this:FiftyOneRecordDataElement"/>
+            <xsd:element name="FiftyRecordDataElement" type="this:FiftyRecordDataElement"/>
+            <xsd:element name="FiftyThreeRecordDataElement" type="this:FiftyThreeRecordDataElement"/>
+            <xsd:element name="FiftyTwoRecordDataElement" type="this:FiftyTwoRecordDataElement"/>
+            <xsd:element name="FortyOneRecordDataElement" type="this:FortyOneRecordDataElement"/>
+            <xsd:element name="FortyFourRecordDataElement" type="this:FortyFourRecordDataElement"/>
+            <xsd:element name="FortyRecordDataElement" type="this:FortyRecordDataElement"/>
+            <xsd:element name="FortySevenRecordDataElement" type="this:FortySevenRecordDataElement"/>
+            <xsd:element name="FortyThreeRecordDataElement" type="this:FortyThreeRecordDataElement"/>
+            <xsd:element name="FortyTwoRecordDataElement" type="this:FortyTwoRecordDataElement"/>
+            <xsd:element name="NinetyRecordDataElement" type="this:NinetyRecordDataElement"/>
+            <xsd:element name="SixtyOneRecordDataElement" type="this:SixtyOneRecordDataElement"/>
+            <xsd:element name="SixtyRecordDataElement" type="this:SixtyRecordDataElement"/>
+            <xsd:element name="SixtyThreeRecordDataElement" type="this:SixtyThreeRecordDataElement"/>
+            <xsd:element name="SixtyTwoRecordDataElement" type="this:SixtyTwoRecordDataElement"/>
+            <xsd:element name="TenRecordDataElement" type="this:TenRecordDataElement"/>
+            <xsd:element name="ThirtyFiveRecordDataElement" type="this:ThirtyFiveRecordDataElement"/>
+            <xsd:element name="ThirtyFourRecordDataElement" type="this:ThirtyFourRecordDataElement"/>
+            <xsd:element name="ThirtyOneRecordDataElement" type="this:ThirtyOneRecordDataElement"/>
+            <xsd:element name="ThirtyRecordDataElement" type="this:ThirtyRecordDataElement"/>
+            <xsd:element name="ThirtySixRecordDataElement" type="this:ThirtySixRecordDataElement"/>
+            <xsd:element name="ThirtyThreeRecordDataElement" type="this:ThirtyThreeRecordDataElement"/>
+            <xsd:element name="ThirtyTwoRecordDataElement" type="this:ThirtyTwoRecordDataElement"/>
+            <xsd:element name="TwentyOneRecordDataElement" type="this:TwentyOneRecordDataElement"/>
+            <xsd:element name="TwentyRecordDataElement" type="this:TwentyRecordDataElement"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="EightyEightRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="totalBondedAdDutyAmount" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="totalCashDepositAdDutyAmount" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="totalBondedCvDutyAmount" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="totalCashDepositCvDutyAmount" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="88" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="EightyNineRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="accountingClassCodeFirst" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="totalFeeAmountFirst" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="accountingClassCodeSecond" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="totalFeeAmountSecond" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="accountingClassCodeThird" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="totalFeeAmountThird" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="accountingClassCodeFourth" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="totalFeeAmountFourth" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="accountingClassCodeFifth" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="totalFeeAmountFifth" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="89" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="ElevenRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="importerOfRecordNumber" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="consigneeNumber" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="designatedNotifyPartyNumber" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="estimatedEntryDate" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="dateOfImportation" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="foreignTradeZoneIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="stateOfDestinationCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="11" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="FiftyFourRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="importerAdditionalDeclarationTypeCode" type="position:Position" minOccurs="1"
+                         maxOccurs="1"/>
+            <xsd:element name="importerAdditionalDeclarationInformation" type="position:Position" minOccurs="1"
+                         maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="54" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="FiftyOneRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="standardVisaNumber" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="51" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="FiftyRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="htsNumber" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="dutyAmount" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="valueOfGoodsAmount" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="quantityFirst" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="unitOfMeasureCodeFirst" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="quantitySecond" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="unitOfMeasureCodeSecond" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="quantityThird" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="unitOfMeasureCodeThird" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="50" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="FiftyThreeRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="caseNumber" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="bondOrCashClaimCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="caseDepositRate" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="caseRateTypeQualifierCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="adOrCvdValueOfGoodsAmount" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="adOrCvdQuantity" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="adOrCvdDutyAmount" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="adOrCvdNonReimbursementDeclarationIdentifier" type="position:Position" minOccurs="1"
+                         maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="53" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="FiftyTwoRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="licenseOrCertificateOrPermitTypeCode" type="position:Position" minOccurs="1"
+                         maxOccurs="1"/>
+            <xsd:element name="licenseNumberOrCertificateNumberOrPermitNumber" type="position:Position" minOccurs="1"
+                         maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="52" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="FortyOneRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="ftzMerchandiseStatusCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="privilegedFtzMerchandiseFilingDate" type="position:Position" minOccurs="1"
+                         maxOccurs="1"/>
+            <xsd:element name="ftzLineItemQuantity" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="41" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="FortyFourRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="commercialDescriptionText" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="44" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="FortyRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="lineItemIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="articleSetIndicator" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="countryOfOriginCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="countryOfExportCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="dateOfExportation" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="dateOfExportationTextiles" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="tradeAgreementOrSpecialProgramClaimCode" type="position:Position" minOccurs="1"
+                         maxOccurs="1"/>
+            <xsd:element name="chargesAmount" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="foreignPortOfLadingCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="grossShippingWeight" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="categoryCodeTextiles" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="productClaimCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="relatedPartyIndicator" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="naftaNetCostIndicator" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="feeExemptionCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="adCaseNonReimbursementStatement" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="40" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="FortySevenRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="articlePartyTypeCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="articlePartyIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="47" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="FortyThreeRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="rulingTypeCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="rulingNumber" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="43" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="FortyTwoRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="supplierIdCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="invoiceNumber" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="invoiceLineRangeFirstBegin" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="invoiceLineRangeFirstEnd" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="invoiceLineRangeSecondBegin" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="invoiceLineRangeSecondEnd" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="invoiceLineRangeThirdBegin" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="invoiceLineRangeThirdEnd" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="invoiceLineRangeFourthBegin" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="invoiceLineRangeFourthEnd" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="42" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="NinetyRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="grandTotalDutyAmount" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="grandTotalUserFeeAmount" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="grandTotalIrTaxAmount" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="grandTotalAdDutyAmount" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="grandTotalCvDutyAmount" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="grandTotalOtherRevenueAmount" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="90" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SixtyOneRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="accountingClassCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="otherRevenueAmount" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="61" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SixtyRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="accountingClassCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="irTaxAmount" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="60" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SixtyThreeRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="postSummaryCorrectionLineReasonCodeFirst" type="position:Position" minOccurs="1"
+                         maxOccurs="1"/>
+            <xsd:element name="postSummaryCorrectionLineReasonCodeSecond" type="position:Position" minOccurs="1"
+                         maxOccurs="1"/>
+            <xsd:element name="postSummaryCorrectionLineReasonCodeThird" type="position:Position" minOccurs="1"
+                         maxOccurs="1"/>
+            <xsd:element name="postSummaryCorrectionLineReasonCodeFourth" type="position:Position" minOccurs="1"
+                         maxOccurs="1"/>
+            <xsd:element name="postSummaryCorrectionLineReasonCodeFifth" type="position:Position" minOccurs="1"
+                         maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="63" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SixtyTwoRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="accountingClassCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="userFeeAmount" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="62" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="TenRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="summaryFilingActionRequestCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="entryFilerCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="entryNumber" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="districtOrPortOfEntry" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="brokerReferenceNumber" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="entryTypeCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="modeOfTransportationCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="bondWaiverIndicator" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="electronicSignature" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="cargoReleaseCertificationRequestIndicator" type="position:Position" minOccurs="1"
+                         maxOccurs="1"/>
+            <xsd:element name="electronicInvoiceIndicator" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="consolidatedSummaryIndicator" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="shipmentUsageTypeCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="liveEntryIndicator" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="deferredTaxPaymentCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="tradeAgreementReconciliationIndicator" type="position:Position" minOccurs="1"
+                         maxOccurs="1"/>
+            <xsd:element name="reconciliationIssueCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="paymentTypeCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="preliminaryStatementPrintDate" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="periodicStatementMonth" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="statementClientBranchIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="bondWaiverReasonCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="postSummaryCorrectionIndicator" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="acceleratedLiquidationRequestIndicator" type="position:Position" minOccurs="1"
+                         maxOccurs="1"/>
+            <xsd:element name="knownImporterIndicator" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="pgaDataIncludedIndicator" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="tibDeclarationIndicator" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="ThirtyFiveRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="postSummaryCorrectionHeaderReasonCodeFirst" type="position:Position" minOccurs="1"
+                         maxOccurs="1"/>
+            <xsd:element name="postSummaryCorrectionHeaderReasonCodeSecond" type="position:Position" minOccurs="1"
+                         maxOccurs="1"/>
+            <xsd:element name="postSummaryCorrectionHeaderReasonCodeThird" type="position:Position" minOccurs="1"
+                         maxOccurs="1"/>
+            <xsd:element name="postSummaryCorrectionHeaderReasonCodeFourth" type="position:Position" minOccurs="1"
+                         maxOccurs="1"/>
+            <xsd:element name="postSummaryCorrectionHeaderReasonCodeFifth" type="position:Position" minOccurs="1"
+                         maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="35" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="ThirtyFourRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="accountingClassCodeFirst" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="headerFeeAmountFirst" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="accountingClassCodeSecond" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="headerFeeAmountSecond" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="34" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="ThirtyOneRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="bondTypeCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="bondDesignationTypeCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="continuousBondIndicator" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="suretyCompanyCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="singleTransactionBondAmount" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="singleTransactionBondProducerAccountNumber" type="position:Position" minOccurs="1"
+                         maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="31" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="ThirtyRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="associatedWarehouseEntryFilerCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="associatedWarehouseEntryNumber" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="associatedWarehouseEntryDistrictOrPortCode" type="position:Position" minOccurs="1"
+                         maxOccurs="1"/>
+            <xsd:element name="finalWarehouseWithdrawalIndicator" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="30" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="ThirtySixRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="pscFilingExplanationText" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="36" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="ThirtyThreeRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="missingDocumentCodeFirst" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="missingDocumentCodeSecond" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="33" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="ThirtyTwoRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="releaseEntryFilerCodeFirst" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="releaseEntryNumberFirst" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="releaseEntryFilerCodeSecond" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="releaseEntryNumberSecond" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="releaseEntryFilerCodeThird" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="releaseEntryNumberThird" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="releaseEntryFilerCodeFourth" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="releaseEntryNumberFourth" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="releaseEntryFilerCodeFifth" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="releaseEntryNumberFifth" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="releaseEntryFilerCodeSixth" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="releaseEntryNumberSixth" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="32" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="TwentyOneRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="tripIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="21" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="TwentyRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="carrierCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="districtOrPortOfUnlading" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="estimatedDateOfArrival" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="locationOfGoodsCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="conveyanceName" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="vesselCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="designatedExamPortCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="inBondOrInTransitDate" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="20" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="TwentyThreeRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="manifestComponentTypeCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="manifestComponentIssuerCode" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="manifestComponentIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="23" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="TwentyTwoRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="manifestedQuantity" type="position:Position" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="manifestedQuantityUnitOfMeasureCode" type="position:Position" minOccurs="1"
+                         maxOccurs="1"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="22" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

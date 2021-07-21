@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:position="http://www.model.onenetwork.com/position"
+            targetNamespace="http://www.model.onenetwork.com/ae_ax/oi"
+            elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+            jaxb:version="2.1">
+
+    <xsd:import namespace="http://www.model.onenetwork.com/position" schemaLocation="position.xsd"/>
+
+    <xsd:complexType name="OIRecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="commercialDescriptionText" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="OI" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

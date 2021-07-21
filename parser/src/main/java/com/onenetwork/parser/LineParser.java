@@ -4,26 +4,33 @@ import com.onenetwork.model.ControlIdentifier;
 import com.onenetwork.model.ControlIdentifierSelector;
 import com.onenetwork.model.SimpleControlIdentifier;
 import com.onenetwork.response.ResponseMessage;
+import com.onenetwork.storage.Storage;
+import com.onenetwork.util.PositionExtractor;
+import lombok.SneakyThrows;
 
+import java.lang.reflect.Field;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
 import static com.onenetwork.constant.DelimiterConstant.DELIMITER_EMPTY;
 import static com.onenetwork.constant.DelimiterConstant.DELIMITER_SEMICOLON;
 import static com.onenetwork.constant.DelimiterConstant.DELIMITER_SPACE;
-import static com.onenetwork.constant.PreparedRecordDataElement.RECORD_DATA_ELEMENT;
 import static com.onenetwork.constant.PreparedSimpleRecordDataElement.SIMPLE_RECORD_DATA_ELEMENT;
 import static com.onenetwork.constant.RegexConstant.REGEX_SPACE;
 import static com.onenetwork.constant.RegexConstant.REGEX_SPACE_FROM_5;
 import static com.onenetwork.constant.TypeConstant.TYPE_AE;
+import static com.onenetwork.constant.TypeConstant.TYPE_AE_AX;
 import static com.onenetwork.constant.TypeConstant.TYPE_AX;
 import static com.onenetwork.constant.TypeConstant.TYPE_ENTRY_VALIDATE;
 import static com.onenetwork.constant.TypeConstant.TYPE_ISF_VALIDATE;
 import static com.onenetwork.constant.TypeConstant.TYPE_NR;
 import static com.onenetwork.constant.TypeConstant.TYPE_SA;
 import static com.onenetwork.constant.TypeConstant.TYPE_SN;
+import static com.onenetwork.constant.TypeConstant.TYPE_SN_US_SF10;
 import static com.onenetwork.constant.TypeConstant.TYPE_SO;
 import static com.onenetwork.constant.TypeConstant.TYPE_SX;
 import static com.onenetwork.constant.TypeConstant.TYPE_US_ISF10;
@@ -32,16 +39,16 @@ public class LineParser {
 
     private static final int CHARACTERS_IN_LINE = 80;
 
-    public List<Object> getModels(final ResponseMessage responseMessage) {
-        List<Object> list = new ArrayList<>();
+    @SneakyThrows
+    public List<Object> getModels(final ResponseMessage responseMessage,
+                                  final Map<ControlIdentifierSelector, Object> selectorClassMap) {
         String messageType = responseMessage.getResponse().getMessageType();
-
         if (isCatairFormat(messageType)) {
-            generateCatairInstances(responseMessage, list);
+            return generateCatairInstances(responseMessage, selectorClassMap);
         } else if (isSimpleFormat(messageType)) {
-            generateSimpleInstances(responseMessage, list);
+            generateSimpleInstances(responseMessage, Collections.emptyList());
         }
-        return list;
+        return Collections.emptyList();
     }
 
     private boolean isCatairFormat(final String messageType) {
@@ -55,17 +62,22 @@ public class LineParser {
         return messageType.equals(TYPE_ISF_VALIDATE) || messageType.equals(TYPE_ENTRY_VALIDATE);
     }
 
-    private void generateCatairInstances(final ResponseMessage responseMessage, final List<Object> list) {
+    @SneakyThrows
+    private List<Object> generateCatairInstances(final ResponseMessage responseMessage,
+                                                 final Map<ControlIdentifierSelector, Object> selectorClassMap) {
         String message = removeFirstSpaces(responseMessage.getResponse().getMessage());
         String[] lines = getLines(message);
-
+        List<Object> list = new ArrayList<>();
         for (String line : lines) {
             Integer endPosition = getEndPosition(line);
             String controlIdentifier = line.substring(0, endPosition);
-            String messageType = responseMessage.getResponse().getMessageType();
-            Object recordDataElement = getRecordDataElement(line, controlIdentifier, messageType);
+            String messageType = concatDoubleType(responseMessage.getResponse().getMessageType());
+            ControlIdentifierSelector selector = new ControlIdentifierSelector(messageType, controlIdentifier);
+            Object object = selectorClassMap.get(selector);
+            Object recordDataElement = PositionExtractor.getParsedValue(object, line, DELIMITER_EMPTY, selectorClassMap);
             list.add(recordDataElement);
         }
+        return list;
     }
 
     private String removeFirstSpaces(final String message) {
@@ -83,12 +95,6 @@ public class LineParser {
             }
         }
         return 0;
-    }
-
-    private Object getRecordDataElement(final String line, final String controlIdentifier, final String messageType) {
-        ControlIdentifierSelector selector = new ControlIdentifierSelector(messageType, controlIdentifier);
-        Function<String, Object> functionDataElement = RECORD_DATA_ELEMENT.get(selector);
-        return functionDataElement.apply(line);
     }
 
     private void generateSimpleInstances(final ResponseMessage responseMessage, final List<Object> list) {
@@ -146,5 +152,14 @@ public class LineParser {
         return String.valueOf(line.charAt(1)).matches(REGEX_SPACE)
                 ? line.replaceFirst(REGEX_SPACE, DELIMITER_SEMICOLON)
                 : line;
+    }
+
+    private String concatDoubleType(final String messageType) {
+        if (messageType.equals(TYPE_AE) || messageType.equals(TYPE_AX)) {
+            return TYPE_AE_AX;
+        } else if (messageType.equals(TYPE_SN) || messageType.equals(TYPE_US_ISF10)) {
+            return TYPE_SN_US_SF10;
+        }
+        return messageType;
     }
 }

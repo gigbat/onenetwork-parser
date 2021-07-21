@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:position="http://www.model.onenetwork.com/position"
+            xmlns:this="http://www.model.onenetwork.com/ae_ax/se"
+            targetNamespace="http://www.model.onenetwork.com/ae_ax/se"
+            elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+            jaxb:version="2.1">
+
+    <xsd:import namespace="http://www.model.onenetwork.com/position" schemaLocation="position.xsd"/>
+
+    <xsd:complexType name="SEGlobal">
+        <xsd:sequence>
+            <xsd:element name="SE13RecordDataElement" type="this:SE13RecordDataElement"/>
+            <xsd:element name="SE16RecordDataElement" type="this:SE16RecordDataElement"/>
+            <xsd:element name="SE17RecordDataElement" type="this:SE17RecordDataElement"/>
+            <xsd:element name="SE20RecordDataElement" type="this:SE20RecordDataElement"/>
+            <xsd:element name="SE30RecordDataElement" type="this:SE30RecordDataElement"/>
+            <xsd:element name="SE35RecordDataElement" type="this:SE35RecordDataElement"/>
+            <xsd:element name="SE36RecordDataElement" type="this:SE36RecordDataElement"/>
+            <xsd:element name="SE50RecordDataElement" type="this:SE50RecordDataElement"/>
+            <xsd:element name="SE55RecordDataElement" type="this:SE55RecordDataElement"/>
+            <xsd:element name="SE56RecordDataElement" type="this:SE56RecordDataElement"/>
+            <xsd:element name="SE61RecordDataElement" type="this:SE61RecordDataElement"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SE13RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="contactName" type="position:Position"/>
+            <xsd:element name="contactPhone" type="position:Position"/>
+            <xsd:element name="disIndicator" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SE13" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SE16RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="carrierCode" type="position:Position"/>
+            <xsd:element name="voyageOrFlightOrTripManifestNumber" type="position:Position"/>
+            <xsd:element name="dateOfArrival" type="position:Position"/>
+            <xsd:element name="quantity" type="position:Position"/>
+            <xsd:element name="unitOfMeasure" type="position:Position"/>
+            <xsd:element name="conveyanceName" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SE16" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SE17RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="equipmentNumber" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SE17" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SE20RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="referenceIdentifierQualifier" type="position:Position"/>
+            <xsd:element name="referenceIdentifier" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SE20" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SE30RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="entityCode" type="position:Position"/>
+            <xsd:element name="entityName" type="position:Position"/>
+            <xsd:element name="entityIdentifierQualifier" type="position:Position"/>
+            <xsd:element name="entityIdentifier" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SE30" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SE35RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="addressComponentQualifierFirst" type="position:Position"/>
+            <xsd:element name="addressInformationFirst" type="position:Position"/>
+            <xsd:element name="addressComponentQualifierSecond" type="position:Position"/>
+            <xsd:element name="addressInformationSecond" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SE35" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SE36RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="cityName" type="position:Position"/>
+            <xsd:element name="countrySubEntityCode" type="position:Position"/>
+            <xsd:element name="postalCode" type="position:Position"/>
+            <xsd:element name="countryCode" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SE36" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SE50RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="entityCode" type="position:Position"/>
+            <xsd:element name="entityName" type="position:Position"/>
+            <xsd:element name="entityIdentifierQualifier" type="position:Position"/>
+            <xsd:element name="entityIdentifier" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SE50" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SE55RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="addressComponentQualifierFirst" type="position:Position"/>
+            <xsd:element name="addressInformationFist" type="position:Position"/>
+            <xsd:element name="addressComponentQualifierSecond" type="position:Position"/>
+            <xsd:element name="addressInformationSecond" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SE55" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SE56RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="cityName" type="position:Position"/>
+            <xsd:element name="countrySubEntityCode" type="position:Position"/>
+            <xsd:element name="postalCode" type="position:Position"/>
+            <xsd:element name="countryCode" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SE56" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SE61RecordDataElement">
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="currentHtsNumberForPfStatusMerchandise" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SE61" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

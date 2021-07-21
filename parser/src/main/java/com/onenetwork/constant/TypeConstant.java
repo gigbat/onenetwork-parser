@@ -1,6 +1,8 @@
 package com.onenetwork.constant;
 
 public interface TypeConstant {
+    String TYPE_AE_AX = "AE|AX";
+    String TYPE_SN_US_SF10 = "SN|US-ISF10";
     String TYPE_AX = "AX";
     String TYPE_AE = "AE";
     String TYPE_SO = "SO";

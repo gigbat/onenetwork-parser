@@ -18,6 +18,24 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+
+        <model.version>1.0-SNAPSHOT</model.version>
+        <parser.version>1.0-SNAPSHOT</parser.version>
     </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.example</groupId>
+                <artifactId>model</artifactId>
+                <version>${model.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.example</groupId>
+                <artifactId>parser</artifactId>
+                <version>${parser.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>

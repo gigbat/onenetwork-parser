@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:numbers="http://www.model.onenetwork.com/ae_ax/numbers"
+            xmlns:cw="http://www.model.onenetwork.com/ae_ax/cw"
+            xmlns:e0="http://www.model.onenetwork.com/ae_ax/e0"
+            xmlns:e0reference="http://www.model.onenetwork.com/ae_ax/e0/reference"
+            xmlns:e1="http://www.model.onenetwork.com/ae_ax/e1"
+            xmlns:oi="http://www.model.onenetwork.com/ae_ax/oi"
+            xmlns:se="http://www.model.onenetwork.com/ae_ax/se"
+            targetNamespace="http://www.model.onenetwork.com/ae_ax"
+            elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+            jaxb:version="2.1">
+
+    <xsd:import namespace="http://www.model.onenetwork.com/ae_ax/numbers" schemaLocation="ae-ax_numbers.xsd"/>
+    <xsd:import namespace="http://www.model.onenetwork.com/ae_ax/cw" schemaLocation="ae-ax_cw.xsd"/>
+    <xsd:import namespace="http://www.model.onenetwork.com/ae_ax/e0" schemaLocation="ae-ax_e0.xsd"/>
+    <xsd:import namespace="http://www.model.onenetwork.com/ae_ax/e1" schemaLocation="ae-ax_e1.xsd"/>
+    <xsd:import namespace="http://www.model.onenetwork.com/ae_ax/oi" schemaLocation="ae-ax_oi.xsd"/>
+    <xsd:import namespace="http://www.model.onenetwork.com/ae_ax/se" schemaLocation="ae-ax_se.xsd"/>
+    <xsd:import namespace="http://www.model.onenetwork.com/ae_ax/e0/reference" schemaLocation="ae-ax_e0_reference.xsd"/>
+
+    <xsd:element name="AE_AX">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="Numbers" type="numbers:Numbers"/>
+                <xsd:element name="CW02RecordDataElement" type="cw:CW02RecordDataElement"/>
+                <xsd:element name="E0RecordDataElement" type="e0:E0RecordDataElement"/>
+                <xsd:element name="E0Reference" type="e0reference:E0Reference"/>
+                <xsd:element name="E1RecordDataElement" type="e1:E1RecordDataElement"/>
+                <xsd:element name="OIRecordDataElement" type="oi:OIRecordDataElement"/>
+                <xsd:element name="SEGlobal" type="se:SEGlobal"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

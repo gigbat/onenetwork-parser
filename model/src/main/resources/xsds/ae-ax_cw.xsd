@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-            xmlns:positions="http://www.model.onenetwork.com/positions"
+            xmlns:position="http://www.model.onenetwork.com/position"
             targetNamespace="http://www.model.onenetwork.com/ae_ax/cw"
             elementFormDefault="qualified"
             xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
             jaxb:version="2.1">
 
-    <xsd:import namespace="http://www.model.onenetwork.com/positions" schemaLocation="position.xsd"/>
+    <xsd:import namespace="http://www.model.onenetwork.com/position" schemaLocation="position.xsd"/>
 
     <xsd:complexType name="CW02RecordDataElement">
-        <xsd:choice minOccurs="1" maxOccurs="1">
-            <xsd:element name="controlIdentifier" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
-            <xsd:element name="censusWarningConditionCodeFirst" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
-            <xsd:element name="censusWarningConditionOverrideCodeFirst" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
-            <xsd:element name="censusWarningConditionCodeSecond" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
-            <xsd:element name="censusWarningConditionOverrideCodeSecond" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
-            <xsd:element name="censusWarningConditionOverrideCodeThird" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
-            <xsd:element name="censusWarningConditionOverrideCodeFourth" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
-            <xsd:element name="censusWarningConditionCodeFifth" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
-            <xsd:element name="censusWarningConditionOverrideCodeFifth" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
-            <xsd:element name="censusWarningConditionCodeSixth" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
-            <xsd:element name="censusWarningConditionCodeSeventh" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
-            <xsd:element name="censusWarningConditionOverrideCodeSeventh" type="positions:Positions" minOccurs="1" maxOccurs="1"/>
-        </xsd:choice>
+        <xsd:sequence>
+            <xsd:element name="controlIdentifier" type="position:Position"/>
+            <xsd:element name="censusWarningConditionCodeFirst" type="position:Position"/>
+            <xsd:element name="censusWarningConditionOverrideCodeFirst" type="position:Position"/>
+            <xsd:element name="censusWarningConditionCodeSecond" type="position:Position"/>
+            <xsd:element name="censusWarningConditionOverrideCodeSecond" type="position:Position"/>
+            <xsd:element name="censusWarningConditionCodeThird" type="position:Position"/>
+            <xsd:element name="censusWarningConditionOverrideCodeThird" type="position:Position"/>
+            <xsd:element name="censusWarningConditionCodeFourth" type="position:Position"/>
+            <xsd:element name="censusWarningConditionOverrideCodeFourth" type="position:Position"/>
+            <xsd:element name="censusWarningConditionCodeFifth" type="position:Position"/>
+            <xsd:element name="censusWarningConditionOverrideCodeFifth" type="position:Position"/>
+            <xsd:element name="censusWarningConditionCodeSixth" type="position:Position"/>
+            <xsd:element name="censusWarningConditionOverrideCodeSixth" type="position:Position"/>
+            <xsd:element name="censusWarningConditionCodeSeventh" type="position:Position"/>
+            <xsd:element name="censusWarningConditionOverrideCodeSeventh" type="position:Position"/>
+
+            <xsd:element name="defaultControlIdentifier" type="xsd:string" default="CW02" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
     </xsd:complexType>
 </xsd:schema>

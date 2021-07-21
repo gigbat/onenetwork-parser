@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
             elementFormDefault="qualified"
-            targetNamespace="http://www.model.onenetwork.com/positions">
+            targetNamespace="http://www.model.onenetwork.com/position">
 
-    <xsd:complexType name="Positions">
-        <xsd:sequence minOccurs="1" maxOccurs="1">
-            <xsd:element name="startPosition" type="xsd:integer" minOccurs="1" maxOccurs="1"/>
-            <xsd:element name="endPosition" type="xsd:integer" minOccurs="1" maxOccurs="1"/>
-            <xsd:element name="value" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+    <xsd:complexType name="Position">
+        <xsd:sequence>
+            <xsd:element name="startPosition" type="xsd:int" minOccurs="1"/>
+            <xsd:element name="endPosition" type="xsd:int" minOccurs="1"/>
+            <xsd:element name="value" type="xsd:string" minOccurs="0"/>
         </xsd:sequence>
     </xsd:complexType>
 </xsd:schema>

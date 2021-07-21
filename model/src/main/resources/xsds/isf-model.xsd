@@ -5,7 +5,7 @@
             xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
             jaxb:version="2.1">
 
-    <xsd:complexType name="ISFModel">
+    <xsd:complexType name="EntryModel">
         <xsd:choice minOccurs="1" maxOccurs="1">
             <xsd:element name="symbol" type="xsd:string" minOccurs="1" maxOccurs="1"/>
             <xsd:element name="symbolDescription" type="xsd:string" minOccurs="1" maxOccurs="1"/>
