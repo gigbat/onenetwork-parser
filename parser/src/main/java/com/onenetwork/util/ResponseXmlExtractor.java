@@ -2,8 +2,8 @@ package com.onenetwork.util;
 
 import com.onenetwork.parser.XmlParser;
 import com.onenetwork.response.ResponseMessage;
-import com.onenetwork.storage.Storage;
 import com.onenetwork.storage.RootContentStorage;
+import com.onenetwork.storage.Storage;
 import com.onenetwork.webservice.TMicInterface;
 import com.onenetwork.webservice.TMicInterfaceMessage;
 import lombok.experimental.UtilityClass;
@@ -21,10 +21,8 @@ public class ResponseXmlExtractor {
 
         rootContents.forEach(e -> {
             if (e != null) {
-                XmlParser.MappingResult<TMicInterface> rootMappingResult =
-                        parser.apply(TMicInterface.class, e.getXml());
-                List<TMicInterfaceMessage> messageContent = getMessages(rootMappingResult.content);
-
+                XmlParser.MappingResult<TMicInterface> result = parser.apply(TMicInterface.class, e.getXml());
+                List<TMicInterfaceMessage> messageContent = getMessages(result.content);
                 if (messageContent != null && !messageContent.isEmpty()) {
                     responseMessageList.addAll(getResponseMessage(parser, e, messageContent));
                 }
@@ -34,15 +32,15 @@ public class ResponseXmlExtractor {
     }
 
     private List<Storage<ResponseMessage>> getResponseMessage(final XmlParser parser,
-                                                final RootContentStorage rootContent,
-                                                final List<TMicInterfaceMessage> messageContent) {
+                                                              final RootContentStorage rootContent,
+                                                              final List<TMicInterfaceMessage> messageContent) {
         List<Storage<ResponseMessage>> storageList = new ArrayList<>();
         for (TMicInterfaceMessage micInterfaceMessage : messageContent) {
             String value = micInterfaceMessage.getBody().getValue();
+
             XmlParser.MappingResult<ResponseMessage> responseMessageMappingResult =
                     parser.apply(ResponseMessage.class, value);
-            storageList.add(new Storage(rootContent.getPath(),
-                    responseMessageMappingResult.content));
+            storageList.add(new Storage<>(rootContent.getPath(), responseMessageMappingResult.content));
         }
         return storageList;
     }

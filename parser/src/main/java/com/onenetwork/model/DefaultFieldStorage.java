@@ -5,7 +5,7 @@ import lombok.EqualsAndHashCode;
 
 @EqualsAndHashCode
 @AllArgsConstructor
-public class ControlIdentifierSelector {
+public class DefaultFieldStorage {
     private final String messageType;
     private final String controlIdentifier;
 }

@@ -5,7 +5,7 @@ import lombok.Getter;
 
 @AllArgsConstructor
 @Getter
-public enum PackagePathConstant {
+public enum PackagePathToObjectFactoryConstant {
     WEBSERVICE("com.onenetwork.webservice"),
     RESPONSE("com.onenetwork.response"),
     CW02("com.onenetwork.model.ae_ax.cw"),

@@ -15,7 +15,6 @@
 
     <properties>
         <lombok.version>1.18.20</lombok.version>
-        <org.reflections.version>0.9.12</org.reflections.version>
         <com.fasterxml.jackson.core.version>2.12.4</com.fasterxml.jackson.core.version>
         <org.junit.jupiter.version>5.4.2</org.junit.jupiter.version>
         <commons.io.version>2.6</commons.io.version>
@@ -35,12 +34,6 @@
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
             <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.reflections</groupId>
-            <artifactId>reflections</artifactId>
-            <version>${org.reflections.version}</version>
         </dependency>
 
         <dependency>

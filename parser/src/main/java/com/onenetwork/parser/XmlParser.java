@@ -1,6 +1,6 @@
 package com.onenetwork.parser;
 
-import com.onenetwork.constant.PackagePathConstant;
+import com.onenetwork.constant.PackagePathToObjectFactoryConstant;
 import lombok.AllArgsConstructor;
 
 import javax.xml.bind.JAXBContext;
@@ -33,8 +33,8 @@ public class XmlParser {
     }
 
     private String collectObjectFactories() {
-        return Arrays.stream(PackagePathConstant.values())
-                .map(PackagePathConstant::getPath)
+        return Arrays.stream(PackagePathToObjectFactoryConstant.values())
+                .map(PackagePathToObjectFactoryConstant::getPath)
                 .collect(Collectors.joining(DELIMITER_DOUBLE_DOT));
     }
 
