@@ -1,4 +1,4 @@
-package onenetwork.comparator;
+package com.onenetwork.comparator;
 
 import lombok.experimental.UtilityClass;
 import org.imagination.comparator.Comparator;

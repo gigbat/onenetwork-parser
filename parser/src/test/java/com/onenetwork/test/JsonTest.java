@@ -1,4 +1,4 @@
-package onenetwork.test;
+package com.onenetwork.test;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
@@ -7,7 +7,7 @@ import com.onenetwork.collector.ModelsCollector;
 import com.onenetwork.collector.ParsedModelsCollector;
 import com.onenetwork.model.DefaultFieldStorage;
 import lombok.SneakyThrows;
-import onenetwork.comparator.TreeComparator;
+import com.onenetwork.comparator.TreeComparator;
 import org.apache.commons.io.FileUtils;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
