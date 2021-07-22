@@ -13,10 +13,13 @@
 
     <artifactId>model</artifactId>
 
-    <properties>
-        <jaxb2-maven-plugin.version>2.5.0</jaxb2-maven-plugin.version>
-        <exec.maven.plugin.version>3.0.0</exec.maven.plugin.version>
-    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>${javax.xml.bind.version}</version>
+        </dependency>
+    </dependencies>
 
     <profiles>
         <profile>
