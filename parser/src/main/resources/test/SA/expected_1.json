@@ -1,18 +1,64 @@
 [
   {
-    "controlIdentifier": "SA",
-    "recordType": "10",
-    "isfTransactionNumber": "S3A-66884540556"
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "2",
+      "value" : "SA"
+    },
+    "recordType": {
+      "startPosition" : "3",
+      "endPosition" : "4",
+      "value" : "10"
+    },
+    "isfTransactionNumber": {
+      "startPosition" : "5",
+      "endPosition" : "19",
+      "value" : "S3A-66884540556"
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SA",
-    "recordType": "30",
-    "billNumber":"ABCDXXX4444434  "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "2",
+      "value" : "SA"
+    },
+    "recordType": {
+      "startPosition" : "3",
+      "endPosition" : "4",
+      "value" : "30"
+    },
+    "billNumber": {
+      "startPosition" : "5",
+      "endPosition" : "20",
+      "value" : "ABCDXXX4444434  "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SA",
-    "recordType": "50",
-    "dispositionCode": "S2",
-    "remarks": "NO BILL MATCH (NOT ON FILE)             "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "2",
+      "value" : "SA"
+    },
+    "recordType": {
+      "startPosition" : "3",
+      "endPosition" : "4",
+      "value" : "50"
+    },
+    "dispositionCode": {
+      "startPosition" : "5",
+      "endPosition" : "6",
+      "value" : "S2"
+    },
+    "remarks": {
+      "startPosition" : "7",
+      "endPosition" : "46",
+      "value" : "NO BILL MATCH (NOT ON FILE)             "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   }
 ]

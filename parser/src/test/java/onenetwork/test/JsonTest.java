@@ -9,6 +9,7 @@ import com.onenetwork.model.DefaultFieldStorage;
 import lombok.SneakyThrows;
 import onenetwork.comparator.TreeComparator;
 import org.apache.commons.io.FileUtils;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -21,8 +22,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 import java.util.stream.Collectors;
-
-import static org.junit.Assert.assertEquals;
 
 
 public class JsonTest {
@@ -47,7 +46,7 @@ public class JsonTest {
         List<List<Object>> actuals = parsedModelsCollector.collectParsedObjects(globalObjectsMap);
         List<File> expectedFiles = getExpectedFiles(String.valueOf(resource.toURI()).substring(6));
 
-        assertEquals(expectedFiles.size(), actuals.size());
+        Assertions.assertEquals(expectedFiles.size(), actuals.size());
         for (int i = 0; i < expectedFiles.size(); i++) {
             String expected = FileUtils.readFileToString(expectedFiles.get(i), StandardCharsets.UTF_8);
             String actual = MAPPER.writeValueAsString(actuals.get(i));

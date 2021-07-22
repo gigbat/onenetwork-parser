@@ -1,36 +1,148 @@
 [
   {
-    "controlIdentifier": "SF10",
-    "isfSubmissionType": "1",
-    "shipmentTypeCode": "01",
-    "actionCode": "A",
-    "actionReasonCode": "CT",
-    "isfImporterNumberQualifier": "EI ",
-    "isfImporterNumber": "12-123456789   ",
-    "dateOfBirth": "        ",
-    "modeOfTransportationCode": "10",
-    "isfTransactionNumber": "               ",
-    "scasIdentifier": "    ",
-    "bondHolder": "12-123456789   ",
-    "bondActivityCode": "01",
-    "bondType": "8",
-    "countryOfIssuance": "  "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SF10"
+    },
+    "isfSubmissionType": {
+      "startPosition" : "5",
+      "endPosition" : "5",
+      "value" : "1"
+    },
+    "shipmentTypeCode": {
+      "startPosition" : "6",
+      "endPosition" : "7",
+      "value" : "01"
+    },
+    "actionCode": {
+      "startPosition" : "8",
+      "endPosition" : "8",
+      "value" : "A"
+    },
+    "actionReasonCode": {
+      "startPosition" : "9",
+      "endPosition" : "10",
+      "value" : "CT"
+    },
+    "isfImporterNumberQualifier": {
+      "startPosition" : "11",
+      "endPosition" : "13",
+      "value" : "EI "
+    },
+    "isfImporterNumber": {
+      "startPosition" : "14",
+      "endPosition" : "28",
+      "value" : "12-123456789   "
+    },
+    "dateOfBirth": {
+      "startPosition" : "29",
+      "endPosition" : "36",
+      "value" : "        "
+    },
+    "modeOfTransportationCode": {
+      "startPosition" : "37",
+      "endPosition" : "38",
+      "value" : "10"
+    },
+    "isfTransactionNumber": {
+      "startPosition" : "39",
+      "endPosition" : "53",
+      "value" : "               "
+    },
+    "scasIdentifier": {
+      "startPosition" : "54",
+      "endPosition" : "57",
+      "value" : "    "
+    },
+    "bondHolder": {
+      "startPosition" : "58",
+      "endPosition" : "72",
+      "value" : "12-123456789   "
+    },
+    "bondActivityCode": {
+      "startPosition" : "73",
+      "endPosition" : "74",
+      "value" : "01"
+    },
+    "bondType": {
+      "startPosition" : "75",
+      "endPosition" : "75",
+      "value" : "8"
+    },
+    "countryOfIssuance": {
+      "startPosition" : "79",
+      "endPosition" : "80",
+      "value" : "  "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SF90",
-    "messageTypeCode": "11",
-    "errorCode": "144",
-    "narrativeMessageText": "CONTINUOUS BOND NOT ON FILE             "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SF90"
+    },
+    "messageTypeCode": {
+      "startPosition" : "5",
+      "endPosition" : "6",
+      "value" : "11"
+    },
+    "errorCode": {
+      "startPosition" : "7",
+      "endPosition" : "9",
+      "value" : "144"
+    },
+    "narrativeMessageText": {
+      "startPosition" : "10",
+      "endPosition" : "49",
+      "value" : "CONTINUOUS BOND NOT ON FILE             "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SF15",
-    "codeQualifier": "OB",
-    "shipmentReferenceIdentifier": "ABCD987654320                                     "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SF15"
+    },
+    "codeQualifier": {
+      "startPosition" : "5",
+      "endPosition" : "6",
+      "value" : "OB"
+    },
+    "shipmentReferenceIdentifier": {
+      "startPosition" : "7",
+      "endPosition" : "56",
+      "value" : "ABCD987654320                                     "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SF90",
-    "messageTypeCode": "01",
-    "errorCode": "   ",
-    "narrativeMessageText": "ISF REJECTED                            "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SF90"
+    },
+    "messageTypeCode": {
+      "startPosition" : "5",
+      "endPosition" : "6",
+      "value" : "01"
+    },
+    "errorCode": {
+      "startPosition" : "7",
+      "endPosition" : "9",
+      "value" : "   "
+    },
+    "narrativeMessageText": {
+      "startPosition" : "10",
+      "endPosition" : "49",
+      "value" : "ISF REJECTED                            "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   }
 ]

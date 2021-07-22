@@ -1,110 +1,470 @@
 [
   {
-    "controlIdentifier": "SF10",
-    "isfSubmissionType": "1",
-    "shipmentTypeCode": "01",
-    "actionCode": "A",
-    "actionReasonCode": "CT",
-    "isfImporterNumberQualifier": "EI ",
-    "isfImporterNumber": "12-123456789   ",
-    "dateOfBirth": "        ",
-    "modeOfTransportationCode": "10",
-    "isfTransactionNumber": "               ",
-    "scasIdentifier": "    ",
-    "bondHolder": "12-123456789   ",
-    "bondActivityCode": "01",
-    "bondType": "8",
-    "countryOfIssuance": "  "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SF10"
+    },
+    "isfSubmissionType": {
+      "startPosition" : "5",
+      "endPosition" : "5",
+      "value" : "1"
+    },
+    "shipmentTypeCode": {
+      "startPosition" : "6",
+      "endPosition" : "7",
+      "value" : "01"
+    },
+    "actionCode": {
+      "startPosition" : "8",
+      "endPosition" : "8",
+      "value" : "A"
+    },
+    "actionReasonCode": {
+      "startPosition" : "9",
+      "endPosition" : "10",
+      "value" : "CT"
+    },
+    "isfImporterNumberQualifier": {
+      "startPosition" : "11",
+      "endPosition" : "13",
+      "value" : "EI "
+    },
+    "isfImporterNumber": {
+      "startPosition" : "14",
+      "endPosition" : "28",
+      "value" : "12-123456789   "
+    },
+    "dateOfBirth": {
+      "startPosition" : "29",
+      "endPosition" : "36",
+      "value" : "        "
+    },
+    "modeOfTransportationCode": {
+      "startPosition" : "37",
+      "endPosition" : "38",
+      "value" : "10"
+    },
+    "isfTransactionNumber": {
+      "startPosition" : "39",
+      "endPosition" : "53",
+      "value" : "               "
+    },
+    "scasIdentifier": {
+      "startPosition" : "54",
+      "endPosition" : "57",
+      "value" : "    "
+    },
+    "bondHolder": {
+      "startPosition" : "58",
+      "endPosition" : "72",
+      "value" : "12-123456789   "
+    },
+    "bondActivityCode": {
+      "startPosition" : "73",
+      "endPosition" : "74",
+      "value" : "01"
+    },
+    "bondType": {
+      "startPosition" : "75",
+      "endPosition" : "75",
+      "value" : "8"
+    },
+    "countryOfIssuance": {
+      "startPosition" : "79",
+      "endPosition" : "80",
+      "value" : "  "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SF13",
-    "shipmentSubType": "  ",
-    "estimatedValue": "           ",
-    "estimatedQuantity": "           ",
-    "unitOfMeasure": "   ",
-    "estimatedWeight": "           ",
-    "weightQualifiers": " "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SF13"
+    },
+    "shipmentSubType": {
+      "startPosition" : "5",
+      "endPosition" : "6",
+      "value" : "  "
+    },
+    "estimatedValue": {
+      "startPosition" : "7",
+      "endPosition" : "17",
+      "value" : "           "
+    },
+    "estimatedQuantity": {
+      "startPosition" : "18",
+      "endPosition" : "28",
+      "value" : "           "
+    },
+    "unitOfMeasure": {
+      "startPosition" : "29",
+      "endPosition" : "31",
+      "value" : "   "
+    },
+    "estimatedWeight": {
+      "startPosition" : "32",
+      "endPosition" : "42",
+      "value" : "           "
+    },
+    "weightQualifiers": {
+      "startPosition" : "43",
+      "endPosition" : "43",
+      "value" : " "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SF15",
-    "codeQualifier": "OB",
-    "shipmentReferenceIdentifier": "ABCD987654320                                     "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SF15"
+    },
+    "codeQualifier": {
+      "startPosition" : "5",
+      "endPosition" : "6",
+      "value" : "OB"
+    },
+    "shipmentReferenceIdentifier": {
+      "startPosition" : "7",
+      "endPosition" : "56",
+      "value" : "ABCD987654320                                     "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SF30",
-    "entityCode": "CN ",
-    "entityName": "                                   ",
-    "entityIdentifierQualifier": "EI ",
-    "entityIdentifier": "12-123456789        ",
-    "countryCode": "  ",
-    "dateOfBirth": "        "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SF30"
+    },
+    "entityCode": {
+      "startPosition" : "5",
+      "endPosition" : "7",
+      "value" : "CN "
+    },
+    "entityName": {
+      "startPosition" : "8",
+      "endPosition" : "42",
+      "value" : "                                   "
+    },
+    "entityIdentifierQualifier": {
+      "startPosition" : "43",
+      "endPosition" : "45",
+      "value" : "EI "
+    },
+    "entityIdentifier": {
+      "startPosition" : "46",
+      "endPosition" : "65",
+      "value" : "12-123456789        "
+    },
+    "countryCode": {
+      "startPosition" : "66",
+      "endPosition" : "67",
+      "value" : "  "
+    },
+    "dateOfBirth": {
+      "startPosition" : "68",
+      "endPosition" : "75",
+      "value" : "        "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SF30",
-    "entityCode": "IM ",
-    "entityName": "                                   ",
-    "entityIdentifierQualifier": "EI ",
-    "entityIdentifier": "12-123456789        ",
-    "countryCode": "  ",
-    "dateOfBirth": "        "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SF30"
+    },
+    "entityCode": {
+      "startPosition" : "5",
+      "endPosition" : "7",
+      "value" : "IM "
+    },
+    "entityName": {
+      "startPosition" : "8",
+      "endPosition" : "42",
+      "value" : "                                   "
+    },
+    "entityIdentifierQualifier": {
+      "startPosition" : "43",
+      "endPosition" : "45",
+      "value" : "EI "
+    },
+    "entityIdentifier": {
+      "startPosition" : "46",
+      "endPosition" : "65",
+      "value" : "12-123456789        "
+    },
+    "countryCode": {
+      "startPosition" : "66",
+      "endPosition" : "67",
+      "value" : "  "
+    },
+    "dateOfBirth": {
+      "startPosition" : "68",
+      "endPosition" : "75",
+      "value" : "        "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SF30",
-    "entityCode": "LG ",
-    "entityName": "                                   ",
-    "entityIdentifierQualifier": "DUN",
-    "entityIdentifier": "123456789           ",
-    "countryCode": "  ",
-    "dateOfBirth": "        "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SF30"
+    },
+    "entityCode": {
+      "startPosition" : "5",
+      "endPosition" : "7",
+      "value" : "LG "
+    },
+    "entityName": {
+      "startPosition" : "8",
+      "endPosition" : "42",
+      "value" : "                                   "
+    },
+    "entityIdentifierQualifier": {
+      "startPosition" : "43",
+      "endPosition" : "45",
+      "value" : "DUN"
+    },
+    "entityIdentifier": {
+      "startPosition" : "46",
+      "endPosition" : "65",
+      "value" : "123456789           "
+    },
+    "countryCode": {
+      "startPosition" : "66",
+      "endPosition" : "67",
+      "value" : "  "
+    },
+    "dateOfBirth": {
+      "startPosition" : "68",
+      "endPosition" : "75",
+      "value" : "        "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SF30",
-    "entityCode": "SE ",
-    "entityName": "                                   ",
-    "entityIdentifierQualifier": "DUN",
-    "entityIdentifier": "123456789           ",
-    "countryCode": "  ",
-    "dateOfBirth": "        "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SF30"
+    },
+    "entityCode": {
+      "startPosition" : "5",
+      "endPosition" : "7",
+      "value" : "SE "
+    },
+    "entityName": {
+      "startPosition" : "8",
+      "endPosition" : "42",
+      "value" : "                                   "
+    },
+    "entityIdentifierQualifier": {
+      "startPosition" : "43",
+      "endPosition" : "45",
+      "value" : "DUN"
+    },
+    "entityIdentifier": {
+      "startPosition" : "46",
+      "endPosition" : "65",
+      "value" : "123456789           "
+    },
+    "countryCode": {
+      "startPosition" : "66",
+      "endPosition" : "67",
+      "value" : "  "
+    },
+    "dateOfBirth": {
+      "startPosition" : "68",
+      "endPosition" : "75",
+      "value" : "        "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SF30",
-    "entityCode": "CS ",
-    "entityName": "                                   ",
-    "entityIdentifierQualifier": "DUN",
-    "entityIdentifier": "123456789           ",
-    "countryCode": "  ",
-    "dateOfBirth": "        "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SF30"
+    },
+    "entityCode": {
+      "startPosition" : "5",
+      "endPosition" : "7",
+      "value" : "CS "
+    },
+    "entityName": {
+      "startPosition" : "8",
+      "endPosition" : "42",
+      "value" : "                                   "
+    },
+    "entityIdentifierQualifier": {
+      "startPosition" : "43",
+      "endPosition" : "45",
+      "value" : "DUN"
+    },
+    "entityIdentifier": {
+      "startPosition" : "46",
+      "endPosition" : "65",
+      "value" : "123456789           "
+    },
+    "countryCode": {
+      "startPosition" : "66",
+      "endPosition" : "67",
+      "value" : "  "
+    },
+    "dateOfBirth": {
+      "startPosition" : "68",
+      "endPosition" : "75",
+      "value" : "        "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SF30",
-    "entityCode": "ST ",
-    "entityName": "                                   ",
-    "entityIdentifierQualifier": "DUN",
-    "entityIdentifier": "987654321           ",
-    "countryCode": "  ",
-    "dateOfBirth": "        "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SF30"
+    },
+    "entityCode": {
+      "startPosition" : "5",
+      "endPosition" : "7",
+      "value" : "ST "
+    },
+    "entityName": {
+      "startPosition" : "8",
+      "endPosition" : "42",
+      "value" : "                                   "
+    },
+    "entityIdentifierQualifier": {
+      "startPosition" : "43",
+      "endPosition" : "45",
+      "value" : "DUN"
+    },
+    "entityIdentifier": {
+      "startPosition" : "46",
+      "endPosition" : "65",
+      "value" : "987654321           "
+    },
+    "countryCode": {
+      "startPosition" : "66",
+      "endPosition" : "67",
+      "value" : "  "
+    },
+    "dateOfBirth": {
+      "startPosition" : "68",
+      "endPosition" : "75",
+      "value" : "        "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SF30",
-    "entityCode": "BY ",
-    "entityName": "                                   ",
-    "entityIdentifierQualifier": "DUN",
-    "entityIdentifier": "987654321           ",
-    "countryCode": "  ",
-    "dateOfBirth": "        "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SF30"
+    },
+    "entityCode": {
+      "startPosition" : "5",
+      "endPosition" : "7",
+      "value" : "BY "
+    },
+    "entityName": {
+      "startPosition" : "8",
+      "endPosition" : "42",
+      "value" : "                                   "
+    },
+    "entityIdentifierQualifier": {
+      "startPosition" : "43",
+      "endPosition" : "45",
+      "value" : "DUN"
+    },
+    "entityIdentifier": {
+      "startPosition" : "46",
+      "endPosition" : "65",
+      "value" : "987654321           "
+    },
+    "countryCode": {
+      "startPosition" : "66",
+      "endPosition" : "67",
+      "value" : "  "
+    },
+    "dateOfBirth": {
+      "startPosition" : "68",
+      "endPosition" : "75",
+      "value" : "        "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SF30",
-    "entityCode": "MF ",
-    "entityName": "                                   ",
-    "entityIdentifierQualifier": "DUN",
-    "entityIdentifier": "123456789           ",
-    "countryCode": "  ",
-    "dateOfBirth": "        "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SF30"
+    },
+    "entityCode": {
+      "startPosition" : "5",
+      "endPosition" : "7",
+      "value" : "MF "
+    },
+    "entityName": {
+      "startPosition" : "8",
+      "endPosition" : "42",
+      "value" : "                                   "
+    },
+    "entityIdentifierQualifier": {
+      "startPosition" : "43",
+      "endPosition" : "45",
+      "value" : "DUN"
+    },
+    "entityIdentifier": {
+      "startPosition" : "46",
+      "endPosition" : "65",
+      "value" : "123456789           "
+    },
+    "countryCode": {
+      "startPosition" : "66",
+      "endPosition" : "67",
+      "value" : "  "
+    },
+    "dateOfBirth": {
+      "startPosition" : "68",
+      "endPosition" : "75",
+      "value" : "        "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SF40",
-    "harmonizedNumber": "8708210000",
-    "countryOfOrigin": "BE"
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SF40"
+    },
+    "harmonizedNumber": {
+      "startPosition" : "5",
+      "endPosition" : "14",
+      "value" : "8708210000"
+    },
+    "countryOfOrigin": {
+      "startPosition" : "15",
+      "endPosition" : "16",
+      "value" : "BE"
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   }
 ]

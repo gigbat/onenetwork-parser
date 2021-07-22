@@ -1,81 +1,349 @@
 [
   {
-    "controlIdentifier": "SO10",
-    "districtOrPortOfEntry": "3701",
-    "entryFilerCode": "S3A",
-    "entryNumber": "12345678",
-    "entryTypeCode": "01",
-    "importerOfRecordNumber": "99-999999999",
-    "carrierCode": "ABCD",
-    "vesselName": "THE BIG SSSSSS      ",
-    "voyageOrFlightOrTripManifestNumber": "AA99 ",
-    "estimatedDateOfArrival": "070521",
-    "splitShipmentReleaseCode": " ",
-    "correctionResponseIndicator": " "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SO10"
+    },
+    "districtOrPortOfEntry": {
+      "startPosition" : "5",
+      "endPosition" : "8",
+      "value" : "3701"
+    },
+    "entryFilerCode": {
+      "startPosition" : "9",
+      "endPosition" : "11",
+      "value" : "S3A"
+    },
+    "entryNumber": {
+      "startPosition" : "14",
+      "endPosition" : "21",
+      "value" : "12345678"
+    },
+    "entryTypeCode": {
+      "startPosition" : "23",
+      "endPosition" : "24",
+      "value" : "01"
+    },
+    "importerOfRecordNumber": {
+      "startPosition" : "25",
+      "endPosition" : "36",
+      "value" : "99-999999999"
+    },
+    "carrierCode": {
+      "startPosition" : "37",
+      "endPosition" : "40",
+      "value" : "ABCD"
+    },
+    "vesselName": {
+      "startPosition" : "41",
+      "endPosition" : "60",
+      "value" : "THE BIG SSSSSS      "
+    },
+    "voyageOrFlightOrTripManifestNumber": {
+      "startPosition" : "61",
+      "endPosition" : "65",
+      "value" : "AA99 "
+    },
+    "estimatedDateOfArrival": {
+      "startPosition" : "66",
+      "endPosition" : "71",
+      "value" : "070521"
+    },
+    "splitShipmentReleaseCode": {
+      "startPosition" : "72",
+      "endPosition" : "72",
+      "value" : " "
+    },
+    "correctionResponseIndicator": {
+      "startPosition" : "73",
+      "endPosition" : "73",
+      "value" : " "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SO20",
-    "referenceIdentifierQualifier": "CR ",
-    "referenceIdentifier": "FISK                                              "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SO20"
+    },
+    "referenceIdentifierQualifier": {
+      "startPosition" : "5",
+      "endPosition" : "7",
+      "value" : "CR "
+    },
+    "referenceIdentifier": {
+      "startPosition" : "8",
+      "endPosition" : "57",
+      "value" : "FISK                                              "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SO40",
-    "billTypeIndicator": "M",
-    "issuerCodeOfBillOfLadingNumber": "ABCD",
-    "billOfLadingNumber": "GGG5555583                                        ",
-    "quantity": "        ",
-    "unitOfMeasure": "     ",
-    "manifestedQuantity": "        "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SO40"
+    },
+    "billTypeIndicator": {
+      "startPosition" : "5",
+      "endPosition" : "5",
+      "value" : "M"
+    },
+    "issuerCodeOfBillOfLadingNumber": {
+      "startPosition" : "6",
+      "endPosition" : "9",
+      "value" : "ABCD"
+    },
+    "billOfLadingNumber": {
+      "startPosition" : "10",
+      "endPosition" : "59",
+      "value" : "GGG5555583                                        "
+    },
+    "quantity": {
+      "startPosition" : "60",
+      "endPosition" : "67",
+      "value" : "        "
+    },
+    "unitOfMeasure": {
+      "startPosition" : "68",
+      "endPosition" : "72",
+      "value" : "     "
+    },
+    "manifestedQuantity": {
+      "startPosition" : "73",
+      "endPosition" : "80",
+      "value" : "        "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SO40",
-    "billTypeIndicator": "H",
-    "issuerCodeOfBillOfLadingNumber": "WXYX",
-    "billOfLadingNumber": "HHH4444708                                        ",
-    "quantity": "00000028",
-    "unitOfMeasure": "PCS  ",
-    "manifestedQuantity": "00000028"
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SO40"
+    },
+    "billTypeIndicator": {
+      "startPosition" : "5",
+      "endPosition" : "5",
+      "value" : "H"
+    },
+    "issuerCodeOfBillOfLadingNumber": {
+      "startPosition" : "6",
+      "endPosition" : "9",
+      "value" : "WXYX"
+    },
+    "billOfLadingNumber": {
+      "startPosition" : "10",
+      "endPosition" : "59",
+      "value" : "HHH4444708                                        "
+    },
+    "quantity": {
+      "startPosition" : "60",
+      "endPosition" : "67",
+      "value" : "00000028"
+    },
+    "unitOfMeasure": {
+      "startPosition" : "68",
+      "endPosition" : "72",
+      "value" : "PCS  "
+    },
+    "manifestedQuantity": {
+      "startPosition" : "73",
+      "endPosition" : "80",
+      "value" : "00000028"
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SO50",
-    "dispositionDate": "070721",
-    "dispositionTime": "1513",
-    "dispositionCode": "95",
-    "narrativeMessage": "BILL ARRIVED                            ",
-    "splitIndicator": " ",
-    "carrierCode": "    ",
-    "voyageOrFlightOrTripManifestNumber": "     ",
-    "dateOfArrival": "      ",
-    "districtOrPortOfArrival": "    "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SO50"
+    },
+    "dispositionDate": {
+      "startPosition" : "5",
+      "endPosition" : "10",
+      "value" : "070721"
+    },
+    "dispositionTime": {
+      "startPosition" : "11",
+      "endPosition" : "14",
+      "value" : "1513"
+    },
+    "dispositionCode": {
+      "startPosition" : "15",
+      "endPosition" : "16",
+      "value" : "95"
+    },
+    "narrativeMessage": {
+      "startPosition" : "17",
+      "endPosition" : "56",
+      "value" : "BILL ARRIVED                            "
+    },
+    "splitIndicator": {
+      "startPosition" : "57",
+      "endPosition" : "57",
+      "value" : " "
+    },
+    "carrierCode": {
+      "startPosition" : "58",
+      "endPosition" : "61",
+      "value" : "    "
+    },
+    "voyageOrFlightOrTripManifestNumber": {
+      "startPosition" : "62",
+      "endPosition" : "66",
+      "value" : "     "
+    },
+    "dateOfArrival": {
+      "startPosition" : "67",
+      "endPosition" : "72",
+      "value" : "      "
+    },
+    "districtOrPortOfArrival": {
+      "startPosition" : "73",
+      "endPosition" : "76",
+      "value" : "    "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SO60",
-    "dispositionActionDate": "070721",
-    "dispositionActionTime": "1523",
-    "dispositionActionCode": "22",
-    "narrativeMessage": "RELEASE DATE UPDATE                     ",
-    "releaseDate": "070721",
-    "releaseOriginCode": "01",
-    "documentType": "      "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SO60"
+    },
+    "dispositionActionDate": {
+      "startPosition" : "5",
+      "endPosition" : "10",
+      "value" : "070721"
+    },
+    "dispositionActionTime": {
+      "startPosition" : "11",
+      "endPosition" : "14",
+      "value" : "1523"
+    },
+    "dispositionActionCode": {
+      "startPosition" : "15",
+      "endPosition" : "16",
+      "value" : "22"
+    },
+    "narrativeMessage": {
+      "startPosition" : "17",
+      "endPosition" : "56",
+      "value" : "RELEASE DATE UPDATE                     "
+    },
+    "releaseDate": {
+      "startPosition" : "57",
+      "endPosition" : "62",
+      "value" : "070721"
+    },
+    "releaseOriginCode": {
+      "startPosition" : "63",
+      "endPosition" : "64",
+      "value" : "01"
+    },
+    "documentType": {
+      "startPosition" : "65",
+      "endPosition" : "70",
+      "value" : "      "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SO60",
-    "dispositionActionDate": "070721",
-    "dispositionActionTime": "1523",
-    "dispositionActionCode": "98",
-    "narrativeMessage": "RELEASED                                ",
-    "releaseDate": "070721",
-    "releaseOriginCode": "01",
-    "documentType": "      "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SO60"
+    },
+    "dispositionActionDate": {
+      "startPosition" : "5",
+      "endPosition" : "10",
+      "value" : "070721"
+    },
+    "dispositionActionTime": {
+      "startPosition" : "11",
+      "endPosition" : "14",
+      "value" : "1523"
+    },
+    "dispositionActionCode": {
+      "startPosition" : "15",
+      "endPosition" : "16",
+      "value" : "98"
+    },
+    "narrativeMessage": {
+      "startPosition" : "17",
+      "endPosition" : "56",
+      "value" : "RELEASED                                "
+    },
+    "releaseDate": {
+      "startPosition" : "57",
+      "endPosition" : "62",
+      "value" : "070721"
+    },
+    "releaseOriginCode": {
+      "startPosition" : "63",
+      "endPosition" : "64",
+      "value" : "01"
+    },
+    "documentType": {
+      "startPosition" : "65",
+      "endPosition" : "70",
+      "value" : "      "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SO60",
-    "dispositionActionDate": "070721",
-    "dispositionActionTime": "1523",
-    "dispositionActionCode": "01",
-    "narrativeMessage": "ONE USG                                 ",
-    "releaseDate": "      ",
-    "releaseOriginCode": "  ",
-    "documentType": "      "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SO60"
+    },
+    "dispositionActionDate": {
+      "startPosition" : "5",
+      "endPosition" : "10",
+      "value" : "070721"
+    },
+    "dispositionActionTime": {
+      "startPosition" : "11",
+      "endPosition" : "14",
+      "value" : "1523"
+    },
+    "dispositionActionCode": {
+      "startPosition" : "15",
+      "endPosition" : "16",
+      "value" : "01"
+    },
+    "narrativeMessage": {
+      "startPosition" : "17",
+      "endPosition" : "56",
+      "value" : "ONE USG                                 "
+    },
+    "releaseDate": {
+      "startPosition" : "57",
+      "endPosition" : "62",
+      "value" : "      "
+    },
+    "releaseOriginCode": {
+      "startPosition" : "63",
+      "endPosition" : "64",
+      "value" : "  "
+    },
+    "documentType": {
+      "startPosition" : "65",
+      "endPosition" : "70",
+      "value" : "      "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   }
 ]

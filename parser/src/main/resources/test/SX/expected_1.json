@@ -1,44 +1,182 @@
 [
   {
-    "controlIdentifier": "SE10",
-    "updateActionCode": "A",
-    "entryFilerCode": "S3A",
-    "entryNumber": "12345678",
-    "entryType": "01",
-    "importerOfRecordType": "EI ",
-    "importerOfRecord": "99-999999999",
-    "modeOfTransportationCode": "11",
-    "bondTypeCode": "8",
-    "estimatedEntryValue": "0000023083",
-    "plannedPortOfEntry": "3701 ",
-    "splitShipmentReleaseCode": " ",
-    "portOfUnlading": "3701 "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SE10"
+    },
+    "updateActionCode": {
+      "startPosition" : "5",
+      "endPosition" : "5",
+      "value" : "A"
+    },
+    "entryFilerCode": {
+      "startPosition" : "6",
+      "endPosition" : "8",
+      "value" : "S3A"
+    },
+    "entryNumber": {
+      "startPosition" : "11",
+      "endPosition" : "18",
+      "value" : "12345678"
+    },
+    "entryType": {
+      "startPosition" : "20",
+      "endPosition" : "21",
+      "value" : "01"
+    },
+    "importerOfRecordType": {
+      "startPosition" : "22",
+      "endPosition" : "24",
+      "value" : "EI "
+    },
+    "importerOfRecord": {
+      "startPosition" : "25",
+      "endPosition" : "36",
+      "value" : "99-999999999"
+    },
+    "modeOfTransportationCode": {
+      "startPosition" : "37",
+      "endPosition" : "38",
+      "value" : "11"
+    },
+    "bondTypeCode": {
+      "startPosition" : "39",
+      "endPosition" : "39",
+      "value" : "8"
+    },
+    "estimatedEntryValue": {
+      "startPosition" : "40",
+      "endPosition" : "49",
+      "value" : "0000023083"
+    },
+    "plannedPortOfEntry": {
+      "startPosition" : "50",
+      "endPosition" : "54",
+      "value" : "3701 "
+    },
+    "splitShipmentReleaseCode": {
+      "startPosition" : "55",
+      "endPosition" : "55",
+      "value" : " "
+    },
+    "portOfUnlading": {
+      "startPosition" : "56",
+      "endPosition" : "60",
+      "value" : "3701 "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SE15",
-    "billTypeIndicator": "M",
-    "issuerCodeOfBillOfLadingNumber": "ABCD",
-    "billOfLadingNumber": "XYXB88888800                                      ",
-    "quantity": "        ",
-    "nonAmsIndicator": "N"
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SE15"
+    },
+    "billTypeIndicator": {
+      "startPosition" : "5",
+      "endPosition" : "5",
+      "value" : "M"
+    },
+    "issuerCodeOfBillOfLadingNumber": {
+      "startPosition" : "6",
+      "endPosition" : "9",
+      "value" : "ABCD"
+    },
+    "billOfLadingNumber": {
+      "startPosition" : "10",
+      "endPosition" : "59",
+      "value" : "XYXB88888800                                      "
+    },
+    "quantity": {
+      "startPosition" : "60",
+      "endPosition" : "67",
+      "value" : "        "
+    },
+    "nonAmsIndicator": {
+      "startPosition" : "73",
+      "endPosition" : "73",
+      "value" : "N"
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SE15",
-    "billTypeIndicator": "H",
-    "issuerCodeOfBillOfLadingNumber": "WXYZ",
-    "billOfLadingNumber": "ABC2222286                                        ",
-    "quantity": "55      ",
-    "nonAmsIndicator": "N"
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SE15"
+    },
+    "billTypeIndicator": {
+      "startPosition" : "5",
+      "endPosition" : "5",
+      "value" : "H"
+    },
+    "issuerCodeOfBillOfLadingNumber": {
+      "startPosition" : "6",
+      "endPosition" : "9",
+      "value" : "WXYZ"
+    },
+    "billOfLadingNumber": {
+      "startPosition" : "10",
+      "endPosition" : "59",
+      "value" : "ABC2222286                                        "
+    },
+    "quantity": {
+      "startPosition" : "60",
+      "endPosition" : "67",
+      "value" : "55      "
+    },
+    "nonAmsIndicator": {
+      "startPosition" : "73",
+      "endPosition" : "73",
+      "value" : "N"
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SE20",
-    "referenceIdentifierQualifier": "CR ",
-    "referenceIdentifier": "FISK                                              "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SE20"
+    },
+    "referenceIdentifierQualifier": {
+      "startPosition" : "5",
+      "endPosition" : "7",
+      "value" : "CR "
+    },
+    "referenceIdentifier": {
+      "startPosition" : "8",
+      "endPosition" : "57",
+      "value" : "FISK                                              "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   },
   {
-    "controlIdentifier": "SE90",
-    "messageTypeCode": "02",
-    "messageIdentifierCode": "   ",
-    "narrativeMessageText": "SE DATA ACCEPTED                        "
+    "controlIdentifier": {
+      "startPosition" : "1",
+      "endPosition" : "4",
+      "value" : "SE90"
+    },
+    "messageTypeCode": {
+      "startPosition" : "5",
+      "endPosition" : "6",
+      "value" : "02"
+    },
+    "messageIdentifierCode": {
+      "startPosition" : "7",
+      "endPosition" : "9",
+      "value" : "   "
+    },
+    "narrativeMessageText": {
+      "startPosition" : "10",
+      "endPosition" : "49",
+      "value" : "SE DATA ACCEPTED                        "
+    },
+    "defaultControlIdentifier": null,
+    "messageType": null
   }
 ]
