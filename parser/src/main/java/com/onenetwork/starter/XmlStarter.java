@@ -13,8 +13,8 @@ public class XmlStarter {
         ModelsCollector modelsCollector = new ModelsCollector();
         Map<DefaultFieldStorage, Object> globalObjectsMap = modelsCollector.collectObjects();
         ParsedModelsCollector parsedModelsCollector = new ParsedModelsCollector();
-        List<List<Object>> lists = parsedModelsCollector.collectParsedObjects(globalObjectsMap);
-        for (List<Object> list : lists) {
+        List<List<Object>> listOfParsedModels = parsedModelsCollector.collectParsedObjects(globalObjectsMap);
+        for (List<Object> parsedModels : listOfParsedModels) {
             System.out.println();
         }
     }
