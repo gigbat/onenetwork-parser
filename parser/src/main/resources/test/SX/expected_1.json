@@ -65,8 +65,8 @@
       "endPosition" : "60",
       "value" : "3701 "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SE10",
+    "messageType": "SX"
   },
   {
     "controlIdentifier": {
@@ -99,8 +99,8 @@
       "endPosition" : "73",
       "value" : "N"
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SE15",
+    "messageType": "SX"
   },
   {
     "controlIdentifier": {
@@ -133,8 +133,8 @@
       "endPosition" : "73",
       "value" : "N"
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SE15",
+    "messageType": "SX"
   },
   {
     "controlIdentifier": {
@@ -152,8 +152,8 @@
       "endPosition" : "57",
       "value" : "FISK                                              "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SE20",
+    "messageType": "SX"
   },
   {
     "controlIdentifier": {
@@ -176,7 +176,7 @@
       "endPosition" : "49",
       "value" : "SE DATA ACCEPTED                        "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SE90",
+    "messageType": "SX"
   }
 ]

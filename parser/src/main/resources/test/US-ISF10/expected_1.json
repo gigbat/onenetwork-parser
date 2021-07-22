@@ -75,8 +75,8 @@
       "endPosition" : "80",
       "value" : "  "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SF10",
+    "messageType": "SN|US-ISF10"
   },
   {
     "controlIdentifier": {
@@ -114,8 +114,8 @@
       "endPosition" : "43",
       "value" : " "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SF13",
+    "messageType": "SN|US-ISF10"
   },
   {
     "controlIdentifier": {
@@ -133,8 +133,8 @@
       "endPosition" : "56",
       "value" : "ABCD987654320                                     "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SF15",
+    "messageType": "SN|US-ISF10"
   },
   {
     "controlIdentifier": {
@@ -172,8 +172,8 @@
       "endPosition" : "75",
       "value" : "        "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SF30",
+    "messageType": "SN|US-ISF10"
   },
   {
     "controlIdentifier": {
@@ -211,8 +211,8 @@
       "endPosition" : "75",
       "value" : "        "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SF30",
+    "messageType": "SN|US-ISF10"
   },
   {
     "controlIdentifier": {
@@ -250,8 +250,8 @@
       "endPosition" : "75",
       "value" : "        "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SF30",
+    "messageType": "SN|US-ISF10"
   },
   {
     "controlIdentifier": {
@@ -289,8 +289,8 @@
       "endPosition" : "75",
       "value" : "        "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SF30",
+    "messageType": "SN|US-ISF10"
   },
   {
     "controlIdentifier": {
@@ -328,8 +328,8 @@
       "endPosition" : "75",
       "value" : "        "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SF30",
+    "messageType": "SN|US-ISF10"
   },
   {
     "controlIdentifier": {
@@ -367,8 +367,8 @@
       "endPosition" : "75",
       "value" : "        "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SF30",
+    "messageType": "SN|US-ISF10"
   },
   {
     "controlIdentifier": {
@@ -406,8 +406,8 @@
       "endPosition" : "75",
       "value" : "        "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SF30",
+    "messageType": "SN|US-ISF10"
   },
   {
     "controlIdentifier": {
@@ -445,8 +445,8 @@
       "endPosition" : "75",
       "value" : "        "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SF30",
+    "messageType": "SN|US-ISF10"
   },
   {
     "controlIdentifier": {
@@ -464,7 +464,7 @@
       "endPosition" : "16",
       "value" : "BE"
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SF40",
+    "messageType": "SN|US-ISF10"
   }
 ]

@@ -60,8 +60,8 @@
       "endPosition" : "77",
       "value" : "0"
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "N1",
+    "messageType": "NR"
   },
   {
     "controlIdentifier": {
@@ -124,8 +124,8 @@
       "endPosition" : "80",
       "value" : "000000000"
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "N2",
+    "messageType": "NR"
   },
   {
     "controlIdentifier": {
@@ -193,7 +193,7 @@
       "endPosition" : "79",
       "value" : "  "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "N4",
+    "messageType": "NR"
   }
 ]

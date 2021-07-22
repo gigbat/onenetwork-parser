@@ -24,15 +24,30 @@ public class ModelGenerator {
             Field fieldDefaultControlIdentifier = globalClass.getDeclaredField(DEFAULT_FIELD_CONTROL_IDENTIFIER);
             Field fieldMessageType = globalClass.getDeclaredField(DEFAULT_FIELD_MESSAGE_TYPE);
 
-            String defaultValue = fieldDefaultControlIdentifier.getAnnotation(XmlElement.class).defaultValue();
-            String messageType = fieldMessageType.getAnnotation(XmlElement.class).defaultValue();
+            setDefaultValue(fieldDefaultControlIdentifier, fieldMessageType, globalObject);
 
-            globalObjectsMap.put(new DefaultFieldStorage(messageType, defaultValue), globalObject);
+            String controlIdentifier = String.valueOf(fieldDefaultControlIdentifier.get(globalObject));
+            String messageType = String.valueOf(fieldMessageType.get(globalObject));
+
+            globalObjectsMap.put(new DefaultFieldStorage(messageType, controlIdentifier), globalObject);
             return globalObjectsMap;
         } catch (Exception e) {
             generateModelsInsideGlobalClass(globalClass, globalObject, globalObjectsMap);
         }
         return globalObjectsMap;
+    }
+
+    @SneakyThrows
+    private void setDefaultValue(final Field fieldDefaultControlIdentifier, final Field fieldMessageType,
+                                 final Object globalObject) {
+        String controlIdentifier = fieldDefaultControlIdentifier.getAnnotation(XmlElement.class).defaultValue();
+        String messageType = fieldMessageType.getAnnotation(XmlElement.class).defaultValue();
+
+        fieldDefaultControlIdentifier.setAccessible(true);
+        fieldMessageType.setAccessible(true);
+
+        fieldDefaultControlIdentifier.set(globalObject, controlIdentifier);
+        fieldMessageType.set(globalObject, messageType);
     }
 
     @SneakyThrows

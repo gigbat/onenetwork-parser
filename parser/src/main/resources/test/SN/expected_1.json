@@ -75,8 +75,8 @@
       "endPosition" : "80",
       "value" : "  "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SF10",
+    "messageType": "SN|US-ISF10"
   },
   {
     "controlIdentifier": {
@@ -99,8 +99,8 @@
       "endPosition" : "49",
       "value" : "CONTINUOUS BOND NOT ON FILE             "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SF90",
+    "messageType": "SN|US-ISF10"
   },
   {
     "controlIdentifier": {
@@ -118,8 +118,8 @@
       "endPosition" : "56",
       "value" : "ABCD987654320                                     "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SF15",
+    "messageType": "SN|US-ISF10"
   },
   {
     "controlIdentifier": {
@@ -142,7 +142,7 @@
       "endPosition" : "49",
       "value" : "ISF REJECTED                            "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SF90",
+    "messageType": "SN|US-ISF10"
   }
 ]

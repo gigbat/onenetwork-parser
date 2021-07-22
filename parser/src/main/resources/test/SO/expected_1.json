@@ -60,8 +60,8 @@
       "endPosition" : "73",
       "value" : " "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SO10",
+    "messageType": "SO"
   },
   {
     "controlIdentifier": {
@@ -79,8 +79,8 @@
       "endPosition" : "57",
       "value" : "FISK                                              "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SO20",
+    "messageType": "SO"
   },
   {
     "controlIdentifier": {
@@ -118,8 +118,8 @@
       "endPosition" : "80",
       "value" : "        "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SO40",
+    "messageType": "SO"
   },
   {
     "controlIdentifier": {
@@ -157,8 +157,8 @@
       "endPosition" : "80",
       "value" : "00000028"
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SO40",
+    "messageType": "SO"
   },
   {
     "controlIdentifier": {
@@ -211,8 +211,8 @@
       "endPosition" : "76",
       "value" : "    "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SO50",
+    "messageType": "SO"
   },
   {
     "controlIdentifier": {
@@ -255,8 +255,8 @@
       "endPosition" : "70",
       "value" : "      "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SO60",
+    "messageType": "SO"
   },
   {
     "controlIdentifier": {
@@ -299,8 +299,8 @@
       "endPosition" : "70",
       "value" : "      "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SO60",
+    "messageType": "SO"
   },
   {
     "controlIdentifier": {
@@ -343,7 +343,7 @@
       "endPosition" : "70",
       "value" : "      "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SO60",
+    "messageType": "SO"
   }
 ]

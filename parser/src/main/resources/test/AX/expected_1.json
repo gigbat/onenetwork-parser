@@ -47,12 +47,12 @@
           "endPosition" : "54",
           "value" : "342"
         },
-        "defaultControlIdentifier": null,
-        "messageType": null
+        "defaultControlIdentifier": "SUMMRY",
+        "messageType": "AE|AX"
       }
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "E0",
+    "messageType": "AE|AX"
   },
   {
     "controlIdentifier": {
@@ -87,12 +87,12 @@
           "endPosition" : "28",
           "value" : "001"
         },
-        "defaultControlIdentifier": null,
-        "messageType": null
+        "defaultControlIdentifier": "LINITM",
+        "messageType": "AE|AX"
       }
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "E0",
+    "messageType": "AE|AX"
   },
   {
     "controlIdentifier": {
@@ -145,8 +145,8 @@
       "endPosition" : "77",
       "value" : "5000001  "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "E1",
+    "messageType": "AE|AX"
   },
   {
     "controlIdentifier": {
@@ -199,7 +199,7 @@
       "endPosition" : "77",
       "value" : "5000001  "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "E1",
+    "messageType": "AE|AX"
   }
 ]

@@ -15,8 +15,8 @@
       "endPosition" : "19",
       "value" : "S3A-66884540556"
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SA10",
+    "messageType": "SA"
   },
   {
     "controlIdentifier": {
@@ -34,8 +34,8 @@
       "endPosition" : "20",
       "value" : "ABCDXXX4444434  "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SA30",
+    "messageType": "SA"
   },
   {
     "controlIdentifier": {
@@ -58,7 +58,7 @@
       "endPosition" : "46",
       "value" : "BILL ON FILE                            "
     },
-    "defaultControlIdentifier": null,
-    "messageType": null
+    "defaultControlIdentifier": "SA50",
+    "messageType": "SA"
   }
 ]
