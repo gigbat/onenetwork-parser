@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import static com.onenetwork.constant.PreparedGlobalXsdModel.GLOBAL_XSD_MODEL;
 
@@ -30,13 +31,12 @@ public class ModelsCollector {
     private List<Object> getGlobalObjects() {
         List<FileInfoStorage> xmlnsFileInfoStorage = FileExtractor.getRootContents(PATH_TO_XMLNS_FOLDER);
         XmlParser xmlParser = new XmlParser();
-        List<Object> globalObjects = new ArrayList<>();
-        for (FileInfoStorage fileInfoStorage : xmlnsFileInfoStorage) {
-            String xml = fileInfoStorage.getXml();
-            String path = fileInfoStorage.getPath();
+
+        return xmlnsFileInfoStorage.stream().map(e -> {
+            String xml = e.getXml();
+            String path = e.getPath();
             Class<?> clazz = GLOBAL_XSD_MODEL.get(path.substring(path.lastIndexOf(File.separator) + 1));
-            globalObjects.add(xmlParser.apply(clazz, xml).content);
-        }
-        return globalObjects;
+            return xmlParser.apply(clazz, xml).content;
+        }).collect(Collectors.toList());
     }
 }
