@@ -52,8 +52,9 @@
                                 <source>src/main/resources/xsds/sa/sa.xsd</source>
                                 <source>src/main/resources/xsds/sx/sx.xsd</source>
                                 <source>src/main/resources/xsds/sx/sx-se.xsd</source>
-                                <source>src/main/resources/xsds/sx/sx-sx.xsd</source>
+                                <source>src/main/resources/xsds/sx/sx-sf.xsd</source>
                                 <source>src/main/resources/xsds/nr/nr.xsd</source>
+                                <source>src/main/resources/xsds/pathToObjectsFactory/pathToObjectsFactory.xsd</source>
                                 <source>src/main/resources/xsds/sn_us_isf10/sn_us_isf10.xsd</source>
                                 <source>src/main/resources/xsds/so/so.xsd</source>
                                 <source>src/main/resources/xsds/customObject/customObject.xsd</source>

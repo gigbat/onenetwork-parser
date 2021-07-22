@@ -1,6 +1,5 @@
 package com.onenetwork.parser;
 
-import com.onenetwork.model.ControlIdentifier;
 import com.onenetwork.model.DefaultFieldStorage;
 import com.onenetwork.model.SimpleControlIdentifier;
 import com.onenetwork.response.ResponseMessage;
@@ -70,13 +69,19 @@ public class LineParser {
         String[] lines = getCatairLines(message);
 
         return Arrays.stream(lines).map(line -> {
-            Integer endPosition = getEndPosition(line);
+            Integer endPosition = getEndCatairPosition(globalObjectsMap, line);
             String controlIdentifier = line.substring(0, endPosition);
             String messageType = concatCatairDoubleType(responseMessage.getResponse().getMessageType());
-            DefaultFieldStorage storage = new DefaultFieldStorage(messageType, controlIdentifier);
+            DefaultFieldStorage storage = new DefaultFieldStorage(messageType, controlIdentifier, endPosition);
             Object clonedObject = SerialUtils.cloneObject(globalObjectsMap.get(storage));
             return FieldsGenerator.getParsedValue(clonedObject, line, DELIMITER_EMPTY, globalObjectsMap);
         }).collect(Collectors.toList());
+    }
+
+    private String removeFirstSpaces(final String message) {
+        return message.startsWith(DELIMITER_SPACE)
+                ? message.replaceFirst(REGEX_SPACE, DELIMITER_EMPTY)
+                : message;
     }
 
     private String[] getCatairLines(final String message) {
@@ -101,21 +106,13 @@ public class LineParser {
         }
     }
 
-    private String removeFirstSpaces(final String message) {
-        return message.startsWith(DELIMITER_SPACE)
-                ? message.replaceFirst(REGEX_SPACE, DELIMITER_EMPTY)
-                : message;
-    }
-
-    private Integer getEndPosition(final String line) {
-        ControlIdentifier[] values = ControlIdentifier.values();
-        for (ControlIdentifier value : values) {
-            String identifier = value.getIdentifier();
-            if (line.startsWith(identifier)) {
-                return value.getEndPosition();
-            }
-        }
-        return 0;
+    private Integer getEndCatairPosition(final Map<DefaultFieldStorage, Object> globalObjectsMap,
+                                         final String line) {
+        return globalObjectsMap.keySet().stream()
+                .filter(e -> line.startsWith(e.getControlIdentifier()))
+                .map(DefaultFieldStorage::getEndPositionOfControlIdentifier)
+                .findFirst()
+                .orElseThrow(() -> new RuntimeException("The begin of line doesn't find a control identifier"));
     }
 
     private String concatCatairDoubleType(final String messageType) {

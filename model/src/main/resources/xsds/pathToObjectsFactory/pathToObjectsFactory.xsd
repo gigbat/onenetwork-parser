@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:this="http://www.model.onenetwork.com/objectsFactory"
+            targetNamespace="http://www.model.onenetwork.com/objectsFactory"
+            elementFormDefault="qualified"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+            jaxb:version="2.1">
+
+    <xsd:simpleType name="PackagePathToObjectFactoryConstant" final="restriction">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="com.onenetwork.webservice"/>
+            <xsd:enumeration value="com.onenetwork.response"/>
+            <xsd:enumeration value="com.onenetwork.model.ae_ax.cw"/>
+            <xsd:enumeration value="com.onenetwork.model.ae_ax.e0"/>
+            <xsd:enumeration value="com.onenetwork.model.ae_ax.e0.reference"/>
+            <xsd:enumeration value="com.onenetwork.model.ae_ax.e1"/>
+            <xsd:enumeration value="com.onenetwork.model.ae_ax.numbers"/>
+            <xsd:enumeration value="com.onenetwork.model.ae_ax.oi"/>
+            <xsd:enumeration value="com.onenetwork.model.ae_ax.se"/>
+            <xsd:enumeration value="com.onenetwork.model.ae_ax"/>
+            <xsd:enumeration value="com.onenetwork.model.nr"/>
+            <xsd:enumeration value="com.onenetwork.model.so"/>
+            <xsd:enumeration value="com.onenetwork.model.custom_object"/>
+            <xsd:enumeration value="com.onenetwork.model.entry_model"/>
+            <xsd:enumeration value="com.onenetwork.model.isf_model"/>
+            <xsd:enumeration value="com.onenetwork.model.position"/>
+            <xsd:enumeration value="com.onenetwork.model.sa"/>
+            <xsd:enumeration value="com.onenetwork.model.sn_us_isf10"/>
+            <xsd:enumeration value="com.onenetwork.model.sx.se"/>
+            <xsd:enumeration value="com.onenetwork.model.sx.sf"/>
+            <xsd:enumeration value="com.onenetwork.model.sx"/>
+            <xsd:enumeration value="com.onenetwork.model.objectsfactory"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+</xsd:schema>

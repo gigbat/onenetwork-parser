@@ -141,7 +141,8 @@
       "value" : " "
     },
     "defaultControlIdentifier": "10",
-    "messageType": "AE|AX"
+    "messageType": "AE|AX",
+    "endPositionOfControlIdentifier" : "2"
   },
   {
     "controlIdentifier": {
@@ -185,7 +186,8 @@
       "value" : "MI"
     },
     "defaultControlIdentifier": "11",
-    "messageType": "AE|AX"
+    "messageType": "AE|AX",
+    "endPositionOfControlIdentifier" : "2"
   },
   {
     "controlIdentifier": {
@@ -234,7 +236,8 @@
       "value" : "      "
     },
     "defaultControlIdentifier": "20",
-    "messageType": "AE|AX"
+    "messageType": "AE|AX",
+    "endPositionOfControlIdentifier" : "2"
   },
   {
     "controlIdentifier": {
@@ -273,7 +276,8 @@
       "value" : "          "
     },
     "defaultControlIdentifier": "31",
-    "messageType": "AE|AX"
+    "messageType": "AE|AX",
+    "endPositionOfControlIdentifier" : "2"
   },
   {
     "controlIdentifier": {
@@ -362,7 +366,8 @@
       "value" : " "
     },
     "defaultControlIdentifier": "40",
-    "messageType": "AE|AX"
+    "messageType": "AE|AX",
+    "endPositionOfControlIdentifier" : "2"
   },
   {
     "controlIdentifier": {
@@ -386,7 +391,8 @@
       "value" : "0000000015"
     },
     "defaultControlIdentifier": "41",
-    "messageType": "AE|AX"
+    "messageType": "AE|AX",
+    "endPositionOfControlIdentifier" : "2"
   },
   {
     "controlIdentifier": {
@@ -405,7 +411,8 @@
       "value" : "AFABCTEC123FAL "
     },
     "defaultControlIdentifier": "47",
-    "messageType": "AE|AX"
+    "messageType": "AE|AX",
+    "endPositionOfControlIdentifier" : "2"
   },
   {
     "controlIdentifier": {
@@ -424,7 +431,8 @@
       "value" : "57-123456789   "
     },
     "defaultControlIdentifier": "47",
-    "messageType": "AE|AX"
+    "messageType": "AE|AX",
+    "endPositionOfControlIdentifier" : "2"
   },
   {
     "controlIdentifier": {
@@ -478,7 +486,8 @@
       "value" : "   "
     },
     "defaultControlIdentifier": "50",
-    "messageType": "AE|AX"
+    "messageType": "AE|AX",
+    "endPositionOfControlIdentifier" : "2"
   },
   {
     "controlIdentifier": {
@@ -497,7 +506,8 @@
       "value" : "    2078"
     },
     "defaultControlIdentifier": "62",
-    "messageType": "AE|AX"
+    "messageType": "AE|AX",
+    "endPositionOfControlIdentifier" : "2"
   },
   {
     "controlIdentifier": {
@@ -556,7 +566,8 @@
       "value" : "           "
     },
     "defaultControlIdentifier": "89",
-    "messageType": "AE|AX"
+    "messageType": "AE|AX",
+    "endPositionOfControlIdentifier" : "2"
   },
   {
     "controlIdentifier": {
@@ -595,6 +606,7 @@
       "value" : "           "
     },
     "defaultControlIdentifier": "90",
-    "messageType": "AE|AX"
+    "messageType": "AE|AX",
+    "endPositionOfControlIdentifier" : "2"
   }
 ]

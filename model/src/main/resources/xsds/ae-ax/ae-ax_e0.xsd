@@ -19,6 +19,7 @@
             <xsd:element name="referenceDataText" type="customObject:CustomObject" minOccurs="1" maxOccurs="1"/>
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="E0" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="endPositionOfControlIdentifier" type="xsd:int" default="2" minOccurs="0" maxOccurs="1"/>
             <xsd:element name="messageType" type="xsd:string" default="AE|AX" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>

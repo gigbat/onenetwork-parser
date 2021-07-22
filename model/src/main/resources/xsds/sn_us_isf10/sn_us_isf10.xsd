@@ -48,6 +48,7 @@
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF10" minOccurs="0" maxOccurs="1"/>
             <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="endPositionOfControlIdentifier" type="xsd:int" default="4" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -63,6 +64,7 @@
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF13" minOccurs="0" maxOccurs="1"/>
             <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="endPositionOfControlIdentifier" type="xsd:int" default="4" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -74,6 +76,7 @@
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF15" minOccurs="0" maxOccurs="1"/>
             <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="endPositionOfControlIdentifier" type="xsd:int" default="4" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -85,6 +88,7 @@
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF20" minOccurs="0" maxOccurs="1"/>
             <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="endPositionOfControlIdentifier" type="xsd:int" default="4" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -99,6 +103,7 @@
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF25" minOccurs="0" maxOccurs="1"/>
             <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="endPositionOfControlIdentifier" type="xsd:int" default="4" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -114,6 +119,7 @@
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF30" minOccurs="0" maxOccurs="1"/>
             <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="endPositionOfControlIdentifier" type="xsd:int" default="4" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -125,6 +131,7 @@
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF31" minOccurs="0" maxOccurs="1"/>
             <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="endPositionOfControlIdentifier" type="xsd:int" default="4" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -138,6 +145,7 @@
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF35" minOccurs="0" maxOccurs="1"/>
             <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="endPositionOfControlIdentifier" type="xsd:int" default="4" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -151,6 +159,7 @@
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF36" minOccurs="0" maxOccurs="1"/>
             <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="endPositionOfControlIdentifier" type="xsd:int" default="4" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -162,6 +171,7 @@
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF40" minOccurs="0" maxOccurs="1"/>
             <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="endPositionOfControlIdentifier" type="xsd:int" default="4" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -175,6 +185,7 @@
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF50" minOccurs="0" maxOccurs="1"/>
             <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="endPositionOfControlIdentifier" type="xsd:int" default="4" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 
@@ -187,6 +198,7 @@
 
             <xsd:element name="defaultControlIdentifier" type="xsd:string" default="SF90" minOccurs="0" maxOccurs="1"/>
             <xsd:element name="messageType" type="xsd:string" default="SN|US-ISF10" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="endPositionOfControlIdentifier" type="xsd:int" default="4" minOccurs="0" maxOccurs="1"/>
         </xsd:sequence>
     </xsd:complexType>
 </xsd:schema>

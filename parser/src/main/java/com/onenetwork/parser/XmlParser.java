@@ -1,7 +1,8 @@
 package com.onenetwork.parser;
 
-import com.onenetwork.constant.PackagePathToObjectFactoryConstant;
+import com.onenetwork.model.objectsfactory.PackagePathToObjectFactoryConstant;
 import lombok.AllArgsConstructor;
+import lombok.SneakyThrows;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBElement;
@@ -15,6 +16,7 @@ import java.util.stream.Collectors;
 import static com.onenetwork.constant.DelimiterConstant.DELIMITER_DOUBLE_DOT;
 
 public class XmlParser {
+
     public <E> MappingResult<E> apply(final Class<?> clazz, final String xml) {
         try {
             E o = deserializeToConfig(clazz, xml);
@@ -32,9 +34,10 @@ public class XmlParser {
         return (E) element.getValue();
     }
 
+    @SneakyThrows
     private String collectObjectFactories() {
         return Arrays.stream(PackagePathToObjectFactoryConstant.values())
-                .map(PackagePathToObjectFactoryConstant::getPath)
+                .map(PackagePathToObjectFactoryConstant::value)
                 .collect(Collectors.joining(DELIMITER_DOUBLE_DOT));
     }
 
